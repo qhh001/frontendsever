@@ -1,0 +1,68 @@
+{
+	"devices": [
+		{
+			"device_uuid": "51c9afad-5cbe-5795-8fbb-e31a880a5d89",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"name": "机器人1",
+			"avatar_url": "",
+			"created_at": 1519807245000,
+			"type": "own"
+		},
+		{
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"name": "机器人2",
+			"avatar_url": "",
+			"created_at": 1519808964000,
+			"type": "own"
+		},
+		{
+			"device_uuid": "69144443-9c75-5177-84ed-802aca8a7f8d",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"name": "机器人3",
+			"avatar_url": "",
+			"created_at": 1519817957000,
+			"type": "own"
+		},
+		{
+			"device_uuid": "458dbee4-690e-568f-8ef7-cc69c059355e",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"name": "小白机器人",
+			"avatar_url": "",
+			"created_at": 1534161944000,
+			"type": "use"
+		},
+		{
+			"device_uuid": "9eb12fa5-db1b-5b06-a9ef-f308dca0a749",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"name": "小白机器人",
+			"avatar_url": "",
+			"created_at": 1534240196000,
+			"type": "own"
+		},
+		{
+			"device_uuid": "9186a0a7-65ea-5a20-9ae5-141d4b88c426",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"name": "小白机器人",
+			"avatar_url": "",
+			"created_at": 1534243989000,
+			"type": "use"
+		},
+		{
+			"device_uuid": "0e5570b0-87c2-5b62-ba34-e585202bad45",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"name": "小白机器人",
+			"avatar_url": "",
+			"created_at": 1534313417000,
+			"type": "use"
+		},
+		{
+			"device_uuid": "8dd19698-fa0a-5f24-bbf2-60936b4c2744",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"name": "小白机器人",
+			"avatar_url": "",
+			"created_at": 1534384796000,
+			"type": "use"
+		}
+	]
+}

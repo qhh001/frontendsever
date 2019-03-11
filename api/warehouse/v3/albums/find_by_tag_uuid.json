@@ -1,0 +1,22 @@
+{
+  "albums": [
+    {
+      "uuid": "uuid1",
+      "name": "name1",
+      "art_count": 1,
+      "image_url": "image_url1"
+    },
+    {
+      "uuid": "uuid2",
+      "name": "name2",
+      "art_count": 2,
+      "image_url": "image_url2"
+    },
+    {
+      "uuid": "uuid3",
+      "name": "name3",
+      "art_count": 3,
+      "image_url": "image_url3"
+    }
+  ]
+}

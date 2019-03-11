@@ -1,0 +1,32 @@
+{
+	"arts": [
+		{
+			"uuid": "1cceb158-c8f0-48f8-a461-06f224c55ff6",
+			"name": "1. 发生在森林公园里的怪事",
+			"type": "",
+			"audio_url": "",
+			"image_url": "",
+			"duration": 254,
+			"favorite": false
+		},
+		{
+			"uuid": "b205f2ff-cd61-409c-88f3-635971aa2792",
+			"name": "看牙医",
+			"type": "",
+			"audio_url": "",
+			"image_url": "",
+			"duration": 484,
+			"favorite": false
+		},
+		{
+			"uuid": "86316c02-5bec-4e1e-86ca-8243e6c2d73c",
+			"name": "我不要被吃掉",
+			"type": "",
+			"audio_url": "",
+			"image_url": "",
+			"duration": 1296,
+			"favorite": false
+		}
+	],
+	"count": 3
+}

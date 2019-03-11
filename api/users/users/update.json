@@ -1,0 +1,14 @@
+{
+  "user": {
+    "uuid": "60d30a13-3c58-4cc8-9a2a-d73a36d84be4",
+    "open_id": "1234568",
+    "wx_id": "wxi7d",
+    "display_name": "昵称",
+    "gender": 1,
+    "company_name": "零秒科技23",
+    "avatar_url": "123",
+    "created_at": 1519787147000,
+    "source": "wechat",
+    "role": "user"
+  }
+}

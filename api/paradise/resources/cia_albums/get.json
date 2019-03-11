@@ -1,0 +1,10 @@
+{
+  "album": {
+    "collection": "textbooks",
+    "uuid": "test_uuid_5",
+    "name": "test_album",
+    "image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/sAykuQFNHL2FgZdFTV0OsIzX6GSi2W2sbTTnWObkf5fqyyE9YByay4iUSw2SI7TR.svg",
+    "count": 5,
+    "description": "test_description"
+  }
+}

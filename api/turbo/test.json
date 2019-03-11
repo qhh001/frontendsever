@@ -1,0 +1,42 @@
+[
+	{
+		"name": "LISTEN_STORY",
+		"priority": 5,
+		"sentence_pattern": "测试用",
+		"template": "{{story_pronoun}}",
+		"text": "故事1",
+		"variables": {}
+	},
+	{
+		"name": "LISTEN_STORY",
+		"priority": 5,
+		"sentence_pattern": "测试用",
+		"template": "{{story_pronoun}}",
+		"text": "故事2",
+		"variables": {}
+	},
+	{
+		"name": "LISTEN_STORY",
+		"priority": 5,
+		"sentence_pattern": "测试用",
+		"template": "{{story_pronoun}}",
+		"text": "故事3",
+		"variables": {}
+	},
+	{
+		"name": "LISTEN_STORY",
+		"priority": 5,
+		"sentence_pattern": "测试用",
+		"template": "{{story_pronoun}}",
+		"text": "故事4",
+		"variables": {}
+	},
+	{
+		"name": "LISTEN_STORY",
+		"priority": 5,
+		"sentence_pattern": "测试用",
+		"template": "{{story_pronoun}}",
+		"text": "故事5",
+		"variables": {}
+	}
+]

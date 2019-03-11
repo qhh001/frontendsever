@@ -1,0 +1,54 @@
+{
+	"devices": [
+		{
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"avatar_url": null,
+			"name": "小白机器人",
+			"device_uuid": "6a2392ea-306d-5648-adfd-96fa1b62d5a3",
+			"firmware_version": "1.1.0.2",
+			"mac_address": "94:c9:5e:c4:00:60",
+			"created_at": 1542803445000,
+			"device_id": "499ce54c000642fda499ce54c00062fd"
+		},
+		{
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"avatar_url": null,
+			"name": "小白机器人",
+			"device_uuid": "5ed65ba3-e16f-534c-8644-220e89a7c109",
+			"firmware_version": null,
+			"mac_address": null,
+			"created_at": 1542701334000,
+			"device_id": "499c0610b8bf4f758499c0610b8bff75"
+		},
+		{
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"avatar_url": null,
+			"name": "小白机器人",
+			"device_uuid": "ce7b8cad-548a-5011-b993-d3f6d257a051",
+			"firmware_version": null,
+			"mac_address": null,
+			"created_at": 1542700489000,
+			"device_id": "499c061049f448899499c061049f4889"
+		},
+		{
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"avatar_url": null,
+			"name": "小白机器人",
+			"device_uuid": "80fc36d4-b983-5ee3-b655-bd1ce9055432",
+			"firmware_version": null,
+			"mac_address": null,
+			"created_at": 1542700446000,
+			"device_id": "499c0610b6434f5eb499c0610b643f5e"
+		},
+		{
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"avatar_url": null,
+			"name": "小白机器人",
+			"device_uuid": "da1593af-c4a8-58cf-a33b-bfbe51324cad",
+			"firmware_version": "1.1.0.2",
+			"mac_address": "94:c9:60:01:8e:21",
+			"created_at": 1542700426000,
+			"device_id": "499c0610e812428ba499c0610e81228b"
+		}
+	]
+}

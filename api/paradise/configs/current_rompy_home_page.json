@@ -1,0 +1,231 @@
+{
+	"config": {
+		"id": 11,
+		"uuid": "0ae8dfdf-ed27-4186-b2df-f7b37fec3fec",
+		"channel_uuid": "",
+		"appid": "",
+		"scope": "home_page",
+		"name": "零秒主页配置",
+		"description": "",
+		"data": {
+			"ee": [
+				{
+					"name": "早安儿歌",
+					"is_disabled": true,
+					"content": {
+						"text": "",
+						"name": "早安儿歌",
+						"image_url": "xxxxx",
+						"query": {
+							"album_uuid": "xxx",
+							"origin": "cia",
+							"collection": "music"
+						}
+					},
+					"payload": {
+						"time": {
+							"hour": 8,
+							"minute": 0,
+							"second": 0
+						},
+						"rules": {
+							"week": [1, 2, 3, 4, 5]
+						},
+						"repeat": true
+					}
+				},
+				{
+					"name": "绘本时间",
+					"is_disabled": true,
+					"content": {
+						"text": "",
+						"name": "早安儿歌",
+						"image_url": "xxxxx",
+						"query": {
+							"album_uuid": "xxx",
+							"origin": "cia",
+							"collection": "music"
+						}
+					},
+					"payload": {
+						"time": {
+							"hour": 10,
+							"minute": 0,
+							"second": 0
+						},
+						"rules": {
+							"week": [1, 2, 3, 4, 5]
+						},
+						"repeat": true
+					}
+				},
+				{
+					"name": "运动时间",
+					"is_disabled": true,
+					"content": {
+						"text": "",
+						"name": "早安儿歌",
+						"image_url": "xxxxx",
+						"query": {
+							"album_uuid": "xxx",
+							"origin": "cia",
+							"collection": "music"
+						}
+					},
+					"payload": {
+						"time": {
+							"hour": 17,
+							"minute": 0,
+							"second": 0
+						},
+						"rules": {
+							"week": [1, 2, 3, 4, 5]
+						},
+						"repeat": true
+					}
+				},
+				{
+					"name": "晚安故事",
+					"is_disabled": true,
+					"content": {
+						"text": "",
+						"name": "早安儿歌",
+						"image_url": "xxxxx",
+						"query": {
+							"album_uuid": "xxx",
+							"origin": "cia",
+							"collection": "music"
+						}
+					},
+					"payload": {
+						"time": {
+							"hour": 20,
+							"minute": 0,
+							"second": 0
+						},
+						"rules": {
+							"week": [1, 2, 3, 4, 5]
+						},
+						"repeat": true
+					}
+				}
+			],
+			"intelligences": [
+				{
+					"uuid": "aaaaaaaa",
+					"name": "第一智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "linguistic intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "linguistic intelligence"]
+						}
+					}
+				},
+				{
+					"uuid": "bbbbbbbbb",
+					"name": "第二智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "math intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "math intelligence"]
+						}
+					}
+				},
+				{
+					"uuid": "cccccccc",
+					"name": "第三智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "music intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "music intelligence"]
+						}
+					}
+				},
+				{
+					"uuid": "ddddddddd",
+					"name": "第四智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "linguistic intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "linguistic intelligence"]
+						}
+					}
+				},
+				{
+					"uuid": "eeeeeeeee",
+					"name": "第五智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "math intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "math intelligence"]
+						}
+					}
+				},
+				{
+					"uuid": "fffffffff",
+					"name": "第六智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "music intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "music intelligence"]
+						}
+					}
+				},
+				{
+					"uuid": "ggggggggg",
+					"name": "第七智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "linguistic intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "linguistic intelligence"]
+						}
+					}
+				},
+				{
+					"uuid": "hhhhhhhhh",
+					"name": "第八智能",
+					"instruction": "",
+					"points": ["lalala", "hehehe"],
+					"query": {
+						"rompy": {
+							"tags": ["rompy", "math intelligence"]
+						},
+						"parent": {
+							"tags": ["parent", "math intelligence"]
+						}
+					}
+				}
+			]
+		},
+		"created_at": 1528861610000,
+		"updated_at": 1528861610000
+	}
+}

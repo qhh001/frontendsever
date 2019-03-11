@@ -1,0 +1,62 @@
+{
+	"sentence_pattern": {
+		"uuid": "486d6a9a-2b3a-4208-8cad-28fec0d1d605",
+		"name": "**+我想听+想听内容+**",
+		"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+		"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+		"note": "例如：你好，我想听流行乐，吧",
+		"priority": 3,
+		"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{sys.any}}",
+		"service": "挥洒UK回答深V带回家",
+		"user_intent": "杀快点吧会计师",
+		"parts": [
+			{
+				"name": "part1",
+				"phrases": [
+					{ "note": "我想听", "template": "{{i_want}}{{listen}}", "variables": {} },
+					{ "note": "给我们播放", "template": "{{you_do}}{{play:1}}", "variables": {} },
+					{ "note": "听+首", "template": "{{listen}}{{quantifier}}", "variables": {} },
+					{ "note": "唱/播放+首", "template": "{{play:1}}{{quantifier}}", "variables": {} },
+					{ "note": "听", "template": "{{listen}}", "variables": {} },
+					{ "note": "我想听+首", "template": "{{i_want}}{{listen}}{{quantifier}}", "variables": {} },
+					{ "note": "给我们播放+首", "template": "{{you_do}}{{play:1}}{{quantifier}}", "variables": {} },
+					{ "note": "你+有没有", "template": "你{{ask_have}}", "variables": {} },
+					{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play:1}}", "variables": {} },
+					{ "note": "会不会+唱", "template": "{{ask_can}}{{play:1}}", "variables": {} },
+					{ "note": "来+唱", "template": "{{play_special}}{{play}}", "variables": {} }
+				]
+			},
+			{
+				"name": "part2",
+				"phrases": [
+					{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+					{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+					{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+					{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+					{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+					{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{belong}}{{sys.music:song}}", "variables": {} },
+					{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+					{
+						"note": "歌手+的+名字叫做+歌名",
+						"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+						"variables": {}
+					},
+					{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+					{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} },
+					{ "note": "音乐代词+歌名", "template": "{{pronoun}}{{sys.music:song}}", "variables": {} },
+					{ "note": "歌曲种类+歌名", "template": "{{category}}{{sys.music:song}}", "variables": {} },
+					{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+					{ "note": "歌名+的歌曲", "template": "{{sys.music:song}}的{{pronoun}}", "variables": {} },
+					{ "note": "七里香+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+					{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+					{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} },
+					{ "note": "专辑名+里面的+歌名", "template": "{{sys.album}}{{Inside}}{{sys.music:song}}", "variables": {} },
+					{ "note": "歌名+这+首+歌", "template": "{{sys.music:song}}{{this}}{{quantifier:0}}{{pronoun}}", "variables": {} },
+					{ "note": "歌名+种类", "template": "{{sys.music:song}}{{category}}", "variables": {} },
+					{ "note": "乐器", "template": "{{instrument}}", "variables": {} },
+					{ "note": "歌曲+叫做+歌名", "template": "{{pronoun}}{{name_is}}{{sys.music:song}}", "variables": {} }
+				]
+			}
+		]
+	}
+}

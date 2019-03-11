@@ -1,0 +1,20 @@
+{
+	"album": {
+		"aliases": ["英文民谣音乐"],
+		"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/KOhcmlSh3TACAkuZAL2CvhMxgCJbhEjEvbLil7SMnl2URyJDYmCyxnt71MsiETcT.png",
+		"company_uuid": "d6e6d9f9-d674-484e-a99e-833e122ee2d5",
+		"count": 0,
+		"created_at": 1540884894844298,
+		"emotions": [],
+		"introduction": "乡村音乐（Country music）是一种具有美国民族特色的流行音乐，于20世纪20年代兴起于美国南部，其根源来自英国民谣，是美国白人民族音乐代表。乡村音乐的特点是曲调简单。",
+		"name": "慢慢走111111",
+		"scenes": ["晨起"],
+		"size": 58596,
+		"status": {
+			"release": false
+		},
+		"tags": ["民谣"],
+		"updated_at": 1540884894844298,
+		"uuid": "cb1f3443-2243-4e33-bdba-4cedf3828237"
+	}
+}

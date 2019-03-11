@@ -1,0 +1,10 @@
+{
+  "album": {
+    "uuid": "test_uuid",
+    "name": "我是一个专辑",
+    "image_url": "https://b-ssl.duitang.com/uploads/item/201409/21/20140921011625_C4VvC.thumb.700_0.jpeg",
+    "art_count": 5,
+    "description": "我是一个专辑介绍",
+    "favorite": true
+  }
+}

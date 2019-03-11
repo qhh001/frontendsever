@@ -1,0 +1,71 @@
+{
+	"circle": {
+		"uuid": "ede48212-96f5-479e-a9b2-3505da471091",
+		"name": "我的家庭圈",
+		"avatar": "",
+		"admins": [
+			{
+				"uuid": "9b1833d4-335f-4f94-b445-d9f090d460a5",
+				"name": "绳命是入刺的井猜",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/zPD6ezXibiaOJ0iaCmXoBtasuYIbAIFZiamXI1aibjVkCLX88RA8AYSngl8DXicU1TE9z6MhzQIfK0BxrBrfPKbP8qSqmWFVbGElGt/132"
+			}
+		],
+		"users": [
+			{
+				"uuid": "9b1833d4-335f-4f94-b445-d9f090d460a5",
+				"name": "绳命是入刺的井猜",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/zPD6ezXibiaOJ0iaCmXoBtasuYIbAIFZiamXI1aibjVkCLX88RA8AYSngl8DXicU1TE9z6MhzQIfK0BxrBrfPKbP8qSqmWFVbGElGt/132"
+			},
+			{
+				"uuid": "47992767-c0b5-49e8-b3ec-ae070c9dbf83",
+				"name": "Jiy",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/NvkKiaat69n5XibsNCIDMWT0iaZ70ZWHo9talwMSOxa5pzuKbzCP2rg5MXpDDJgdwIYkrTBmVolAwc3oJTqMqkaiacYxD3pW8t15/132"
+			},
+			{
+				"uuid": "3c39c715-5906-4b34-9546-d87a5ac56a11",
+				"name": "OWEN 刘文元",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/e7NPuhajl9yEyCtotcCRZ71F4GePodX29bfJo69Yv4v01fnFzW4UibdZ9dQjluAIOzibs9u0uGWuJ1AibicOqibuEVyQdDFyn0RvQ/132"
+			},
+			{
+				"uuid": "fe85b007-635c-4795-9cb0-f023daf214dd",
+				"name": "OWEN 刘文元",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/UnSdR9Z05OucDf5aYLWsLicjnNxsJkAGmc3aeImpITDW4aLQrWZHNYEKDLaV41yus6EokibeWj2MyGicrJ7JgN7sp7plpFOia3RC/132"
+			},
+			{
+				"uuid": "9e7aebc7-0a17-455e-86ef-2874cf0b9cdd",
+				"name": "高天舞",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/ajNVdqHZLLCGt7KtehK0pUYBiaR5Hf3YmoKBP0zONnNnJuKDpoib3xt7rb4CUeWWZ0Gpcy1ibYW8xKwAgannYqCng/132"
+			},
+			{
+				"uuid": "98422f41-c97b-43c3-ada6-9e7244c9c472",
+				"name": "Ivan Ilyich",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/zPD6ezXibiaOLlicow4qE4EthXLThAmkomXLarj0eGV2pKQ1nIheyMIRmbOiamBnibHckicln2fvYYA1H94RRAD5ibEkNEhQXaGMxJv/132"
+			},
+			{
+				"uuid": "14cc8a32-ef0c-4547-9f35-74f50566905f",
+				"name": "高天舞",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/ajNVdqHZLLAf0zdibp8WS38jc2cZcgLekk7WAdhPWibZWAgbyfptR78jfvKLavmSpwmMuOtmJ2bpWgffCc2Sm6LA/132"
+			},
+			{
+				"uuid": "5b461515-7599-4aa8-9b81-99401958a898",
+				"name": "黄丽辉 零秒EchoCloud",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/d2fJZTzRTuk4ctjtKCqNGibticwxqCgHKAuJ3FJ0MX6mdyiaW6AfCaHGBqqrjYYic41icveZPssmGmj8SqJQ3aDSLDw/132"
+			},
+			{
+				"uuid": "66340ff0-1871-4446-9ce3-e3c64ca998e2",
+				"name": "用心去做梦",
+				"avatar": "http://thirdwx.qlogo.cn/mmopen/OUicWJdJoz3FVm2EyIhPqOlKXzVKyPicX9gfANZPZuxAMkBRgmMfaXia1osagNrG5JTwQfny0oDfqDXKxmYRRiaWlM5CdxQhqzhd/132"
+			}
+		],
+		"devices": [
+			{
+				"uuid": "e28ac1ae-8d87-516c-aad5-73a3aa70a435",
+				"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+				"name": "小白机器人",
+				"avatar": ""
+			}
+		],
+		"babies": []
+	},
+	"is_member": true
+}

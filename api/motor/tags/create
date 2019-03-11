@@ -1,0 +1,13 @@
+{
+  "tag": {
+    "uuid": "ce44388e-efb8-49af-b022-2599eb13781c",
+    "channel_uuid": "",
+    "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+    "name": "111",
+    "note": "",
+    "is_global": true,
+    "data": {
+      "values": null
+    }
+  }
+}

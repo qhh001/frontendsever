@@ -1,0 +1,9 @@
+{
+	"user_uuid": "xxxxx",
+	"appid": "xxxxx",
+	"origin": "echocloud",
+	"type": "music",
+	"query": {},
+	"offset": 0,
+	"limit": 10
+}

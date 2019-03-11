@@ -1,0 +1,59 @@
+{
+	"count": 20,
+	"combination_tags": [
+		{
+			"uuid": "14219af3-8c60-4be9-ace5-d13fa0b46e0f",
+			"service_uuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "组合标签1",
+			"note": "我是一个组合标签",
+			"groups": [
+				{
+					"template": "{{i_don‘t_want}}{{listen}}",
+					"note": "你不要+播放",
+					"is_order": true,
+					"is_combination": true
+				},
+				{
+					"template": "{{i_don‘t_want}}{{listen}}",
+					"note": "我不想+听",
+					"is_order": true,
+					"is_combination": true
+				}
+			]
+		},
+		{
+			"uuid": "14219af3-8c60-4be9-ace5-d13fa0b46e0g",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4b",
+			"name": "组合标签2",
+			"note": "我是一个组合标签2",
+			"isGlobal": true,
+			"groups": [
+				{
+					"template": "{{pronoun}}",
+					"note": "音乐",
+					"is_order": true,
+					"is_combination": true
+				},
+				{
+					"template": "{{sys.singer}}}",
+					"note": "歌手",
+					"is_order": true,
+					"is_combination": true
+				},
+				{
+					"template": "{{sys.music:song}}",
+					"note": "歌名",
+					"is_order": true,
+					"is_combination": true
+				},
+				{
+					"template": "这{{quantifier}}{{pronoun}}",
+					"note": "这+首+歌",
+					"is_order": true,
+					"is_combination": true
+				}
+			]
+		}
+	]
+}

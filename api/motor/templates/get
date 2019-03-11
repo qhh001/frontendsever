@@ -1,0 +1,13 @@
+{
+  "template": {
+    "uuid": "09a7838c-dc05-4828-8f55-61c4650ba464",
+    "name": "ASK_PHENOMENON",
+    "note": "",
+    "priority": 4,
+    "channel_uuid": "",
+    "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+    "userIntentUuid": "1b6ed810-11df-45de-881b-b7384bfe4794",
+    "is_global": true,
+    "definition": "{{sys.any}}会不会{{phenomenon}}{{sys.any}}"
+  }
+}

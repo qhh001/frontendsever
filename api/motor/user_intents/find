@@ -1,0 +1,129 @@
+{
+  "user_intents": [
+    {
+      "uuid": "79786270-2828-4086-968b-d20812fdf89b",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ASK_SENSORY_TEMPERATURE",
+      "note": "问体感温度，冷不冷，热不热",
+      "is_global": true,
+      "variables": {
+        "required": [
+          "sense"
+        ],
+        "optional": [
+          "date",
+          "region"
+        ]
+      }
+    },
+    {
+      "uuid": "251b9c8f-c2b4-40e9-b3f2-8781510620ad",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ASK_TEMPERATURE",
+      "note": "问天气温度",
+      "is_global": true,
+      "variables": {
+        "required": [],
+        "optional": [
+          "date",
+          "region"
+        ]
+      }
+    },
+    {
+      "uuid": "46dfb30d-5b79-4f35-be8f-64d9e9731701",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "MENTION_WEATHER_FORECAST",
+      "note": "提到天气预报",
+      "is_global": true,
+      "variables": {
+        "required": null,
+        "optional": null
+      }
+    },
+    {
+      "uuid": "6ab5921d-c9a5-469b-9a80-1fc8ec2b2e50",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "MENTION_RELATIVE_INFO",
+      "note": "提及和天气有关的信息如日期或地域",
+      "is_global": true,
+      "variables": {
+        "required": [],
+        "optional": [
+          "date",
+          "region"
+        ]
+      }
+    },
+    {
+      "uuid": "1b6ed810-11df-45de-881b-b7384bfe4794",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ASK_PHENOMENON",
+      "note": "问某种自然现象是否会出现",
+      "is_global": true,
+      "variables": {
+        "required": [
+          "phenomenon"
+        ],
+        "optional": [
+          "date",
+          "region"
+        ]
+      }
+    },
+    {
+      "uuid": "d6a2c419-680e-4388-990d-dfcb76bec29e",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ASK_ITEM_NEEDED",
+      "note": "问是否需要某种和天气有关的物品",
+      "is_global": true,
+      "variables": {
+        "required": [
+          "action"
+        ],
+        "optional": [
+          "date",
+          "region",
+          "item"
+        ]
+      }
+    },
+    {
+      "uuid": "f7e922dd-ee2e-4a66-8bd3-94d515bcc50a",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ASK_AIR_QUALITY",
+      "note": "问空气质量",
+      "is_global": true,
+      "variables": {
+        "required": [],
+        "optional": [
+          "date",
+          "region"
+        ]
+      }
+    },
+    {
+      "uuid": "aef53174-688e-4111-a5ca-77894bbfd6c7",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ASK_WEATHER",
+      "note": "一般性的问天气",
+      "is_global": true,
+      "variables": {
+        "required": [],
+        "optional": [
+          "date",
+          "region"
+        ]
+      }
+    }
+  ],
+  "count": 8
+}

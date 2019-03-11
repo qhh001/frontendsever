@@ -1,0 +1,19 @@
+{
+	"modules": {
+		"battery": { "enabled": true },
+		"child_lock": { "enabled": false },
+		"favorites": { "enabled": true },
+		"light": { "enabled": false },
+		"media_player": { "enabled": true },
+		"device_info": {
+			"enabled": true,
+			"children": {
+				"ota": { "enabled": true },
+				"recover": { "enabled": true }
+			}
+		},
+		"switch": { "enabled": true },
+		"timer": { "enabled": false },
+		"volume": { "enabled": true }
+	}
+}

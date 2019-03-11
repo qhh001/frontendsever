@@ -1,0 +1,854 @@
+{
+	"data": {
+		"device": {
+			"wifi_configs": {
+				"need_pre_determine": true,
+				"methods": ["airkiss"],
+				"airkiss": {
+					"auto_bind": true
+				}
+			},
+			"bind_configs": {
+				"code": {
+					"enabled": true
+				}
+			}
+		},
+		"base": {
+			"app_name": "公子小白成长版",
+			"device_avatar": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/FekGOgRcZxWIaRF8riz7Hgu4ffTohoCiLIGyhyiGlJyaUzXeNCoQzHmKZWwSsYkQ.jpg",
+			"device_name": "小白公子",
+			"prefix": "echocloud",
+			"modules": {
+				"horde": { "enabled": true },
+				"battery": { "enabled": true },
+				"child_lock": { "enabled": true },
+				"favorites": { "enabled": true },
+				"light": { "enabled": false },
+				"media_player": { "enabled": true },
+				"device_info": { "enabled": true, "children": { "ota": { "enabled": true }, "recover": { "enabled": true } } },
+				"switch": { "enabled": true },
+				"timer": { "enabled": true },
+				"volume": { "enabled": true }
+			},
+			"modules_list": [
+				{
+					"name": "设备收藏",
+					"icon": "hert_o",
+					"value": "favorites",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/heart-hollow.svg",
+					"children": []
+				},
+				{
+					"name": "家庭成员",
+					"icon": "lock",
+					"value": "horde",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/directory-tree.svg",
+					"children": []
+				},
+				{
+					"name": "定时提醒",
+					"icon": "alarm_clock",
+					"value": "timer",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/remind.svg",
+					"children": []
+				},
+				{
+					"name": "音量调节",
+					"icon": "volume",
+					"value": "volume",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/volume.svg",
+					"children": []
+				},
+				{
+					"name": "设备灯光",
+					"icon": "light_bulb",
+					"value": "light",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/light.svg",
+					"children": []
+				},
+				{
+					"name": "童锁开关",
+					"icon": "lock",
+					"value": "child_lock",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/lock.svg",
+					"children": []
+				},
+				{
+					"name": "设备信息",
+					"icon": "info-circle",
+					"value": "device_info",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/info.svg",
+					"children": [
+						{ "name": "软件版本", "icon": "info-circle", "value": "ota", "parent_value": "device_info" },
+						{ "name": "恢复出厂设置", "icon": "info-circle", "value": "recover", "parent_value": "device_info" }
+					]
+				}
+			]
+		},
+		"pages": {
+			"album_list_1": [
+				{
+					"album_image": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/etp5fSglEz5wzqxbutS7HwI5OIsQStE1KmqWBpe3GpSwNYrbushBKncGzYAywbcF.jpg",
+					"module_name": "theme",
+					"style": "theme_style_1",
+					"uuid": "uuid-e576-f9f7-3121"
+				},
+				{ "module_name": "album_list", "style": "album_list_1", "uuid": "uuid-c3ea-3bde-9e10" }
+			],
+			"album_list_2": [
+				{
+					"album_image": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/afMQPWujiSWiIF1SwcFQj7skqP6avmiQO9xi1oy9JEV6QDRXNeT8Dh5xIaEXPids.jpg",
+					"module_name": "theme",
+					"style": "theme_style_1",
+					"uuid": "uuid-0cca-0562-7615"
+				},
+				{ "module_name": "album_list", "style": "album_list_1", "uuid": "uuid-d772-57c1-f08f" }
+			],
+			"art_list_1": [
+				{ "module_name": "album_introduction", "style": "album_detail_1", "uuid": "uuid-240b-ac15-41b2" },
+				{ "module_name": "art_list", "style": "art_list_1", "uuid": "uuid-1c56-37c4-c0b6" }
+			],
+			"home": [
+				{ "module_name": "search", "style": "h5-search-2", "uuid": "uuid-6f04-7d95-182b", "placeholder": "请输入故事名称" },
+				{
+					"height": 140,
+					"items": [
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/PMKkaSe57zSRep84XdMdKtcCzNfxmxdcPWIjgrMuN63KqxAkfW38rsRgf0OTda44.jpg",
+							"link_name": null,
+							"link_options": null,
+							"link_template": "album_list_1",
+							"link_type": "external",
+							"link_url": "https://www.echocloud.com"
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/QaZPFmwHiar2JktowG6OjiYDh5l9cakrXywtAvMkiyuqhlpEA8FkHFHONPUEYtGL.jpg",
+							"link_name": "海贼王系列",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/YiJhwzNJ83RvGKdYUJKtoIbMRWrGBaxk9g7mjnGLLO0N2q6XK8A9LLf3RsBedcZR.jpg",
+							"link_name": "生化危机系列",
+							"link_template": "art_list_1",
+							"link_type": "art_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						}
+					],
+					"module_name": "banner",
+					"style": "banner_1",
+					"uuid": "uuid-f0e5-d6a6-eee6"
+				},
+				{
+					"items": [
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/C8ZXpGJGMj04cfrq5Rsh2x7DXGsQqVAA1U5v6X2HPlf1X3EH69cym2SOF0gLUBUv.jpg",
+							"link_name": "童话故事",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/mH2jxXVGYMw6r7npsox6dLH5v1bluiPfoEatpYoIlueKCmmerHV3iyM8FTO61tnC.jpg",
+							"link_name": "快乐儿歌",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/KpLg1aunvhM8iuV0Wrz4rgPCLCegOKAAU8SBwlUGgIwjIdlCSYeLpFjgvgLhPvcT.jpg",
+							"link_name": "经典国学",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/JujVTKOwG8kxj33HoOLZ9XIRbvm45Ubt389rTtFbjHcv1m46nji152FQGa2Vlv6l.jpg",
+							"link_name": "启蒙英语",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						}
+					],
+					"module_name": "navigation",
+					"style": "h5-navigation-2",
+					"uuid": "uuid-7083-8c43-70c6"
+				},
+				{
+					"items": [
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/C8ZXpGJGMj04cfrq5Rsh2x7DXGsQqVAA1U5v6X2HPlf1X3EH69cym2SOF0gLUBUv.jpg",
+							"link_name": "童话故事",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/mH2jxXVGYMw6r7npsox6dLH5v1bluiPfoEatpYoIlueKCmmerHV3iyM8FTO61tnC.jpg",
+							"link_name": "快乐儿歌",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/KpLg1aunvhM8iuV0Wrz4rgPCLCegOKAAU8SBwlUGgIwjIdlCSYeLpFjgvgLhPvcT.jpg",
+							"link_name": "经典国学",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/JujVTKOwG8kxj33HoOLZ9XIRbvm45Ubt389rTtFbjHcv1m46nji152FQGa2Vlv6l.jpg",
+							"link_name": "启蒙英语",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						},
+						{
+							"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/aY99pPoWsWcEJV6Cw1JKZq4KWcNYwoPj6eCKiOxhCVb4syqO7vZbBalUDgq3P8m6.jpg",
+							"link_name": "更多",
+							"link_template": "album_list_1",
+							"link_type": "album_list",
+							"params": {
+								"origin": "echocloud",
+								"query": "{\"name\":\"11111\"}",
+								"type": "music"
+							}
+						}
+					],
+					"module_name": "navigation",
+					"style": "h5-navigation-1",
+					"uuid": "uuid-7083-8c43-70c6"
+				},
+				{
+					"items": [
+						{
+							"description": "口语课程",
+							"icon_url": "",
+							"image_url": "https://public01-1255411705.file.myqcloud.com/paradise/recommend_images/%E5%8F%A3%E8%AF%AD%E6%B5%8B%E8%AF%84.svg",
+							"name": "口语课程",
+							"name_show": false,
+							"type": "ability",
+							"ability_name": "orator"
+						},
+						{
+							"description": "中小学教材同步",
+							"icon_url": "",
+							"image_url": "https://public01-1255411705.file.myqcloud.com/paradise/recommend_images/%E8%AF%BE%E6%96%87.svg",
+							"name": "同步教材",
+							"name_show": false,
+							"type": "tag",
+							"tag_uuid": "c06c2d21-8940-4cee-a453-3d03e7beb87e"
+						}
+					],
+					"module_name": "featured_column",
+					"uuid": "uuid-7d14-95b0-0615"
+				},
+				{
+					"count": 7,
+					"custom_items": [
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/Rc2KdiI9a8BQZSOAY8uMRxlF08owBvypYMjswwLP0vcxyVFEq29cHhrfnXc9WsnI.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545984146603865,
+							"custom_tags": [],
+							"introduction": "为家长育儿提供了科学指导，真正做到让孩子接受全方位早期教育。",
+							"is_apply": true,
+							"languages": ["汉语"],
+							"name": "悦宝大咖说",
+							"order": 0,
+							"scenes": ["亲子"],
+							"size": 1056,
+							"status": { "release": true },
+							"tags": ["育儿"],
+							"updated_at": 1546585308819449,
+							"uuid": "7bb74ceb-d8ee-42bf-9cb5-89d5ef19b739"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/WiuCrEOHlMbMw6Fdw0SPFkMt7Pj39tDQDhZFMGIV8hWwyHrRyBEp9fZ3hAxR8j1s.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980750641564,
+							"emotions": [],
+							"introduction": "秋日的树林，秋天的童话，秋xxx",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "秋色绚烂",
+							"scenes": ["社交"],
+							"size": 2021,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585374222983,
+							"uuid": "03e8cf6b-cf63-4482-b607-fc66fad9bc6e"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/79ptpwD6OjaWj3xtc5VyWo3SSTODItwx0m5dI9NEuaKi2SFYJqWvaNAhGMJRjbGN.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980474620290,
+							"emotions": [],
+							"introduction": "盛阳火热，生命更是蓬勃，让孩子带着内心的喜悦，跟随音乐一起舞蹈。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "夏日之歌",
+							"scenes": ["社交"],
+							"size": 1294,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585388516457,
+							"uuid": "592aac8d-6319-4b14-9917-6dc05ad0c843"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/ZVuq1zcakzhvHQw9CJPi5TZEoDwLujjPPHt934PqwIQL8TPMFUWdA7hSZokVqe7U.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545979962250229,
+							"emotions": [],
+							"introduction": "一颗颗小草探出头来，小树沐浴着春风，欢快的旋律奏响春的乐章。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "春的故事",
+							"scenes": ["游戏"],
+							"size": 1614,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585404589826,
+							"uuid": "e3ae84f7-33a6-4be3-9150-ddacb75c789a"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 1800 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/N5hQkbCUCXrpDsucGfE3nUORy9mK247pG4kxphq93If6vxcGObz6i1tpUCUE0kp5.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545979352987930,
+							"emotions": [],
+							"introduction": "这个年龄阶段的宝宝已进入智力高度发育期，本专辑提供内容，带孩子听儿歌、学知识、做游戏!",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "5岁以上儿歌专辑",
+							"scenes": ["社交"],
+							"size": 1501,
+							"status": { "release": true },
+							"tags": ["儿歌"],
+							"updated_at": 1546585420352201,
+							"uuid": "b11a510b-5d65-4122-9bf9-4bb542b32700"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 1800, "min": 1080 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/FAgOOt0vUBgXLgP8P8C7STN24UqOpUEbBKepO7Jcr7sDvKCR5J4P5kCYMiAppDHK.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545978357686033,
+							"emotions": [],
+							"introduction": "听的早教歌曲,一边学唱,一边成",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "3-5岁儿歌专辑",
+							"scenes": ["入园"],
+							"size": 1619,
+							"status": { "release": true },
+							"tags": ["儿歌"],
+							"updated_at": 1546585435233652,
+							"uuid": "9a712d1d-c7b5-490f-867b-27b37108c395"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 1080, "min": 720 }, "gender": 1, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/qRb7tHp8b2hCzIQCainBVRwU9PzspxdmoItABPigWVwjrsztsnxlS1JPER7hEE1L.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545912750953704,
+							"emotions": [],
+							"introduction": "精心筛选适龄儿歌，在磨耳朵中培养良好预感，进行英文早教启蒙。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "2-3岁儿歌专辑",
+							"scenes": ["晨起"],
+							"size": 1112,
+							"status": { "release": true },
+							"tags": ["儿歌"],
+							"updated_at": 1546585454102471,
+							"uuid": "1ffa6bdc-0ccb-4325-90e1-8864f36b17b6"
+						}
+					],
+					"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/mtUtoixrjIRkATIPFary26E5MtTop9xMBbfWmeiVzczndUjz1Ot9mBecbluwajg2.jpg",
+					"link_name": "海贼王",
+					"params": {
+						"origin": "echocloud",
+						"query": "{\"name\":\"11111\"}",
+						"type": "music"
+					},
+					"link_template": "album_list_1",
+					"module_name": "album_column",
+					"more_show": false,
+					"name": "海贼王系列",
+					"name_show": false,
+					"rule": "custom",
+					"style": "album_column_1",
+					"uuid": "uuid-af8f-6ec4-f3cc"
+				},
+				{
+					"count": 6,
+					"custom_items": [
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/WiuCrEOHlMbMw6Fdw0SPFkMt7Pj39tDQDhZFMGIV8hWwyHrRyBEp9fZ3hAxR8j1s.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980750641564,
+							"emotions": [],
+							"introduction": "秋日的树林，秋天的童话，秋xxx",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "秋色绚烂",
+							"scenes": ["社交"],
+							"size": 2021,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585374222983,
+							"uuid": "03e8cf6b-cf63-4482-b607-fc66fad9bc6e"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/79ptpwD6OjaWj3xtc5VyWo3SSTODItwx0m5dI9NEuaKi2SFYJqWvaNAhGMJRjbGN.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980474620290,
+							"emotions": [],
+							"introduction": "盛阳火热，生命更是蓬勃，让孩子带着内心的喜悦，跟随音乐一起舞蹈。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "夏日之歌",
+							"scenes": ["社交"],
+							"size": 1294,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585388516457,
+							"uuid": "592aac8d-6319-4b14-9917-6dc05ad0c843"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/ZVuq1zcakzhvHQw9CJPi5TZEoDwLujjPPHt934PqwIQL8TPMFUWdA7hSZokVqe7U.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545979962250229,
+							"emotions": [],
+							"introduction": "一颗颗小草探出头来，小树沐浴着春风，欢快的旋律奏响春的乐章。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "春的故事",
+							"scenes": ["游戏"],
+							"size": 1614,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585404589826,
+							"uuid": "e3ae84f7-33a6-4be3-9150-ddacb75c789a"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/ZVuq1zcakzhvHQw9CJPi5TZEoDwLujjPPHt934PqwIQL8TPMFUWdA7hSZokVqe7U.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545979962250229,
+							"emotions": [],
+							"introduction": "一颗颗小草探出头来，小树沐浴着春风，欢快的旋律奏响春的乐章。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "春的故事",
+							"scenes": ["游戏"],
+							"size": 1614,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585404589826,
+							"uuid": "e3ae84f7-33a6-4be3-9150-ddacb75c789a"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/79ptpwD6OjaWj3xtc5VyWo3SSTODItwx0m5dI9NEuaKi2SFYJqWvaNAhGMJRjbGN.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980474620290,
+							"emotions": [],
+							"introduction": "盛阳火热，生命更是蓬勃，让孩子带着内心的喜悦，跟随音乐一起舞蹈。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "夏日之歌",
+							"scenes": ["社交"],
+							"size": 1294,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585388516457,
+							"uuid": "592aac8d-6319-4b14-9917-6dc05ad0c843"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/WiuCrEOHlMbMw6Fdw0SPFkMt7Pj39tDQDhZFMGIV8hWwyHrRyBEp9fZ3hAxR8j1s.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980750641564,
+							"emotions": [],
+							"introduction": "秋日的树林，秋天的童话，秋xxx",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "秋色绚烂",
+							"scenes": ["社交"],
+							"size": 2021,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585374222983,
+							"uuid": "03e8cf6b-cf63-4482-b607-fc66fad9bc6e"
+						}
+					],
+					"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/oLwEa4hZ6ilEhESxDTriw38AvGTnmfbz0g0fn89iwAdBFWFkPEh0mwY3iPX0IdzO.jpg",
+					"link_name": "生化危机",
+					"params": {
+						"origin": "echocloud",
+						"query": "{\"name\":\"11111\"}",
+						"type": "music"
+					},
+					"link_template": "album_list_1",
+					"module_name": "album_column",
+					"more_show": true,
+					"name": "生化危机",
+					"name_show": false,
+					"rule": "custom",
+					"style": "album_column_1",
+					"uuid": "uuid-1168-e571-1617"
+				},
+				{
+					"count": 8,
+					"custom_items": [
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/Rc2KdiI9a8BQZSOAY8uMRxlF08owBvypYMjswwLP0vcxyVFEq29cHhrfnXc9WsnI.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545984146603865,
+							"custom_tags": [],
+							"introduction": "为家长育儿提供了科学指导，真正做到让孩子接受全方位早期教育。",
+							"is_apply": true,
+							"languages": ["汉语"],
+							"name": "悦宝大咖说",
+							"order": 0,
+							"scenes": ["亲子"],
+							"size": 1056,
+							"status": { "release": true },
+							"tags": ["育儿", "童话", "寓言", "神话", "绘本", "胎教", "流行"],
+							"updated_at": 1550224586292077,
+							"uuid": "7bb74ceb-d8ee-42bf-9cb5-89d5ef19b739"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/WiuCrEOHlMbMw6Fdw0SPFkMt7Pj39tDQDhZFMGIV8hWwyHrRyBEp9fZ3hAxR8j1s.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980750641564,
+							"emotions": [],
+							"introduction": "秋日的树林，秋天的童话，秋xxx",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "秋色绚烂",
+							"scenes": ["社交"],
+							"size": 2021,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585374222983,
+							"uuid": "03e8cf6b-cf63-4482-b607-fc66fad9bc6e"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/79ptpwD6OjaWj3xtc5VyWo3SSTODItwx0m5dI9NEuaKi2SFYJqWvaNAhGMJRjbGN.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545980474620290,
+							"emotions": [],
+							"introduction": "盛阳火热，生命更是蓬勃，让孩子带着内心的喜悦，跟随音乐一起舞蹈。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "夏日之歌",
+							"scenes": ["社交"],
+							"size": 1294,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585388516457,
+							"uuid": "592aac8d-6319-4b14-9917-6dc05ad0c843"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/ZVuq1zcakzhvHQw9CJPi5TZEoDwLujjPPHt934PqwIQL8TPMFUWdA7hSZokVqe7U.png",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545979962250229,
+							"emotions": [],
+							"introduction": "一颗颗小草探出头来，小树沐浴着春风，欢快的旋律奏响春的乐章。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "春的故事",
+							"scenes": ["游戏"],
+							"size": 1614,
+							"status": { "release": true },
+							"tags": ["舞曲"],
+							"updated_at": 1546585404589826,
+							"uuid": "e3ae84f7-33a6-4be3-9150-ddacb75c789a"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 4320, "min": 1800 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/N5hQkbCUCXrpDsucGfE3nUORy9mK247pG4kxphq93If6vxcGObz6i1tpUCUE0kp5.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545979352987930,
+							"emotions": [],
+							"introduction": "这个年龄阶段的宝宝已进入智力高度发育期，本专辑提供内容，带孩子听儿歌、学知识、做游戏!",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "5岁以上儿歌专辑",
+							"scenes": ["社交"],
+							"size": 1501,
+							"status": { "release": true },
+							"tags": ["儿歌"],
+							"updated_at": 1546585420352201,
+							"uuid": "b11a510b-5d65-4122-9bf9-4bb542b32700"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 1800, "min": 1080 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/FAgOOt0vUBgXLgP8P8C7STN24UqOpUEbBKepO7Jcr7sDvKCR5J4P5kCYMiAppDHK.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545978357686033,
+							"emotions": [],
+							"introduction": "听的早教歌曲,一边学唱,一边成",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "3-5岁儿歌专辑",
+							"scenes": ["入园"],
+							"size": 1619,
+							"status": { "release": true },
+							"tags": ["儿歌"],
+							"updated_at": 1546585435233652,
+							"uuid": "9a712d1d-c7b5-490f-867b-27b37108c395"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 1080, "min": 720 }, "gender": 1, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/qRb7tHp8b2hCzIQCainBVRwU9PzspxdmoItABPigWVwjrsztsnxlS1JPER7hEE1L.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545912750953704,
+							"emotions": [],
+							"introduction": "精心筛选适龄儿歌，在磨耳朵中培养良好预感，进行英文早教启蒙。",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "2-3岁儿歌专辑",
+							"scenes": ["晨起"],
+							"size": 1112,
+							"status": { "release": true },
+							"tags": ["儿歌"],
+							"updated_at": 1546585454102471,
+							"uuid": "1ffa6bdc-0ccb-4325-90e1-8864f36b17b6"
+						},
+						{
+							"agreement": true,
+							"aliases": [],
+							"audience": { "age": { "max": 720, "min": 0 }, "gender": 0, "lifestage": "child" },
+							"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/w1NsGZpW7iL67cw7IvI3O7DqSTmHQAiT1upOICn1Yhp4JOOFVxWU1w9sxJGWUQRd.jpg",
+							"company_uuid": "9ad885e1-253f-493c-81a4-0df969494328",
+							"count": 3,
+							"created_at": 1545882840430984,
+							"emotions": [],
+							"introduction": "亲密接触加郎朗儿歌等于语言教育成功体验，专辑包含念谣、表演儿歌、运动儿歌等多种类型",
+							"is_apply": true,
+							"languages": ["英语"],
+							"name": "3-18个月儿歌专辑",
+							"scenes": ["社交"],
+							"size": 1296,
+							"status": { "release": true },
+							"tags": ["儿歌"],
+							"updated_at": 1546585473715294,
+							"uuid": "d65922ab-cb94-44dd-b709-758bd5883408"
+						}
+					],
+					"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/qtKdu8VGruPmmvvzJvJaczu73QGSTki1JJ08Jn9iTW5iZ0L7t5juRYSEeDybIuS4.jpg",
+					"link_name": "web教学教程",
+					"params": {
+						"origin": "echocloud",
+						"query": "{\"name\":\"11111\"}",
+						"type": "music"
+					},
+					"link_template": "album_list_1",
+					"module_name": "album_column",
+					"more_show": true,
+					"name": "web教学",
+					"name_show": false,
+					"rule": "custom",
+					"style": "album_column_2",
+					"uuid": "uuid-ddc8-7953-b1db"
+				}
+			],
+			"bind": {
+				"items": [
+					{
+						"module_name": "text_list",
+						"style": "text_list_1",
+						"texts": [
+							"按一下我身上的设备按钮或对我说 “你的设备号是多少”我就会告诉你我的设备号哦!",
+							"将获取到的设备号在下方输入。",
+							"点击确定，就可以绑定啦。"
+						],
+						"uuid": "uuid-360e-e830-5294"
+					},
+					{
+						"module_name": "prompt_list",
+						"style": "prompt_list_1",
+						"texts": [
+							"设备号2分钟后就会失效，要快点在下方输入并绑\u0003定哦！",
+							"设备号2分钟后就会失效，要快点在下方输入并绑\u0003定哦！",
+							"设备号2分钟后就会失效，要快点在下方输入并绑\u0003定哦！"
+						],
+						"uuid": "uuid-6df7-62be-30e9"
+					},
+					{
+						"module_name": "text_list",
+						"style": "text_list_1",
+						"texts": [
+							"按一下我身上的设备按钮或对我说 “你的设备号是多少”我就会告诉你我的设备号哦!1",
+							"将获取到的设备号在下方输入。1",
+							"点击确定，就可以绑定啦。1"
+						],
+						"uuid": "uuid-360e-e830-5299"
+					}
+				]
+			},
+			"wifi": {
+				"wifi_instructions": {
+					"text": "联网不成功？",
+					"url": "http://localhost:32024/wifi_instructions/aeb33caa-39ad-4ae5-8504-4f0a373a016d"
+				},
+				"items": [
+					{
+						"module_name": "text_list",
+						"style": "text_list_1",
+						"texts": [
+							"确认机器人已经正常开机，手机已经连上WiFi网络。",
+							"同时按住小白顶部的“音量+”和“音量-”键，听到  小白说:“请关注公子小白成长版公众号，根据提示配置网络吧”时松开手。",
+							"点击下方“开始联网”按钮，在联网页面输入手机当前连接的WiFi网络的密码。"
+						],
+						"uuid": "uuid-8b27-0e2c-5b86"
+					},
+					{
+						"module_name": "prompt_list",
+						"style": "prompt_list_1",
+						"texts": [
+							"暂不支持5G频段的WI-FI连接哦",
+							"若首次联网失败，可再次回到本页面，点击“开始联网”再次连接。",
+							"暂不支持5G频段的WI-FI连接哦，若首次联网失败，可再次回到本页面，点击“开始联网”再次连接。"
+						],
+						"uuid": "uuid-34ad-19e6-4365"
+					},
+					{
+						"module_name": "text_list",
+						"style": "text_list_1",
+						"texts": [
+							"确认机器人已经正常开机，手机已经连上WiFi网络。1",
+							"同时按住小白顶部的“音量+”和“音量-”键，听到  小白说:“请关注公子小白成长版公众号，根据提示配置网络吧”时松开手。1",
+							"点击下方“开始联网”按钮，在联网页面输入手机当前连接的WiFi网络的密码。1"
+						],
+						"uuid": "uuid-8b27-0e2c-5b87"
+					}
+				]
+			}
+		},
+		"theme": {
+			"background_color": "f7f7f7",
+			"background_image": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/5zpmJptxjCEuLPlFFeBekdnJFRrAvCmrOWh40xSgcQC4RRtTSGinX7hJVlsxRYn6.jpg",
+			"background_image_rule": "fixed",
+			"background_style": "image",
+			"border_radius": 3,
+			"theme_color": "3366dd"
+		}
+	}
+}

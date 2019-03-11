@@ -1,0 +1,60 @@
+{
+	"arts": [
+		{
+			"uuid": "062f3ea6-1333-439b-a700-1c6209a9610e",
+			"name": "凯叔讲黑猫警长第12集 会吃猫的娘舅(上)",
+			"type": "",
+			"audio_url": "",
+			"duration": 753,
+			"favorite": false
+		},
+		{
+			"uuid": "07a44b4c-5a58-4672-be7c-d97d0f55b329",
+			"name": "凯叔讲黑猫警长第4集 空中擒敌(中)",
+			"type": "",
+			"audio_url": "",
+			"duration": 620,
+			"favorite": false
+		},
+		{
+			"uuid": "18f782ae-506c-4062-8661-bdadd762bd30",
+			"name": "凯叔讲黑猫警长第6集 吃红土的小偷(上)",
+			"type": "",
+			"audio_url": "",
+			"duration": 629,
+			"favorite": false
+		},
+		{
+			"uuid": "1f0a221e-969d-49a3-99f6-feb35acbfca5",
+			"name": "凯叔讲黑猫警长第2集 痛歼搬仓鼠(下)",
+			"type": "",
+			"audio_url": "",
+			"duration": 982,
+			"favorite": false
+		},
+		{
+			"uuid": "302f2fde-136d-41c7-923d-b3c1d755f41f",
+			"name": "凯叔讲黑猫警长第14集 会吃猫的娘舅(下)",
+			"type": "",
+			"audio_url": "",
+			"duration": 1127,
+			"favorite": false
+		},
+		{
+			"uuid": "4d7e81f5-5aa1-44f0-90f7-6cdba0afa3d8",
+			"name": "凯叔讲黑猫警长第11集 吃丈夫的螳螂(下)",
+			"type": "",
+			"audio_url": "",
+			"duration": 851,
+			"favorite": false
+		},
+		{
+			"uuid": "778a01ef-8962-4ff0-8559-80808d5f3392",
+			"name": "凯叔讲黑猫警长第10集 吃丈夫的螳螂(中)",
+			"type": "",
+			"audio_url": "",
+			"duration": 653,
+			"favorite": false
+		}
+	]
+}

@@ -1,0 +1,292 @@
+{
+	"services": [
+		{
+			"uuid": "baf52acf-6369-4cb5-acf0-db736bb70027",
+			"display_name": "英汉互译",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/U5V7LTD3ocj5qlfFpN4Ghxvw3c7pHQmsr0wV9ldwX2iCeIgY9YBAcVyKGv0DIKje.svg",
+			"description": "英汉互译是一款在线互翻译服务，提供中文和英语的互译。支持单词和句子的翻译，想学好英文，就要经常提问哟！",
+			"struct_description": [
+				{
+					"content": [
+						{ "content": ["我喜欢你用英语怎么说", "帮我翻译早上好", "早上好翻译", "翻译苹果"], "title": "中译英" },
+						{ "content": [" I like you 中文的含义", "Apple的中文是什么"], "title": "英译中" }
+					],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536743821000
+		},
+		{
+			"uuid": "252b6db7-9c27-480f-a5ab-55664bb757be",
+			"display_name": "地理百科",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/jZliiGjOB4Wf5bbiS0HUfXoN68bpguu9PAevtPWfOJ07AVrD32UK5GEbZhxIHjcg.svg",
+			"description": "带孩子走进知识的海洋，探求气温变化，了解世界地理结构，解开热带沙漠气候之谜，多问多知道。",
+			"struct_description": [
+				{
+					"content": [{ "content": ["海洋是怎么形成的", "大西洋在哪里", "北京到上海有多远", "介绍下北京"], "title": "" }],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536812780000
+		},
+		{
+			"uuid": "8bb3c8ce-027f-4448-a107-3d34c386b37b",
+			"display_name": "时间日期",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/gNmsKN3uy7k2XDNBfvs8eBD1sc45V0pfLsQyzNewqMK4ul8CLK8jmZBgghfyHjN3.svg",
+			"description": "我是时间小助手，随时等待着为您播报。",
+			"struct_description": [
+				{ "content": [{ "content": ["现在几点啦", "明天是星期几", "中秋节是哪天"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536650970000
+		},
+		{
+			"uuid": "6e9cbcd8-5185-4941-8441-498c5fedc35f",
+			"display_name": "人物百科",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/nHExo954ymB4msVYu4apOSmRDugD2YozLp8qqTkYiVZwhA3jrJP8tnaqggELlOdB.svg",
+			"description": "通晓古今中外，贯穿历史上下千年，每个阶段的知名学者、历史人物、当代歌手、宗教哲学人物传记，无不知晓一二，又经过专业教育人员编排简化，让回答更自然、更易理解。",
+			"struct_description": [
+				{
+					"content": [{ "content": ["爱迪生是谁", "周杰伦的年龄", "柏拉图是谁", "韩愈是哪个朝代的"], "title": "" }],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536651041000
+		},
+		{
+			"uuid": "5e2a622d-a715-4ab4-a241-62b6c1d45787",
+			"display_name": "事件百科",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/RZdRZ9mz8AQdm9fU22PcPqw6WK9iDKHySGDIKq2TQkGtU3ae6m7yZOj6Lj8LuMPO.svg",
+			"description": "从盘古开天到辛亥革命，那些风起云涌的时代，那些惊天动地的故事，由孩子口中悠悠问出，由机器人娓娓道来，引人入胜。",
+			"struct_description": [
+				{
+					"content": [{ "content": ["商汤灭夏", "王安石变法", "南京条约", "辛亥革命", "登上月球"], "title": "" }],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536651040000
+		},
+		{
+			"uuid": "4fc2e0d5-4cb5-4757-aad9-8f4e036e8c02",
+			"display_name": "声音启蒙",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/LXtOeIOxe4QTCYx9b3TwvHvRzn2wp2YZYUcutyEvhCqP74uBG3cLEKo5zRJcFp7J.svg",
+			"description": "激发孩子好奇心，感受不同声音所带来的独特体验。",
+			"struct_description": [
+				{ "content": [{ "content": ["恐龙的叫声", "小狗的叫声", "蝉怎么叫"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536811823000
+		},
+		{
+			"uuid": "1b5df6b1-084c-47a2-8e8a-5f5256365286",
+			"display_name": "指令控制",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/IO3f1je1CRB67qdAEnd4nB3zqWkr1oKBFnfDdhaKxectfad8c75jigR0WiaMPRTZ.svg",
+			"description": "对我说指令，我立刻执行。",
+			"struct_description": [
+				{ "content": [{ "content": ["增大音量", "减小音量", "设备号是多少"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536651032000
+		},
+		{
+			"uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+			"display_name": "天气",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/obtibdPfASYLyg8fkHu1TWj65pX0AekBJyVCoHbMHkDg90xAyeX2U7vTHbFdTsCP.svg",
+			"description": "全国天气早知道，支持天气询问和多轮询问。",
+			"struct_description": [
+				{
+					"type": "text",
+					"value": "例子：\\n用户：北京明天天气怎么样\\n零秒播天气\\n用户：上海呢\\n零秒播放明天上海的天气\\n用户：后天呢\\n零秒播放上海后天的天气"
+				},
+				{
+					"content": [{ "content": ["北京明天下不下雨", "北京温度是多少", "长春明天刮风吗", "明天用带伞吗"], "title": "" }],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536651033000
+		},
+		{
+			"uuid": "6451a5e0-0b4a-46c7-9dd8-c3d69616b10d",
+			"display_name": "算数",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/cNGUfua016Wl3VyjP3RY4xv50NDfqRJ0fq2Q7a9l8CQwrRThVirUT5bZB17jcyZE.svg",
+			"description": "机器人精通混合四则运算及其他基本的数学计算，还支持多轮计算，快来考考我吧！",
+			"struct_description": [
+				{ "type": "text", "value": "例子：\\n用户：1加2乘以7等于几\\n零秒：1加2乘以7等于15\\n用户：再减去9呢\\n零秒：1加2乘以7再减去9等于6" },
+				{ "content": [{ "content": ["一加一等于几", "四加上五乘三", "六除以二乘五"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536651034000
+		},
+		{
+			"uuid": "73b81889-ed0d-49e6-a0f2-30fae9827831",
+			"display_name": "成语接龙",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/KwBswaPAbh5dzlTV8vDn8dgDhUjfVWsn0fU2H2jfXVmHd9XSSSVlFTKTzY7Fk8x9.svg",
+			"description": "对我说“成语接龙”，我们就可以开始游戏了，游戏过程还支持“退出”“跳过”命令，快来和你一起比比谁厉害吧！",
+			"struct_description": [
+				{ "content": [{ "content": ["成语接龙", "退出", "跳过", "我不玩了"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536647287000
+		},
+		{
+			"uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"display_name": "音乐",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/Og61z92igFis3mvUyHCBOvKW9HLMoEDqSIZHFPfiMrOZG7HotROHgXEvHbFPw6jn.svg",
+			"description": "海量音乐资源，支持按歌手、歌名、主题、场景、语种等多种方式点歌，并针对儿童，精选益智、哄睡、好习惯等早教专辑，根据成长分龄推荐内容，帮助孩子健康的成长。",
+			"struct_description": [
+				{ "type": "text", "value": "该技能也支持企业内容上传" },
+				{
+					"type": "text",
+					"value": "操作方法：\\n 1. 在“资源中心”中创建专辑，上传音频，并发布专辑\\n 2. 在“产品服务-产品列表”中选择产品，通过“内容配置”，添加专辑至机器人即可。"
+				},
+				{
+					"content": [
+						{ "content": ["我要听儿歌", "给我唱个刷牙歌", "来首好听的歌", "哄睡儿歌", "英文儿歌"], "title": "音乐点播" },
+						{ "content": ["上一首", "下一首", "换一首", "别唱了"], "title": "音乐控制" },
+						{ "content": ["这个歌叫什么", "这首歌是谁唱的"], "title": "音乐查询" }
+					],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536651035000
+		},
+		{
+			"uuid": "62fed33a-18ea-4c80-8ab8-4ade95ec3a6a",
+			"display_name": "故事",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/MVLg7iKuerKnxgs0CnpjP9PHoWvGci1W2t2Wft0Du71OuUX0jAyBgcF5fjNLnODT.svg",
+			"description": "免费提供海量故事音频，包含睡前故事、童话故事、英语故事、国学故事、科普、连载故事等数十万种音频资源。",
+			"struct_description": [
+				{ "type": "text", "value": "该技能也支持企业内容上传" },
+				{
+					"type": "text",
+					"value": "操作方法：\\n 1. 在“资源中心”中创建专辑，上传音频，并发布专辑\\n 2. 在“产品服务-产品列表”中选择产品，通过“内容配置”，添加专辑至机器人即可"
+				},
+				{
+					"content": [
+						{ "content": ["我要听白雪公主", "讲个睡前故事", "播放西游记第三集"], "title": "故事点播" },
+						{ "content": ["换一个", "不听了"], "title": "故事控制" },
+						{ "content": ["这个故事叫什么名字"], "title": "故事查询" }
+					],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536651037000
+		},
+		{
+			"uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+			"display_name": "古诗",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/XFTMdW0ol66VFeAgkPI9RK0dWqARE1cmqh04SPFKp5eo5XZUsiAfPCvFwcQtgvdb.svg",
+			"description": "精选经典古诗，整合实用专辑，如：唐诗三百首、小学必背古诗等，让孩子感受诗词韵律之美，快速提升古诗储备，同时技能还支持多轮问答、智能纠错、诗词释义等多种交互方式，让学习更自然，更有趣。",
+			"struct_description": [
+				{
+					"type": "text",
+					"value": "例子一  智能纠错 ：\\n问：背首唐诗水调歌头\\n答：请欣赏苏轼的水调歌头·明月几时有，不过这首诗是宋代的，不是唐代的哦。\\n 例子二 多轮问答：\\n问：背首辛弃疾的破阵子\\n答：请欣赏辛弃疾的破阵子·为陈同甫赋壮词以寄之。醉里挑灯看剑、梦回吹角连营...\\n问：这句诗是什么意思\\n答：这句话的意思是梦中回到了当年的各个营垒，接连响起号角声\\n问：第一句是什么意思\\n答：这句话的意思是醉梦里挑亮油灯观看宝剑"
+				},
+				{
+					"content": [
+						{ "content": ["背首诗", "背首李白的静夜思", "背首唐诗"], "title": "诗歌点播" },
+						{ "content": ["再背一首", "换一首", "床前明月光剩下的你背"], "title": "诗歌控制" },
+						{ "content": ["会当凌绝顶谁写的", "千山鸟飞绝下一句", "静夜思的后两句怎么背", "床前明月光出自哪首诗"], "title": "诗歌查询" }
+					],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536651036000
+		},
+		{
+			"uuid": "f5eaaaec-063c-4830-946e-a91cb926d2e7",
+			"display_name": "聊天",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/f8YuuWz28maZDUtT5klgIMKbQNea2WZswb5op9TWSWTwD0j1BoWCOlyMYg9fPBMU.svg",
+			"description": "纯净版儿童趣味聊天，过滤负面词汇，是对话即教育的探索，让我赶紧成为孩子的朋友吧！",
+			"struct_description": [
+				{ "type": "text", "value": "该技能也支持自有内容上传" },
+				{ "type": "text", "value": "操作方法：\\n 在“产品服务-产品列表”中选择产品，通过“自定义问答”添加问答对即可。" },
+				{
+					"content": [
+						{ "content": ["下雨天适合干什么", "你过生日吗", "你觉得我漂亮吗"], "title": "生活聊天" },
+						{ "content": ["我不喜欢妈妈老催我", "我今天考了100分", "我交了一个新朋友"], "title": "心里话" },
+						{ "content": ["假如你变成了人你会干什么", "给他一个苹果", "为什么有人的眼睛是蓝色的"], "title": "好奇心" }
+					],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536651036000
+		},
+		{
+			"uuid": "a47c92d0-7cd8-4d12-99dc-99ee706ec198",
+			"display_name": "新闻",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/WCvG0PntKCVr4HbceDcG6adEzVabf8K5BXSKihpXipE13P39Hs2B6Ky4XSZWWjZw.svg",
+			"description": "每日新闻即时报道，帮您掌握热门话题，了解全球资讯，并满足个性化的收听需求。",
+			"struct_description": [
+				{
+					"content": [{ "content": ["最近有什么新闻", "播放科技新闻", "关于腾讯的新闻"], "title": "" }],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536747104000
+		},
+		{
+			"uuid": "776dde5c-28aa-4b90-b49b-55b77e3dfce6",
+			"display_name": "口语测评",
+			"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/EKMwXF56Ljltu88faFFwpvb0rEw6SXJPv4gTXmbh5PxGBhLygAlAqccHC6VXCAYX.svg",
+			"description": "小学课程同步，纯正英语领读，专业的口语评测，有趣的机器人陪伴宝宝，让学习更快乐！",
+			"struct_description": [
+				{ "content": [{ "content": ["口语评测", "再读一遍 ", "退出"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536650210000
+		},
+		{
+			"uuid": "94ab2a07-9505-4cb7-b727-327044257374",
+			"display_name": "闹钟提醒",
+			"image_url": "",
+			"description": "想给孩子养成好习惯？用我就对了！",
+			"struct_description": [
+				{
+					"content": [{ "content": ["设置提醒", "提醒我明天早上8点做练习 ", "提醒我每天早上7点起床"], "title": "" }],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536388742000
+		},
+		{
+			"uuid": "1deec2f5-d4ef-42b7-8bbe-037168172a1a",
+			"display_name": "中小学知识点",
+			"image_url": "",
+			"description": "提供人教版知识点问答，包含各学科的名词解释、学科公式、相关常识、知识扩展等方面，帮助孩子轻松复习，快乐提分。",
+			"struct_description": [
+				{
+					"content": [{ "content": ["正方形的面积怎么算？", "襁褓是什么意思？", "上皮组织有什么功能？"], "title": "" }],
+					"title": "你可以对我说",
+					"type": "tags"
+				}
+			],
+			"opted_in_at": 1536388743000
+		},
+		{
+			"uuid": "7757a741-f159-4ced-9fd2-cb0a611385df",
+			"display_name": "近反义词",
+			"image_url": "",
+			"description": "常见词语的近义词和反义词查询，帮助孩子更深刻的理解词语，增强词汇掌握。",
+			"struct_description": [
+				{ "content": [{ "content": ["高兴的反义词是什么", "悲伤的近义词是什么"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536388747000
+		},
+		{
+			"uuid": "e1f43d0f-5fa5-4e6b-9176-410135575af0",
+			"display_name": "成语解释",
+			"image_url": "",
+			"description": "收录3万多个成语释义，支持多轮问答，帮助孩子恰当运用，做成语达人。",
+			"struct_description": [
+				{ "content": [{ "content": ["举一反三是什么意思", "望穿秋水的解释"], "title": "" }], "title": "你可以对我说", "type": "tags" }
+			],
+			"opted_in_at": 1536639275000
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+  "circle": {
+    "uuid": "97a67e76-b50c-487f-9145-2c772bb73f9c",
+    "name": "我的家庭圈",
+    "avatar": "",
+    "admins": [
+      {
+        "uuid": "9fc3ec10-fe11-4768-a3ac-6ce302091c46",
+        "name": "宇航",
+        "avatar": "http://thirdwx.qlogo.cn/mmopen/NvkKiaat69n6gcxV4yd2CvUZBzDEIrGw55avAvicHf5gfHW1lPLtPXLDZJmFMRp9Qs8SPP46LjTXxvOpzbLZic5mFUEWSWF28AQ/132"
+      }
+    ],
+    "users": [
+      {
+        "uuid": "47992767-c0b5-49e8-b3ec-ae070c9dbf83",
+        "name": "Jiy",
+        "avatar": "http://thirdwx.qlogo.cn/mmopen/NvkKiaat69n5XibsNCIDMWT0iaZ70ZWHo9talwMSOxa5pzuKbzCP2rg5MXpDDJgdwIYkrTBmVolAwc3oJTqMqkaiacYxD3pW8t15/132"
+      },
+      {
+        "uuid": "9fc3ec10-fe11-4768-a3ac-6ce302091c46",
+        "name": "宇航",
+        "avatar": "http://thirdwx.qlogo.cn/mmopen/NvkKiaat69n6gcxV4yd2CvUZBzDEIrGw55avAvicHf5gfHW1lPLtPXLDZJmFMRp9Qs8SPP46LjTXxvOpzbLZic5mFUEWSWF28AQ/132"
+      }
+    ],
+    "devices": [
+      {
+        "uuid": "51c9afad-5cbe-5795-8fbb-e31a880a5d89",
+        "channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+        "name": "机器人",
+        "avatar": ""
+      }
+    ]
+  }
+}

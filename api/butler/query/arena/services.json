@@ -1,0 +1,274 @@
+{
+  "services": [
+    {
+      "displayName": "打车服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1481912106000,
+      "name": "super",
+      "docUrl": null,
+      "uuid": "d8334f3d-9ddc-4b4b-9f87-b1f1175d71da"
+    },
+    {
+      "displayName": "机票服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1481912103000,
+      "name": "fly",
+      "docUrl": null,
+      "uuid": "5e78390b-bd80-4b92-8ccb-72ac03ff2c11"
+    },
+    {
+      "displayName": "天气服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1481912101000,
+      "name": "weather",
+      "docUrl": null,
+      "uuid": "ffeed522-df32-4103-b558-4215f2347ecf"
+    },
+    {
+      "displayName": "聊天服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1481912098000,
+      "name": "boy",
+      "docUrl": null,
+      "uuid": "a5273c4b-1d39-4594-ae59-0748b317da2a"
+    },
+    {
+      "displayName": "新闻服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1481912096000,
+      "name": "hunter",
+      "docUrl": null,
+      "uuid": "f352dc72-05bb-493a-bd5c-392d77345283"
+    },
+    {
+      "displayName": "周边美食服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1481912094000,
+      "name": "delicious",
+      "docUrl": null,
+      "uuid": "9c1b1c29-34a7-41f7-883c-865c67632cf3"
+    },
+    {
+      "displayName": "周边景点服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1481912090000,
+      "name": "marvel",
+      "docUrl": null,
+      "uuid": "86ee504c-dc9b-453a-99b5-918e2ad7b734"
+    },
+    {
+      "displayName": "核心调度模块",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1483541526000,
+      "name": "captain",
+      "docUrl": null,
+      "uuid": "e460c825-59b0-4e57-a5c4-ab175d46ae6a"
+    },
+    {
+      "displayName": "提醒服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1489797152000,
+      "name": "attention",
+      "docUrl": null,
+      "uuid": "381fd0ca-12a6-43a4-bbe3-2e2bc5621138"
+    },
+    {
+      "displayName": "音乐服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1490025170000,
+      "name": "music",
+      "docUrl": null,
+      "uuid": "5c3d7bad-bc70-4407-a445-52d576ee21cc"
+    },
+    {
+      "displayName": "讲故事服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1490712764000,
+      "name": "fairy",
+      "docUrl": null,
+      "uuid": "ce9390a9-2f11-4530-9b88-fa1eb1b31130"
+    },
+    {
+      "displayName": "英文demo服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1492544341000,
+      "name": "fleeting",
+      "docUrl": null,
+      "uuid": "697a4339-a55f-4a18-ac8e-60bbdfc66dda"
+    },
+    {
+      "displayName": "古诗文服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1493397003000,
+      "name": "literati",
+      "docUrl": null,
+      "uuid": "f94f34f1-7632-4ab2-a5fc-5794673d0e2e"
+    },
+    {
+      "displayName": "问答服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1493833756000,
+      "name": "watson",
+      "docUrl": null,
+      "uuid": "db286cc6-4002-4b78-9b21-8c0d34503257"
+    },
+    {
+      "displayName": "汉译英",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1498147676000,
+      "name": "subor",
+      "docUrl": null,
+      "uuid": "baf52acf-6369-4cb5-acf0-db736bb70027"
+    },
+    {
+      "displayName": "自我服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1498836407000,
+      "name": "witch",
+      "docUrl": null,
+      "uuid": "5a285c36-9a32-4245-8624-01e7b080fcfa"
+    },
+    {
+      "displayName": "百科服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1500485602000,
+      "name": "echopedia",
+      "docUrl": null,
+      "uuid": "b0492fec-8ca2-4821-875f-267dde3ebf4f"
+    },
+    {
+      "displayName": "地理百科服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1504627991000,
+      "name": "geographer",
+      "docUrl": null,
+      "uuid": "252b6db7-9c27-480f-a5ab-55664bb757be"
+    },
+    {
+      "displayName": "恋大自然对话服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1505123314000,
+      "name": "liandaziran",
+      "docUrl": null,
+      "uuid": "8bfce992-5a38-4bf3-bda1-1296ebc36a61"
+    },
+    {
+      "displayName": "时间日期服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1505751418000,
+      "name": "zilean",
+      "docUrl": null,
+      "uuid": "8bb3c8ce-027f-4448-a107-3d34c386b37b"
+    },
+    {
+      "displayName": "人物百科服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1506540350000,
+      "name": "celebrity",
+      "docUrl": null,
+      "uuid": "6e9cbcd8-5185-4941-8441-498c5fedc35f"
+    },
+    {
+      "displayName": "事件百科服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1507656553000,
+      "name": "historian",
+      "docUrl": null,
+      "uuid": "5e2a622d-a715-4ab4-a241-62b6c1d45787"
+    },
+    {
+      "displayName": "声音启蒙",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1507893366000,
+      "name": "parrot",
+      "docUrl": null,
+      "uuid": "4fc2e0d5-4cb5-4757-aad9-8f4e036e8c02"
+    },
+    {
+      "displayName": "指令控制服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1508774398000,
+      "name": "commander",
+      "docUrl": null,
+      "uuid": "1b5df6b1-084c-47a2-8e8a-5f5256365286"
+    },
+    {
+      "displayName": "新天气服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1508778145000,
+      "name": "zeus",
+      "docUrl": null,
+      "uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254"
+    },
+    {
+      "displayName": "算数服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1510672090000,
+      "name": "gauss",
+      "docUrl": null,
+      "uuid": "6451a5e0-0b4a-46c7-9dd8-c3d69616b10d"
+    },
+    {
+      "displayName": "成语接龙",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1511976046000,
+      "name": "idiomsgame",
+      "docUrl": null,
+      "uuid": "73b81889-ed0d-49e6-a0f2-30fae9827831"
+    },
+    {
+      "displayName": "课文服务",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1512660801000,
+      "name": "tutor",
+      "docUrl": null,
+      "uuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a"
+    },
+    {
+      "displayName": "新音乐",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": 1514217933000,
+      "name": "euterpe",
+      "docUrl": null,
+      "uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2"
+    },
+    {
+      "displayName": "Go故事",
+      "description": null,
+      "iconUrl": null,
+      "createdAt": null,
+      "name": "andersen",
+      "docUrl": null,
+      "uuid": "62fed33a-18ea-4c80-8ab8-4ade95ec3a6a"
+    }
+  ]
+}

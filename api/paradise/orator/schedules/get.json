@@ -1,0 +1,39 @@
+{
+	"schedule": {
+		"uuid": "6853e524-f619-4bc2-9761-089380a23a9a",
+		"edition_uuid": "b60887fb-bdb0-44f6-a91f-dad47446be68",
+		"stage_uuid": "f8d468d5-7bae-4236-ad2c-8dec76572262",
+		"class_uuid": "71a728f9-ceb0-4f54-becd-da20137e7aa0",
+		"class_status": "learning",
+		"lesson_status": {
+			"200de264-342b-4be4-8932-e8f46ae3a895": {
+				"total": 100,
+				"pron": 100,
+				"speed": -1,
+				"fluency": -1,
+				"result": "excellent"
+			},
+			"5e14be5c-8ce4-4298-9900-6cb0bc4c53a1": {
+				"total": 99,
+				"pron": 99,
+				"speed": -1,
+				"fluency": -1,
+				"result": "excellent"
+			},
+			"646ae125-50b9-4c1c-8b60-29cc8b667729": {
+				"total": 84,
+				"pron": 84,
+				"speed": -1,
+				"fluency": -1,
+				"result": "good"
+			},
+			"940ac887-f242-4952-8578-8ad99f34baf1": {
+				"total": 70,
+				"pron": 70,
+				"speed": -1,
+				"fluency": -1,
+				"result": "general"
+			}
+		}
+	}
+}

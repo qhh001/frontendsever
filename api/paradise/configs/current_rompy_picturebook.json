@@ -1,0 +1,240 @@
+{
+	"config": {
+		"id": 38,
+		"uuid": "d2618efd-fe0e-41a4-bd04-7849d47932e5",
+		"channel_uuid": "",
+		"appid": "",
+		"scope": "rompy_picturebook",
+		"name": "悦宝园-绘本页",
+		"description": "",
+		"data": {
+			"origin": "xiaobai.gowild.cn",
+			"prefix": "gongzixiaobai",
+			"title": "公子小白成长版",
+			"bind_page_configs": {
+				"info": ["设备号2分钟后就会失效，要快点在下方输入并绑定哦！"],
+				"steps": [
+					"按下我身上的\"ID\"按钮，或对我说\"你的设备号是多少\"， 我就会告诉你我的设备号哦！",
+					"将获取到的设备号在下方输入。",
+					"点击确定，就可以绑定啦。"
+				]
+			},
+			"wifi_page_configs": {
+				"info": ["暂不支持5G频段的WI-FI连接哦", "若首次联网失败，可再次回到本页面，点击“开始联网”再次连接"],
+				"steps": [
+					"确认小白已经正常开机，手机已经连上WiFi网络",
+					"同时按住小白顶部的“音量+”和“音量-”键，听到小白说“请关注公子小白成长版公众号，根据提示配置网络吧”时松开手",
+					"点击下方“开始联网”按钮，在联网页面输入手机当前连接的WiFi网络的密码"
+				]
+			},
+			"wifi_instructions": {
+				"text": "联网不成功？",
+				"url": "http://localhost:32024/wifi_instructions/aeb33caa-39ad-4ae5-8504-4f0a373a016d"
+			},
+			"device_center_configs": [
+				{
+					"name": "favorites",
+					"display": "设备收藏",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/heart-hollow.svg"
+				},
+				{
+					"name": "horde",
+					"display": "家庭成员",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/directory-tree.svg"
+				},
+				{
+					"name": "timer",
+					"display": "定时提醒",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/remind.svg"
+				},
+				{
+					"name": "volume",
+					"display": "音量调节",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/volume.svg"
+				},
+				{
+					"name": "light",
+					"display": "灯光亮度",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/light.svg"
+				},
+				{
+					"name": "child_lock",
+					"display": "童锁开关",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/lock.svg"
+				},
+				{
+					"name": "device_info",
+					"display": "设备信息",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/info.svg",
+					"children": [
+						{
+							"name": "ota",
+							"display": "软件版本",
+							"image_url": ""
+						},
+						{
+							"name": "recover",
+							"display": "恢复出厂设置",
+							"image_url": ""
+						}
+					]
+				}
+			],
+			"theme_color": "#ff6600",
+			"sections": [
+				{
+					"col": 3,
+					"count": 3,
+					"items": [
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Bright Baby Colors.jpg",
+							"name": "Bright Baby: Colors",
+							"type": "rompy_picturebook",
+							"uuid": "97addb6c-dc28-4e4e-8e5d-946987fda36f"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Farm-Animals-(Touch-&-Feel).jpg",
+							"name": "Farm Animals",
+							"type": "rompy_picturebook",
+							"uuid": "f570c806-9ddf-44bd-b715-3a0843a7a5b7"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/I-went-walking.jpg",
+							"name": "I went walking",
+							"type": "rompy_picturebook",
+							"uuid": "0a02ecdb-980a-4d39-92d1-52d273f41cdd"
+						}
+					],
+					"layout": "grid",
+					"name": "3-18个月适龄绘本",
+					"row": 1,
+					"shape": "m",
+					"type": "rompy_album",
+					"uuid": "e46a1e03-436f-425e-b6de-296fa12ebcb0"
+				},
+				{
+					"col": 3,
+					"count": 3,
+					"items": [
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/One-fish-two-fish-three-four-five-fish.jpg",
+							"name": "One fish two fish three four five fish",
+							"type": "rompy_picturebook",
+							"uuid": "256a9f5f-cfc9-4330-bc8d-80c4488cffea"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/A-good-day.jpg",
+							"name": "A good day",
+							"type": "rompy_picturebook",
+							"uuid": "f7e6a4e2-39bb-4446-aa9d-deaadc399cc6"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Dear-zoo.jpg",
+							"name": "Dear zoo",
+							"type": "rompy_picturebook",
+							"uuid": "09a0dfcd-c776-4213-b523-099c9d4380fd"
+						}
+					],
+					"layout": "grid",
+					"name": "16-24个月适龄绘本",
+					"row": 1,
+					"shape": "m",
+					"type": "rompy_album",
+					"uuid": "342ba2ff-0b41-4873-a3c6-a835cf0e51d2"
+				},
+				{
+					"col": 3,
+					"count": 3,
+					"items": [
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Bark,George.jpg",
+							"name": "Bark,George",
+							"type": "rompy_picturebook",
+							"uuid": "8a4ad204-b579-4976-8380-9cae9e1825ed"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Benny's-big-bubble.jpg",
+							"name": "Benny's big bubble",
+							"type": "rompy_picturebook",
+							"uuid": "879bd904-11bc-4cfe-ad09-266af53df8cb"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Counting-Crocodiles.jpg",
+							"name": "Counting Crocodiles",
+							"type": "rompy_picturebook",
+							"uuid": "67a2fc2f-ddd9-43df-9b9a-5a56e859d9f0"
+						}
+					],
+					"layout": "grid",
+					"name": "2-3岁适龄绘本",
+					"row": 1,
+					"shape": "m",
+					"type": "rompy_album",
+					"uuid": "7f67e162-d0b3-41d6-bbcb-fe7e52812296"
+				},
+				{
+					"col": 3,
+					"count": 3,
+					"items": [
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Planting-a-rainbow.jpg",
+							"name": "Planting a rainbow",
+							"type": "rompy_picturebook",
+							"uuid": "2d5326e9-0434-4991-a89a-f9c33b0a1472"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/My-truck-is-Stuck.jpg",
+							"name": "My truck is Stuck",
+							"type": "rompy_picturebook",
+							"uuid": "4e759bfe-a88a-4303-aa7a-ee53322cd8f7"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Digger.jpg",
+							"name": "Digger",
+							"type": "rompy_picturebook",
+							"uuid": "533e99ea-d6b0-4fe7-b5c3-28780862428a"
+						}
+					],
+					"layout": "grid",
+					"name": "3-5岁适龄绘本",
+					"row": 1,
+					"shape": "m",
+					"type": "rompy_album",
+					"uuid": "b7d72db7-4e1d-4639-8f0a-3789e0ed9066"
+				},
+				{
+					"col": 3,
+					"count": 3,
+					"items": [
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Fancy-Nancy.jpg",
+							"name": "Fancy Nancy",
+							"type": "rompy_picturebook",
+							"uuid": "1cbc6263-55f9-4a2f-abd7-dbeeba5417be"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Goodnight-construction-site.jpg",
+							"name": "Goodnight construction site",
+							"type": "rompy_picturebook",
+							"uuid": "0314be3d-3b8e-454d-8d6d-658a25024af3"
+						},
+						{
+							"icon_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Pirate-pete.jpg",
+							"name": "Pirate pete",
+							"type": "rompy_picturebook",
+							"uuid": "eca733e8-df38-4fa2-ac3c-adb74b5fec9c"
+						}
+					],
+					"layout": "grid",
+					"name": "5岁+适龄绘本",
+					"row": 1,
+					"shape": "m",
+					"type": "rompy_album",
+					"uuid": "60df32f4-1a68-4fa7-bb0c-fbc62c87e87b"
+				}
+			]
+		},
+		"created_at": 1545202800000,
+		"updated_at": 1545202800000
+	}
+}

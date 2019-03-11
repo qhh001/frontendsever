@@ -1,0 +1,499 @@
+{
+	"config": {
+		"id": 11,
+		"uuid": "0ae8dfdf-ed27-4186-b2df-f7b37fec3fec",
+		"channel_uuid": "",
+		"appid": "",
+		"scope": "home_page",
+		"name": "零秒主页配置",
+		"description": "",
+		"data": {
+			"origin": "xiaobai.gowild.cn",
+			"prefix": "gongzixiaobai",
+			"title": "公子小白成长版",
+			"bind_page_configs": {
+				"info": ["设备号2分钟后就会失效，要快点在下方输入并绑定哦！"],
+				"steps": [
+					"按下我身上的\"ID\"按钮，或对我说\"你的设备号是多少\"， 我就会告诉你我的设备号哦！",
+					"将获取到的设备号在下方输入。",
+					"点击确定，就可以绑定啦。"
+				]
+			},
+			"wifi_page_configs": {
+				"info": ["暂不支持5G频段的WI-FI连接哦", "若首次联网失败，可再次回到本页面，点击“开始联网”再次连接"],
+				"steps": [
+					"确认小白已经正常开机，手机已经连上WiFi网络",
+					"同时按住小白顶部的“音量+”和“音量-”键，听到小白说“请关注公子小白成长版公众号，根据提示配置网络吧”时松开手",
+					"点击下方“开始联网”按钮，在联网页面输入手机当前连接的WiFi网络的密码"
+				]
+			},
+			"wifi_instructions": {
+				"text": "联网不成功？",
+				"url": "http://localhost:32024/wifi_instructions/aeb33caa-39ad-4ae5-8504-4f0a373a016d"
+			},
+			"device_center_configs": [
+				{
+					"name": "favorites",
+					"display": "设备收藏",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/heart-hollow.svg"
+				},
+				{
+					"name": "horde",
+					"display": "家庭成员",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/directory-tree.svg"
+				},
+				{
+					"name": "timer",
+					"display": "定时提醒",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/remind.svg"
+				},
+				{
+					"name": "volume",
+					"display": "音量调节",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/volume.svg"
+				},
+				{
+					"name": "light",
+					"display": "灯光亮度",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/light.svg"
+				},
+				{
+					"name": "child_lock",
+					"display": "童锁开关",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/lock.svg"
+				},
+				{
+					"name": "device_info",
+					"display": "设备信息",
+					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/info.svg",
+					"children": [
+						{
+							"name": "ota",
+							"display": "软件版本",
+							"image_url": ""
+						},
+						{
+							"name": "recover",
+							"display": "恢复出厂设置",
+							"image_url": ""
+						}
+					]
+				}
+			],
+			"theme_color": "#ff6600",
+			"banners": [
+				{
+					"album_uuid": "e6b3d6f5-32eb-4a40-809d-fd8b8beeed80",
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/banner_images/bdIVBVaciNB0nKaZSEkdRh2jmbkYqu3R5HOhUOOWLlrbIGoddpCspEksB9jF6dmt.svg",
+					"type": "album"
+				},
+				{
+					"album_uuid": "ceccaf50-afe8-48fc-92ec-b64c88868cc0",
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/banner_images/4TKgzXJNygfUsklZw66AsxlhDIRcIL6t0t4mDyieZOWoYawHgloH6H6edu3OYtO5.svg",
+					"type": "album"
+				},
+				{
+					"album_uuid": "00a22115-5956-4233-aeb8-b4843361c4cc",
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/banner_images/Rr3WFuy2sNtB5IHm1lUpuK4c3C4E6e8aTHFtLStdVnWy0zG7kkFlddD5dNaSr8FJ.svg",
+					"type": "album"
+				},
+				{
+					"album_uuid": "fe8e6b3d-2698-4d9b-92c1-769e160dd607",
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/banner_images/ndcAX944ZEqIrg7CnNeMqbq3XiOvhMbhX0MtulMfIKE78hznRjhDMdC5yR7lp9KU.svg",
+					"type": "album"
+				},
+				{
+					"album_uuid": "caa663c0-2cc3-4f73-bdaa-0a9a13a5e527",
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/banner_images/wfEqu6NFLL5oZ3pjn9TWfmknufk11XHUiivm2yGIn5qOuNvobr79i1uqDEGltXGt.svg",
+					"type": "album"
+				},
+				{
+					"album_uuid": "448f82e5-aba4-430d-a1e5-24edac3a3ceb",
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/banner_images/o2rzpuLwjGfjehALcKYxhuZhIDPGqAFCD1cZOU0rVcqvsH75g7EcO6UmU7jEf65N.svg",
+					"type": "album"
+				}
+			],
+			"navigation": {
+				"items": [
+					{
+						"image_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/sun%402x-8.png",
+						"name": "童话故事",
+						"tag_uuid": "ccf99c94-3090-48ad-a240-89371c1973e2",
+						"type": "tag"
+					},
+					{
+						"image_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/bird%402x-8.png",
+						"name": "快乐儿歌",
+						"tag_uuid": "f026a33d-e129-4466-87d6-48a7c3d221b1",
+						"type": "tag"
+					},
+					{
+						"image_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/bamboo%402x-8.png",
+						"name": "经典国学",
+						"tag_uuid": "e1b9174d-c2fe-4919-b3e9-b5cce1b6b9dc",
+						"type": "tag"
+					},
+					{
+						"image_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/balloon%402x-8.png",
+						"name": "启蒙英语",
+						"tag_uuid": "19accd93-247d-4509-b8bb-0343d30465a8",
+						"type": "tag"
+					},
+					{
+						"image_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/morebox%402x-8.png",
+						"name": "更多",
+						"type": "more"
+					}
+				]
+			},
+			"search_bar": true,
+			"recommends": {
+				"layout": "block",
+				"count": 2,
+				"row": 1,
+				"col": 2,
+				"blocks": [
+					{
+						"name": "口语课程",
+						"type": "ability",
+						"ability_name": "orator",
+						"image_url": "https://public01-1255411705.file.myqcloud.com/paradise/recommend_images/%E5%8F%A3%E8%AF%AD%E6%B5%8B%E8%AF%84.svg",
+						"ico_url": "",
+						"description": "口语课程"
+					},
+					{
+						"name": "同步教材",
+						"type": "tag",
+						"tag_uuid": "c06c2d21-8940-4cee-a453-3d03e7beb87e",
+						"image_url": "https://public01-1255411705.file.myqcloud.com/paradise/recommend_images/%E8%AF%BE%E6%96%87.svg",
+						"ico_url": "",
+						"description": "中小学教材同步"
+					}
+				]
+			},
+			"sections": [
+				{
+					"col": 2,
+					"count": 4,
+					"items": [
+						{
+							"icon_url": "http://echocloud-image.0mzl.com/rompy/navigations/%E8%8B%B1%E8%AF%AD%E7%BB%98%E6%9C%AC%E9%98%85%E8%AF%BB.jpg",
+							"name": "英文绘本阅读",
+							"scope": "rompy_picturebook"
+						},
+						{
+							"icon_url": "http://echocloud-image.0mzl.com/rompy/navigations/%E7%A3%A8%E8%80%B3%E6%9C%B5%E5%84%BF%E6%AD%8C.jpg",
+							"name": "磨耳朵儿歌",
+							"query": {
+								"tags": "儿歌"
+							},
+							"album_type": "music",
+							"type": "mi6_album"
+						},
+						{
+							"icon_url": "http://echocloud-image.0mzl.com/rompy/navigations/%E6%97%A9%E6%95%99%E5%90%8C%E6%AD%A5%E9%9F%B3%E4%B9%90.jpg",
+							"name": "早教同步音乐",
+							"query": {
+								"tags": "舞曲"
+							},
+							"album_type": "music",
+							"type": "mi6_album"
+						},
+						{
+							"album_uuid": "b3dae5c7-a828-4197-8025-ac86a634c64b",
+							"icon_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/yuebaodakashuo.jpg",
+							"name": "悦宝大咖说",
+							"album_type": "music",
+							"art_type": "channel_music",
+							"type": "mi6_art"
+						}
+					],
+					"layout": "grid",
+					"name": "Rompy专区",
+					"row": 2,
+					"shape": "m",
+					"ico_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/dog.png",
+					"type": "rompy_tag"
+				},
+				{
+					"col": 3,
+					"count": 6,
+					"items": [
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/lTx6xDPh5OQKZRgsJsBC5kOyQkvQuEeyPKiIczS4OrKjUMWu3YIqMnT5bXBYaJMh.svg",
+							"name": "宫西达也恐龙系列",
+							"type": "album",
+							"uuid": "8d58bf70-a1b7-429e-81ea-6467b3aa54df"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/IR1Zq8M87UxlzBoVeLEbYR1EglLQw1XIHohYPo70kvMksgoCipH2s8CycEJfuP3F.svg",
+							"name": "小兔汤姆成长的烦恼",
+							"type": "album",
+							"uuid": "562df151-a153-47c3-b374-8137e63db0ab"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/xSZ64KjmVWA4fDOb0vmQMZp34hJRcWeZ5IdznkVpU2ssHET9yJ47UqAy4w2Pq94u.svg",
+							"name": "托马斯和他的朋友们",
+							"type": "album",
+							"uuid": "b35e1f2a-2fde-40b3-bf05-f74f85b41014"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/eaVlD4aYLSd6Y2fLfhRkDcgAuTD3sof2nyvz2frEZjknekGeiavEfMn1wn2Pc0ph.svg",
+							"name": "小猪佩奇",
+							"type": "album",
+							"uuid": "d60c1b92-975a-4594-b620-eed751f8c1ed"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/qtMPoc0HJilYh9fwlc3uUY1YNFmPJrXMeewZhiTk6rzl6JkXOEAvBKl3ap6K0GSe.svg",
+							"name": "优爸睡前故事",
+							"type": "album",
+							"uuid": "32a7ecaa-d655-44a5-b811-3b6bd120c8bb"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/HIYg4UK5qCX8AWGmwCeI9pAVg9ZrSfaGb4Oz6FNS776RiOFjAdTJJbSrMLbp7VLM.svg",
+							"name": "中国老故事",
+							"type": "album",
+							"uuid": "cc94449f-4fc4-465f-afed-328f3f81690b"
+						}
+					],
+					"layout": "grid",
+					"name": "爱的推荐",
+					"row": 2,
+					"shape": "m",
+					"tag_uuid": "cb950636-713a-4609-b6f8-95c62d2dae4c",
+					"ico_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/hert_o.png",
+					"type": "tag"
+				},
+				{
+					"col": 3,
+					"count": 6,
+					"items": [
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/0lr2Y0Iy4M5zuicO47F9myOTpY2HiZL2oNGyFtjWF1wuLrnnZOF7AOHhEBErGuep.svg",
+							"name": "长着耳朵的树",
+							"type": "album",
+							"uuid": "f4be26e1-2417-4161-a78b-77e52c32664c"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/EcJS9EzyZZB52MGeZ4KoajkV9O9dngvqCgxN761XewQvRU6ac0FPGvJ7YYafbJ4G.svg",
+							"name": "不一样的卡梅拉",
+							"type": "album",
+							"uuid": "88412cb0-67d6-4765-a385-ced372617ad6"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/LDdulpkymBpQthO4BDZcTV8tUAUL9KmdjaVCxJJ5hZYeDdmAmZLeczGsZeeiQu88.svg",
+							"name": "暖暖心绘本",
+							"type": "album",
+							"uuid": "daea01d3-6568-4861-b0ba-e2e7b7ec879a"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/gqd12u38E9Zb01dgziTuesLYeKYt6lqOrNacV0malNWfzFzeOCmAkcfxZIkYowPh.svg",
+							"name": "会飞的帐篷",
+							"type": "album",
+							"uuid": "12e054da-63c2-4ded-ba1c-cbf9328e2d35"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/uiWKCPeGD4M2TdKFjjQh4zi5WZhrZ6MVtn3Xrbp8tMylWCT6WrvJADjynP10cZS4.svg",
+							"name": "停不下来的山地车",
+							"type": "album",
+							"uuid": "808d30ee-e287-459d-9929-5460cfe85b99"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/NvSO9Z0fx5DDn8loih2bt9BI32N7vU16B92yhLqoHETvucwAaBbFyn2Sz40T758q.svg",
+							"name": "没有底的水桶",
+							"type": "album",
+							"uuid": "d205a2d9-6475-4946-820e-c7f89570f538"
+						}
+					],
+					"layout": "grid",
+					"name": "心灵养成",
+					"row": 2,
+					"shape": "m",
+					"tag_uuid": "0ca67a2b-5862-4df0-9a95-38fd285dab6b",
+					"ico_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/soul.png",
+					"type": "tag"
+				},
+				{
+					"col": 3,
+					"count": 6,
+					"items": [
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/r311davq12XhABlyNmZP5kYtKtYRQKKOaTs0ReEXuMWGr23T23oMUKdO8oD8Iay8.svg",
+							"name": "读书时间：朋朋哥哥讲故宫",
+							"type": "album",
+							"uuid": "7adc0133-e6ea-4d59-bb4e-c6ec0983dff7"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/zQJD7yK92EHNQblwUSk3ogFCHrw8wb0bP2BgczpsXH0QwaG20W4JKDGw56FYVJ4n.svg",
+							"name": "多纳百科绘本故事",
+							"type": "album",
+							"uuid": "37500455-91bb-434c-9a32-6dd8dd4ce6e2"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/LeSZdaXFQ6eJvLQG13QaarBiwVjg9uDqvNBcDJeSXUmam6Zl7nbEYF7WtlKCiiFf.svg",
+							"name": "科学宝宝图画书",
+							"type": "album",
+							"uuid": "efbce1d1-ea2e-4e2a-a56a-6b5093de3d8f"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/39UTYORnjBBZR9gxlcF3KkOSawiE41lpy0VNapcW6zKarRhoMP9yYgfHPpFR4aSw.svg",
+							"name": "安迪妈妈讲恐龙大陆",
+							"type": "album",
+							"uuid": "bcea6af9-3a74-4bf6-8766-1e437fcdef7c"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/DsY5byN3mKmFEjzAVXspJfK7I40cntKwFVJQ2zbxyP4b5vDAR5DJgpxQXStYR1tw.svg",
+							"name": "朋朋说—给孩子们听的博物馆",
+							"type": "album",
+							"uuid": "bdc79cd2-a58e-497f-9563-dd21fe73f0b5"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/B3ZzYBG7Xg3hAHPu4q6IkTMXz24EhkbdgCsHu5TGx5vLZICmQLBzbaU3IbB64kdk.svg",
+							"name": "科学爸爸之星空讲坛系列",
+							"type": "album",
+							"uuid": "9e48e76c-8378-4aaf-897b-ed16e27d28b8"
+						}
+					],
+					"layout": "grid",
+					"name": "科普启蒙",
+					"row": 2,
+					"shape": "l",
+					"tag_uuid": "3485f2f2-c84f-4d91-ab84-e2f2912bf71c",
+					"ico_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/Planet.png",
+					"type": "tag"
+				},
+				{
+					"col": 3,
+					"count": 6,
+					"items": [
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/wyjMdjNGTZdlZ78zN7bM26uLjy3rGWa6MJRAF2HpVrQJvVHqkYT6gpzskdXv2aZZ.svg",
+							"name": "西游记",
+							"type": "album",
+							"uuid": "70474295-68fb-4b75-8a5d-376b4fc75cc4"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/gfB3FaLHnuniudJjQpDAJGcnKltzf2XdlQBmgOt94ludg5sNtBnxGwq2Z9HvaqGh.svg",
+							"name": "三国演义",
+							"type": "album",
+							"uuid": "6f1d2605-531f-4f8b-bf0f-4b958acd7878"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/wIlyno5GePVprkG7aT4VVu1GQwMAKMv5GSUj9RIUYmU1TwxlpwunxwJJVfKdc1Rd.svg",
+							"name": "魔法城堡",
+							"type": "album",
+							"uuid": "5668133d-c73e-47c2-a689-d4df5ebe1975"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/P4WR1CZYohOX4c2KmaoaYX2CvFWzagrs72rrydCmAz3xwIqtXTLKln0pDv1UKavt.svg",
+							"name": "少儿版水浒传",
+							"type": "album",
+							"uuid": "10a3e449-5b4a-4801-bbb8-62224c636f24"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/nY7zi2rlaUF00daMbNwK82YZhFlsELWqeMzcagU43jisdJrQLWfQa2zFr7k93Ofo.svg",
+							"name": "儿童版三十六计",
+							"type": "album",
+							"uuid": "fb257121-4117-4bf0-accf-6c84c2d5e08c"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/jgBPoWFcPuX5FFBaieZKMNSbYYdyzl80rivhZ80MaStHgCL57UuKwTXhH33qHz22.svg",
+							"name": "植物大战僵尸",
+							"type": "album",
+							"uuid": "fe8e6b3d-2698-4d9b-92c1-769e160dd607"
+						}
+					],
+					"layout": "grid",
+					"name": "连载故事",
+					"row": 2,
+					"shape": "l",
+					"tag_uuid": "633a6cf2-6b22-4896-9858-0f79bf0aeb51",
+					"ico_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/bookmark.png",
+					"type": "tag"
+				},
+				{
+					"col": 3,
+					"count": 6,
+					"items": [
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/c15PRxj8RKIzVXp1tFZusWWz9bNzjaxx8qRXmaL5X9NISmT1GZlw4UBmTfDvlcCQ.svg",
+							"name": "小学生必背古诗",
+							"type": "album",
+							"uuid": "ce58777a-1e68-4f69-8626-3d413ac2a56d"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/DAlee6GRFVU3TvVhvdmLh1guMyTBw79j6VDUSZKiE5SHCtKQFDqqcZWmdhCVvQh7.svg",
+							"name": "历史穿越报-汉高祖",
+							"type": "album",
+							"uuid": "57889be4-79bb-4c86-af67-91966e2c3478"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/qjpXlgM2WTF787v20IVFJdKEEdumMB4xp1ccaA8BLeRj0k7xcHmwy0VvawK01Pa6.svg",
+							"name": "神奇校车",
+							"type": "album",
+							"uuid": "4af65574-aa07-4deb-9993-5787dc302305"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/YhlNht93xS6piwtIkCXH7ZrldVGbpFuO4dsTS8M9BJb3msAP1HP5vWEbeZM6f7Ho.svg",
+							"name": "新起点小学英语词汇",
+							"type": "album",
+							"uuid": "ee5427a6-ef1e-4004-affd-85c41e030cb0"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/1FQK5ijAfAaiZ3uOcndOkMhxRa27Z6x79rnUuA9Ai8SXINAePgDt2CxsVL6uKUsT.svg",
+							"name": "kwekwe的英语口语20000句",
+							"type": "album",
+							"uuid": "137df19c-e924-4b68-a064-97e35706e775"
+						},
+						{
+							"icon_url": "http://protected-hd-01.0mzl.com/cia/images/musics/tRNvW5spxncY2Fvuj4DVCfa8TnEM4fsY4GGgctf5psQsalGIP0YdtkNvrj8leR9N.svg",
+							"name": "数学小天才",
+							"type": "album",
+							"uuid": "8fb6d1a0-7b9d-4c32-95bb-a07a312fe0f1"
+						}
+					],
+					"layout": "grid",
+					"name": "课堂拓展",
+					"row": 2,
+					"shape": "l",
+					"tag_uuid": "c06c2d21-8940-4cee-a453-3d03e7beb87e",
+					"ico_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/knowledge.png",
+					"type": "tag"
+				},
+				{
+					"col": 3,
+					"count": 3,
+					"items": [
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/swsOMP4KXpLl6sDFUKYcRnwW58Xu4A8RE3phbnc6FAZWxDM52K1dvCmd7XxYux1B.svg",
+							"name": "0-1岁育儿知识",
+							"type": "album",
+							"uuid": "afde4c6b-b006-497c-a5de-74b345685d21"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/MWdrQEFuJ8MjBR4zQCTq67EgkxO5bpwXTtVwIPE8LBsSGEfaKckrJrBQkN309Xpp.svg",
+							"name": "快乐育儿",
+							"type": "album",
+							"uuid": "c0421055-3e5a-46fc-abf1-64530809653a"
+						},
+						{
+							"icon_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/fUKP83NM2m9chAoiE9j6VDTwHnkOVGpUbR9RNR2InoE94tTJnwQBUj4N1ae8ps7w.svg",
+							"name": "育儿宝典",
+							"type": "album",
+							"uuid": "d6d1beb1-d4f7-46e1-9ff3-f4cb927f8b29"
+						}
+					],
+					"layout": "grid",
+					"name": "家长专区",
+					"row": 1,
+					"shape": "l",
+					"tag_uuid": "84e5a2ca-31b2-417a-a339-57a4150c90e6",
+					"ico_url": "http://public01-1255411705.cosbj.myqcloud.com/rompy/glasses.png",
+					"type": "tag"
+				}
+			]
+		},
+		"created_at": 1528861610000,
+		"updated_at": 1528861610000
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "alarm": {
+    "uuid": "3b6af21e-a11a-4459-8636-d04fd3d8debb",
+    "channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+    "device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+    "type": "reminder",
+    "repeat": false,
+    "status": "expired",
+    "trigger_time": 1495527120000,
+    "content": {
+      "text": "吃饭"
+    },
+    "is_handled": false,
+    "is_disabled": false,
+    "is_deleted": false,
+    "payload": {
+      "date": {
+        "day": 23,
+        "month": 5,
+        "year": 2017
+      },
+      "repeat": false,
+      "time": {
+        "hour": 8,
+        "minute": 12
+      }
+    },
+    "created_at": 1521786627806
+  }
+}

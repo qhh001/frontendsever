@@ -1,0 +1,677 @@
+{
+  "tags": [
+    {
+      "uuid": "52eeb53e-a1ba-4fdc-a896-28a9e6439795",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "temperature",
+      "note": "标识温度的名词",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "温度",
+            "synonyms": [
+              "气温"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "1dd953e5-c55b-41c4-bad1-9c5f26a46a77",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "meaningless_prefix",
+      "note": "没有意义的前缀，比如嗯，嗯嗯",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "嗯",
+            "synonyms": [
+              "嗯嗯"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "e6cd0792-0028-4346-9d40-3051efd21c2e",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "question_suffix",
+      "note": "标识疑问的后缀语气词",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "吗",
+            "synonyms": [
+              "不",
+              "否",
+              "咩"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "0fc64c97-d964-49ff-82fd-dd0503647b65",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "temperature_sense",
+      "note": "和温度有关联的感受 主要是冷和热",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "冷",
+            "synonyms": [
+              "凉",
+              "寒冷",
+              "冻",
+              "冻人",
+              "冻的慌"
+            ]
+          },
+          {
+            "keyword": "热",
+            "synonyms": [
+              "暖和",
+              "热的慌"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "b9f734d9-0b80-486f-905e-c267c8d3d599",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "weather_item_action",
+      "note": "对weather_item的动作，比如说带，穿等等",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "带",
+            "synonyms": [
+              "带上",
+              "携带",
+              "带着",
+              "装",
+              "装上"
+            ]
+          },
+          {
+            "keyword": "穿",
+            "synonyms": [
+              "穿上",
+              "穿着",
+              "套上",
+              "套"
+            ]
+          },
+          {
+            "keyword": "打",
+            "synonyms": []
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "b0c14ea0-983b-43b0-ad63-279564778384",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "weather_item",
+      "note": "和天气关联的物品，具体支持请询问工程师",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "雨伞",
+            "synonyms": []
+          },
+          {
+            "keyword": "伞",
+            "synonyms": []
+          },
+          {
+            "keyword": "雨披",
+            "synonyms": []
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "02e708e7-1849-4794-b298-c87f510770f3",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "need",
+      "note": "表示需要的词汇",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "需要",
+            "synonyms": [
+              "要",
+              "得",
+              "必须",
+              "必需",
+              "需求",
+              "用"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "a5fe2463-707e-4888-a751-92fe662d68e3",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "standalone_air_quality",
+      "note": "能单独出现并有空气质量的意思的词汇",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "空气质量",
+            "synonyms": [
+              "空气指数",
+              "空气情况"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "467d78d7-773b-41cd-929d-c5f6f400a866",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "air_quality",
+      "note": "空气质量",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "空气质量",
+            "synonyms": [
+              "空气指数",
+              "空气"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f59162e4-8ff1-4ca7-9475-504bd12e8ebf",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "query",
+      "note": "查天气的查",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "查",
+            "synonyms": [
+              "查询",
+              "询问",
+              "查查",
+              "调查",
+              "调查一下",
+              "查一查",
+              "查找",
+              "找",
+              "找找",
+              "看看",
+              "看",
+              "调查"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "e2c185c2-0118-4905-9e82-51402ee86df5",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "want",
+      "note": "我想xxx的想",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "想",
+            "synonyms": [
+              "希望",
+              "要",
+              "想要",
+              "欲"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "d7df274f-2200-4fd0-b3f9-3e8730502782",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "at",
+      "note": "在哪哪的在",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "在",
+            "synonyms": [
+              "位于",
+              "坐标",
+              "坐标在",
+              "就在"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "1de98d78-8e77-47dd-b70f-783e3911976d",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "a_bit",
+      "note": "xx一下",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "一下",
+            "synonyms": [
+              "下",
+              "个",
+              "一个",
+              "次",
+              "一次"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "723e061f-dab5-457b-bf50-d8c2ddbe4064",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "report",
+      "note": "报天气的动词",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "报",
+            "synonyms": [
+              "说",
+              "汇报",
+              "讲",
+              "讲讲",
+              "说说",
+              "聊聊",
+              "预测",
+              "预言",
+              "预警",
+              "猜测"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "56054f5a-d482-4a81-b49d-1eb475adea0f",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "for_me",
+      "note": "给我及其替换词",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "给我",
+            "synonyms": [
+              "为我",
+              "给",
+              "帮我",
+              "帮",
+              "帮着",
+              "对我"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "363c3752-fc5c-4a10-8f1e-554126c545bf",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "and",
+      "note": "连词，如那么，于是",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "那么",
+            "synonyms": [
+              "那",
+              "于是",
+              "于是乎",
+              "然后",
+              "所以",
+              "所以说",
+              "那然后"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "9a4e90d3-4ac7-4540-8cca-1fd3a83198f6",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "degree",
+      "note": "度数",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "度",
+            "synonyms": [
+              "度数",
+              "温度"
+            ]
+          },
+          {
+            "keyword": "摄氏度",
+            "synonyms": []
+          },
+          {
+            "keyword": "华氏度",
+            "synonyms": []
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "c09d4020-d046-4d79-9ab6-d38897b53ab8",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "how_much",
+      "note": "多少",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "多少",
+            "synonyms": [
+              "几",
+              "几多",
+              "有多少",
+              "几何"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "5bb44814-85ee-495a-b136-23af17325fe8",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "meaningless_suffix",
+      "note": "没有意义的尾缀",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "了",
+            "synonyms": [
+              "呢",
+              "呵",
+              "啊",
+              "哈",
+              "呀"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f13a3508-d23d-4468-94ae-16b82327d37d",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "region_suffix",
+      "note": "市，省，区等等",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "市",
+            "synonyms": [
+              "直辖市"
+            ]
+          },
+          {
+            "keyword": "省",
+            "synonyms": []
+          },
+          {
+            "keyword": "区",
+            "synonyms": [
+              "县"
+            ]
+          },
+          {
+            "keyword": "自治区",
+            "synonyms": []
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "41353b80-f1a5-424d-8eaf-bc017482f85b",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "phenomenon",
+      "note": "代表了可以询问的一些自然现象",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "雨",
+            "synonyms": [
+              "下雨",
+              "有雨",
+              "落雨",
+              "降雨"
+            ]
+          },
+          {
+            "keyword": "雪",
+            "synonyms": [
+              "下雪",
+              "落雪",
+              "降雪",
+              "有雪"
+            ]
+          },
+          {
+            "keyword": "雹",
+            "synonyms": [
+              "冰雹",
+              "下雹",
+              "下冰雹",
+              "雹子"
+            ]
+          },
+          {
+            "keyword": "雾",
+            "synonyms": [
+              "雾气",
+              "雾霭",
+              "阴霾",
+              "薄雾",
+              "浓雾",
+              "大雾"
+            ]
+          },
+          {
+            "keyword": "霾",
+            "synonyms": [
+              "雾霾",
+              "严重雾霾",
+              "浓霾"
+            ]
+          },
+          {
+            "keyword": "扬沙",
+            "synonyms": [
+              "沙尘",
+              "沙尘暴",
+              "浮尘",
+              "沙暴"
+            ]
+          },
+          {
+            "keyword": "飓风",
+            "synonyms": []
+          },
+          {
+            "keyword": "龙卷风",
+            "synonyms": []
+          },
+          {
+            "keyword": "风暴",
+            "synonyms": [
+              "热带风暴",
+              "大风暴",
+              "巨大风暴"
+            ]
+          },
+          {
+            "keyword": "风",
+            "synonyms": [
+              "刮风",
+              "有风",
+              "吹风",
+              "刮大风",
+              "有大风",
+              "刮点风",
+              "有点风"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "915db3d0-e3a1-44a6-94f0-1974bb33121a",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ne",
+      "note": "标识疑问的句尾语气词，如呢，的",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "呢",
+            "synonyms": [
+              "咧",
+              "吗",
+              "的呢",
+              "啊",
+              "的啊"
+            ]
+          },
+          {
+            "keyword": "怎么样",
+            "synonyms": [
+              "怎样",
+              "如何",
+              "咋样",
+              "咋么样"
+            ]
+          },
+          {
+            "keyword": "的",
+            "synonyms": [
+              "来的"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "47c188d6-2aa6-4ecd-8f14-ed06ea833b38",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "standalone_weather",
+      "note": "能够独立出现表示天气的词汇",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "天气",
+            "synonyms": [
+              "天气情况"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "51bcb0fe-1334-4942-8f33-1be6ce6bb73e",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "weather",
+      "note": "表示天气以及其其他的说法",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "天气",
+            "synonyms": [
+              "气候",
+              "天气情况"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ef34dc18-343b-4aad-80d1-c390eb39dfa3",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "how",
+      "note": "表示怎么样，如何等等的词语",
+      "is_global": true,
+      "data": {
+        "values": [
+          {
+            "keyword": "怎么样",
+            "synonyms": [
+              "如何",
+              "咋样",
+              "咋样啊",
+              "何如",
+              "是什么样",
+              "是什么样的",
+              "什么样",
+              "什么样的",
+              "怎样",
+              "好不好",
+              "是怎么样",
+              "怎么样"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "count": 25
+}

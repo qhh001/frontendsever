@@ -1,0 +1,199 @@
+{
+	"tags": [
+		{
+			"uuid": "4b01e6fb-a1a0-4dd9-8d2c-563b6b5e2853",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "inside",
+			"note": "里面的，一般放在课本后面",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "里面的", "synonyms": ["里的", "的", "中的", "里头的"] }] }
+		},
+		{
+			"uuid": "14219af3-8c60-4be9-ace5-d13fa0b46e0f",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "previous",
+			"note": "上一个",
+			"isGlobal": true,
+			"data": {
+				"values": [
+					{ "keyword": "上一个", "synonyms": ["上一课", "上个", "上一刻"] },
+					{ "keyword": "之前的那个", "synonyms": ["刚才的那个", "刚刚的那个"] }
+				]
+			}
+		},
+		{
+			"uuid": "d8d48abc-1dea-4d0e-bfa7-0449d62934ca",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "pronoun",
+			"note": "课文的代词，例如：课文",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "课文", "synonyms": [] }] }
+		},
+		{
+			"uuid": "cc41155d-bc11-4e58-b8a3-e38d540746f7",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "that",
+			"note": "代词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "那", "synonyms": ["这", "这儿", "这个", "那个"] }] }
+		},
+		{
+			"uuid": "175e85b3-9ac1-4913-954c-b6ee7a38d0e9",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "already",
+			"note": "表达刚刚的意思",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "刚", "synonyms": ["刚刚", "刚才", "之前"] }] }
+		},
+		{
+			"uuid": "89ce74a6-d06f-4cd4-9481-56228de0239f",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "repeat",
+			"note": "表达重复的指令",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "重播", "synonyms": ["重新播", "重来", "重新来", "再来一遍", "再一遍", "回放", "回播", "再放"] }] }
+		},
+		{
+			"uuid": "1ee36c70-0cd8-4319-8ff4-22daba79651c",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "others",
+			"note": "用于表达别的词",
+			"isGlobal": true,
+			"data": {
+				"values": [{ "keyword": "别的", "synonyms": ["其他的", "别地", "别滴", "其他", "其它", "其他滴", "其它滴", "其它地", "其他地"] }]
+			}
+		},
+		{
+			"uuid": "f6bda613-17e4-4737-82eb-aa2462524e6f",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "structural_auxiliary",
+			"note": "结构助词的",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "的", "synonyms": ["地", "得"] }] }
+		},
+		{
+			"uuid": "48887e3d-e88b-4e5a-9bff-a6f0d50b3ef6",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "stop",
+			"note": "表达停止的词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "停", "synonyms": ["停下", "停住", "停止", "关闭", "中止", "中断"] }] }
+		},
+		{
+			"uuid": "0d47c6e2-6cae-4884-b57b-1a54add78e5a",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "end",
+			"note": "语气词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "吗", "synonyms": ["吧", "咩", "了", "了呀", "呀", "呐", "哇", "呢", "嘛"] }] }
+		},
+		{
+			"uuid": "160a688c-26ea-4c06-98aa-c16caf48ae4f",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "again",
+			"note": "再次",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "再", "synonyms": ["再次", "重", "重新"] }] }
+		},
+		{
+			"uuid": "ab2a4b8a-cc55-4443-bd84-3763a42b9d7f",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "random",
+			"note": "表达随机的词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "随机", "synonyms": ["随便", "随意", "任意"] }] }
+		},
+		{
+			"uuid": "b5fd2db9-4637-48d4-8644-d4f883e93694",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "what",
+			"note": "表达什么，在句式“你会背什么课文”中使用",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "什么", "synonyms": ["啥", "哪些", "哪种", "神马", "多少"] }] }
+		},
+		{
+			"uuid": "b282a97d-13c2-4b09-9c58-8ec78d7505e8",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "ask_have",
+			"note": "询问有无的词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "有", "synonyms": ["有没有", "有吗", "有不"] }] }
+		},
+		{
+			"uuid": "6c184df0-91fe-4ed8-93c1-ea2d6f7d86f2",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "ask_know",
+			"note": "询问能力的词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "知道", "synonyms": ["知不知道", "知道不知道"] }] }
+		},
+		{
+			"uuid": "382f6ccf-c84e-4465-a58d-814e33d8d15f",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "ask_able",
+			"note": "询问能力的词",
+			"isGlobal": true,
+			"data": {
+				"values": [
+					{
+						"keyword": "能",
+						"synonyms": ["能够", "可以", "能不能", "能不能够", "能够不能够", "可不可以", "可以不可以", "有", "你有", "有没有"]
+					}
+				]
+			}
+		},
+		{
+			"uuid": "d3127667-d56e-4113-a2fd-ec9e79aecf61",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "ask_can",
+			"note": "询问能力的词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "会", "synonyms": ["会不会"] }] }
+		},
+		{
+			"uuid": "d1a24105-8886-439d-848b-ebf6648a2d5d",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "you_do",
+			"note": "主语是你的意愿词",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "给", "synonyms": ["帮", "请帮", "请给", "帮忙"] }] }
+		},
+		{
+			"uuid": "794dbde9-7e65-4ac3-a140-b628ee40df56",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "don’t_want",
+			"note": "表达不想要的意愿",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "不想", "synonyms": ["不", "不要", "不想要"] }] }
+		},
+		{
+			"uuid": "a6bb7ba5-9dfe-49f3-8255-318328a84795",
+			"channelUuid": "",
+			"serviceUuid": "9a075b39-606b-4bbe-a7b8-b2c70ae42e4a",
+			"name": "want",
+			"note": "表达想要的意愿",
+			"isGlobal": true,
+			"data": { "values": [{ "keyword": "想", "synonyms": ["要", "想要"] }] }
+		}
+	],
+	"count": 26
+}

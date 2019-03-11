@@ -1,0 +1,18 @@
+{
+  "uuid": "ccc61d6d-e7cc-4147-ad7c-4dfa83838c79",
+  "content": {
+    "text": "提醒我吃饭"
+  },
+  "type": "alarm",
+  "payload": {
+    "repeat": true,
+    "time": {
+      "hour": 10,
+      "minute": 0,
+      "second": 0
+    },
+    "rules": {
+      "every_day": true
+    }
+  }
+}

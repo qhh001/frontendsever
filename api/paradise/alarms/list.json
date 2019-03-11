@@ -1,0 +1,630 @@
+{
+	"waiting": [
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭",
+				"name": "早安儿歌",
+				"image_url": "xxxxx"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"week": [1, 2, 3, 4, 5, 6]
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		},
+		{
+			"uuid": "f7c21ae8-a34b-43bc-8f5d-eca81b9d8edb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": true,
+			"status": "waiting",
+			"trigger_time": 1521792720000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"repeat": true,
+				"rules": {
+					"every_day": true
+				},
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786201000
+		},
+		{
+			"uuid": "100a145e-e726-4759-8af7-a4ce1aae1dd2",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "waiting",
+			"trigger_time": 1527063120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2018
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786545000
+		}
+	],
+	"expired": [
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8debb",
+			"channel_uuid": "0a71448d-440d-4782-9645-b32c814dfdff",
+			"device_uuid": "543eccac-c36c-58a8-82ec-c6eebc97b089",
+			"type": "reminder",
+			"repeat": false,
+			"status": "expired",
+			"trigger_time": 1495527120000,
+			"content": {
+				"text": "吃饭"
+			},
+			"is_handled": false,
+			"is_disabled": false,
+			"is_deleted": false,
+			"payload": {
+				"date": {
+					"day": 23,
+					"month": 5,
+					"year": 2017
+				},
+				"repeat": false,
+				"time": {
+					"hour": 8,
+					"minute": 12
+				}
+			},
+			"created_at": 1521786628000
+		}
+	]
+}

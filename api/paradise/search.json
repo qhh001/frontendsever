@@ -1,0 +1,38 @@
+{
+	"arts": [
+		{
+			"uuid": "206d7464-c34d-4043-9a48-674450e029dc",
+			"name": "海滩奇遇",
+			"collection": "musics",
+			"image_url": "xxxxx",
+			"duration": 332,
+			"album": "专辑"
+		},
+		{
+			"uuid": "905d2dd2-55ff-470e-8541-3ce97a0af155",
+			"name": "猜猜看",
+			"collection": "musics",
+			"image_url": "xxxxx",
+			"duration": 332,
+			"album": ""
+		}
+	],
+	"albums": [
+		{
+			"uuid": "00a22115-5956-4233-aeb8-b4843361c4cc",
+			"name": "多纳双语绘本故事",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/3kYoybFLtgmhnmVOEjRSnOhvWAeMdZiutmsrs8QCI8P7OF506eviUb3d0EYK6lzK.svg",
+			"art_count": 81,
+			"description": "新东方旗下权威品牌，启蒙孩子的双语教育，让孩子快乐地学习英语吧",
+			"collection": "albums"
+		},
+		{
+			"uuid": "120ed6b1-4679-4001-9b27-93e16418b2c9",
+			"name": "凯叔讲故事",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/6N6XugZiAxt8TshqxzdyG5H70lPxEtuwVIKssdvh4nOWKWBrjFSkQ8JA90tn14pd.svg",
+			"art_count": 90,
+			"description": "用心原创和改编的故事，打破传统的枯燥无味，让孩子彻底爱上",
+			"collection": "story_books"
+		}
+	]
+}

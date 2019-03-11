@@ -1,0 +1,7 @@
+{
+  "user_uuid": "test_user",
+  "collection": "textbooks",
+  "album_uuid": "test_album",
+  "offset": 0,
+  "limit": 12
+}

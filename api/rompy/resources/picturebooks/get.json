@@ -1,0 +1,11 @@
+{
+	"picturebook": {
+		"uuid": "8bfce992-5a38-4bf3-bda1-1296ebc36a61",
+		"name": "绘本名称-测试",
+		"cover_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/rompy/picturebooks/Danny-and-the-Dinosaur-Go-To-Camp.jpg",
+		"tag_uuid": "",
+		"duration": 0,
+		"desc": "",
+		"order": 0
+	}
+}

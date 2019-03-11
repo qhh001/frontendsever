@@ -1,0 +1,52 @@
+{
+	"albums": [
+		{
+			"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/lydnrhqpysUJ1veCNxcKdLZv4Xrpzo4IKqIRZlCFt3SvHxk47qogNKWDnaIRQzLB.jpg",
+			"uuid": "bf85450c-9dd2-4048-afac-b81b9852b902",
+			"name": "xxx",
+			"type": "mi6_album",
+			"album_type": "music",
+			"art_type": "channel_music"
+		},
+		{
+			"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/lydnrhqpysUJ1veCNxcKdLZv4Xrpzo4IKqIRZlCFt3SvHxk47qogNKWDnaIRQzLB.jpg",
+			"uuid": "bf85450c-9dd2-4048-afac-b81b9852b902",
+			"name": "xxx",
+			"type": "mi6_album",
+			"album_type": "music",
+			"art_type": "channel_music"
+		},
+		{
+			"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/lydnrhqpysUJ1veCNxcKdLZv4Xrpzo4IKqIRZlCFt3SvHxk47qogNKWDnaIRQzLB.jpg",
+			"uuid": "bf85450c-9dd2-4048-afac-b81b9852b902",
+			"name": "xxx",
+			"type": "mi6_album",
+			"album_type": "music",
+			"art_type": "channel_music"
+		},
+		{
+			"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/lydnrhqpysUJ1veCNxcKdLZv4Xrpzo4IKqIRZlCFt3SvHxk47qogNKWDnaIRQzLB.jpg",
+			"uuid": "bf85450c-9dd2-4048-afac-b81b9852b902",
+			"name": "xxx",
+			"type": "mi6_album",
+			"album_type": "music",
+			"art_type": "channel_music"
+		},
+		{
+			"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/lydnrhqpysUJ1veCNxcKdLZv4Xrpzo4IKqIRZlCFt3SvHxk47qogNKWDnaIRQzLB.jpg",
+			"uuid": "bf85450c-9dd2-4048-afac-b81b9852b902",
+			"name": "xxx",
+			"type": "mi6_album",
+			"album_type": "music",
+			"art_type": "channel_music"
+		},
+		{
+			"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/lydnrhqpysUJ1veCNxcKdLZv4Xrpzo4IKqIRZlCFt3SvHxk47qogNKWDnaIRQzLB.jpg",
+			"uuid": "bf85450c-9dd2-4048-afac-b81b9852b902",
+			"name": "xxx",
+			"type": "mi6_album",
+			"album_type": "music",
+			"art_type": "channel_music"
+		}
+	]
+}

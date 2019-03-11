@@ -1,0 +1,94 @@
+{
+	"albums": [
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "de534fc5-f7b8-4215-ab3e-c8e7baec750b",
+			"name": "【新东方多纳】剑桥分级阅读(1-4)级",
+			"image_url": "http://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/fHcqCwcO8svPKU7TqtMhzpe7ps1QAk1da6NMDnMjaylTc9s3mRqje753fGUo1gp1.png",
+			"description": "学好英语看世界，和成千上百个家庭一起进行亲子英文的学习吧。",
+			"count": 40
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "3144677b-62df-4ccb-871a-46c76c503ed9",
+			"name": "国学之声之讲给孩子的历史故事",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/nggU9Es65t8iomHxJBPDc0r485iJPqwCUdZqRHmGMhx9c0K8OGvi2TwRaqyrfRFg.jpg",
+			"description": "历史是一个知识的宝藏，是一本耐看的故事书。了解历史从少儿做起。",
+			"count": 40
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "34fd48cc-48a8-49c2-a81b-4676bfe86ed7",
+			"name": "国学之声之小太极故事",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/qJO3gJPH9eIoKAKufCfVc6c5nipqfKk0EBTwtlWol2pknaUekqNiJRIxsLsBndHj.jpg",
+			"description": "一只奇怪的大鸟，变身精卫，为小学生大龙讲述上古神话传说。",
+			"count": 13
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "0ff52c6e-546f-410e-a308-8e035f0c9b88",
+			"name": "国学之声之至善之道",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/pmzIbda57q3gyYtD866yqdWmR26DMqSphNV0LkVV4eEOpvAZI6q8vEdBEawohPGz.jpg",
+			"description": "让孩子了解什么才是至善之道，具有深刻的教育意义。",
+			"count": 13
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "ab5a054b-11aa-4c05-8c21-90d717a36128",
+			"name": "国学之声之三字经里的故事",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/dfCPyeAu7wTyICSvNRrrOMLbo99kdl0FrUm6ikUd0j5aiMwlJf5HGRS6GZAcboy2.jpg",
+			"description": "根据三字经里的内容，汇集而成的生动有趣的52个小故事。",
+			"count": 25
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "52630ac2-9f5c-4c8b-b5db-c49acdcf7c2c",
+			"name": "国学之声之中华传统文化",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/U5R8SaxiWAEPr4uVQk0bnkXtn4qtfYWuwiFxT6J66OIT1Bwy1uz5zXN9nad8yhx4.jpg",
+			"description": "中华传统文化是中国五千年优秀文化的统领，让智慧播撒在孩子心间。",
+			"count": 40
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "2ccf216f-7d2d-4c20-b60f-7bbce4d5dee5",
+			"name": "国学之声之五子说",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/GZJux6UbzdZdvK2PMBFt1bzm6rcNRGkCM44SbX7nNbHssjgbVqEpz8Hrkw69zIqX.jpg",
+			"description": "以讲故事为载体，讲述关于富有智慧的五人的很多有趣的小故事",
+			"count": 40
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "ba975c7e-80be-42f3-8009-cc926c08af8b",
+			"name": "国学之声之千家诗",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/Jc5nh1dtdKsToWUUaSKODLbJwOWKI9pGq0ia7GtltOAC5dFHVx4IU9kuvBD6Dnuy.jpg",
+			"description": "青少年学习近体诗的启蒙作品，也是古典诗歌爱好者的喜见读物。",
+			"count": 39
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "de98d213-641e-408e-8c50-f54c82476689",
+			"name": "国学之声之孝经",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/tjCKkdwUU9NuK2pSqdIFzfC3lliJgPcZzxf70uJ94DKYJmKknNkMAXGqTFYP9Yng.jpg",
+			"description": "《孝经》是古代经典，以孝为中心，教导人们怀有感恩之心生活。",
+			"count": 18
+		},
+		{
+			"origin": "echocloud",
+			"type": "story",
+			"uuid": "73dca311-467b-439b-bb6b-b4f7ebfc2fd5",
+			"name": "国学之声之笠翁对韵",
+			"image_url": "https://public01-1255411705.cosbj.myqcloud.com/cia/images/stories/qt9PB7BE5Xmc5ZoqeusICTFF44XUj3QuW3ktKleQ5gh4hDQ85XdsxSci3BtKfTIH.jpg",
+			"description": "《笠翁对韵》是从前人们学习写作近体诗、词的启蒙读物。",
+			"count": 30
+		}
+	]
+}

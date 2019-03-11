@@ -1,0 +1,13 @@
+{
+  "template": {
+    "uuid": "8d79ae2e-4f9e-40d8-b4a2-1d40695c885a",
+    "name": "aaa",
+    "note": "",
+    "priority": 3,
+    "channel_uuid": "",
+    "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+    "userIntentUuid": "aef53174-688e-4111-a5ca-77894bbfd6c7",
+    "is_global": true,
+    "definition": "aaa"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "count": 1,
+  "sentence_patterns": [
+    {
+      "uuid": "48fa4670-3508-401b-9a28-8a93986cbee5",
+      "name": "[表达听音乐的动作][一个可以被听的实体]",
+      "service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+      "user_intent_uuid": "24432080-3e6a-446d-ae63-caa8ad4805a8",
+      "note": "该句式可分为两部分，例如：[我想听][七里香];[我想听][周杰伦]",
+      "definition": "{{part.play_or_listen_action}}{{part.entity_can_be_listened}}",
+      "priority": 5,
+      "parts": [
+        {
+          "name": "play_or_listen_action",
+          "phrases": [
+            {
+              "note": "i_want_listen",
+              "template": "{{i_want}}{{listen}}",
+              "variables": {}
+            },
+            {
+              "note": "play_for_me",
+              "template": "给我{{play}}",
+              "variables": {}
+            }
+          ]
+        },
+        {
+          "name": "entity_can_be_listened",
+          "phrases": [
+            {
+              "note": "歌手",
+              "template": "{{sys.singer}}",
+              "variables": {}
+            },
+            {
+              "note": "歌",
+              "template": "{{sys.music:song}}",
+              "variables": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

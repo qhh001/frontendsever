@@ -1,0 +1,12 @@
+{
+	"album": {
+		"art_count": 10,
+		"description": "xxx",
+		"image_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/yXIkbPbOICaAchCXueMW2TbGGqlnzgDzoWElJPIHA1kUOl0o7kCTFejEGba7xCF5.jpeg",
+		"name": "xxxx",
+		"uuid": "35e3de7e-0cff-4ad7-9459-12fbcbf73b84",
+		"type": "mi6_album",
+		"album_type": "music",
+		"art_type": "channel_music"
+	}
+}

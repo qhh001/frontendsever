@@ -1,0 +1,8 @@
+{
+	"user_uuid": "",
+	"app_id": "",
+	"type": "music",
+	"query": { "tags": "xxx" },
+	"limit": 10,
+	"offset": 0
+}

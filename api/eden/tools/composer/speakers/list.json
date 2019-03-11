@@ -1,0 +1,63 @@
+{
+	"using": {
+		"category": "free",
+		"name": "度丫丫"
+	},
+	"speakers": [
+		{
+			"category": "free",
+			"name": "度丫丫"
+		},
+		{
+			"category": "paid",
+			"name": "甜美女声",
+			"default": true
+		},
+		{
+			"category": "paid",
+			"name": "模仿儿童",
+			"using": true
+		},
+		{
+			"category": "paid",
+			"name": "知性女声"
+		},
+		{
+			"category": "paid",
+			"name": "星仔"
+		},
+		{
+			"category": "paid",
+			"name": "磁性男生"
+		},
+		{
+			"category": "paid",
+			"name": "邻家女声"
+		},
+		{
+			"category": "paid",
+			"name": "萝莉女声"
+		},
+
+		{
+			"category": "paid",
+			"name": "孙悟空"
+		},
+		{
+			"category": "paid",
+			"name": "中文儿童"
+		},
+		{
+			"category": "paid",
+			"name": "标准男生"
+		},
+		{
+			"category": "paid",
+			"name": "标准女生"
+		},
+		{
+			"category": "paid",
+			"name": "成熟女声"
+		}
+	]
+}

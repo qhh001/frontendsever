@@ -1,0 +1,13 @@
+{
+	"collection": "albums",
+	"user_uuid": "625d7ff9-4c4d-4b2a-bd87-08afbf321452",
+	"operation": "create",
+	"status": "waiting",
+	"commentary": "实习生新建一条记录",
+	"data": {
+		"uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+		"name": "我不做大哥好多年",
+		"aliases": ["大哥", "好多年"],
+		"type": "待定"
+	}
+}

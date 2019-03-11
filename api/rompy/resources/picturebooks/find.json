@@ -1,0 +1,37 @@
+{
+	"picturebooks": [
+		{
+			"uuid": "3dbbe4a6-5d89-450e-aed4-1efcec7a6c5d",
+			"name": "中国名家",
+			"video_url": "",
+			"icon_url": "http://protected-hd-01.oss-cn-hangzhou.aliyuncs.com/gaea/icons/albums/resource_image_ee94bc0e-ee09-4345-be53-e950b23a9a9a.jpg",
+			"tag_uuid": "",
+			"duration": 0,
+			"desc": "",
+			"order": 0,
+			"type": "rompy_picturebook"
+		},
+		{
+			"uuid": "80115328-6d4a-494c-b0fa-02825fccfade",
+			"name": "世界童事",
+			"video_url": "",
+			"icon_url": "http://protected-hd-01.oss-cn-hangzhou.aliyuncs.com/gaea/icons/albums/resource_image_ca6d7af1-0bf3-43ea-a691-962285cfc7c0.jpg",
+			"tag_uuid": "",
+			"duration": 0,
+			"desc": "",
+			"order": 0,
+			"type": "rompy_picturebook"
+		},
+		{
+			"uuid": "cc94449f-4fc4-465f-afed-328f3f81690b",
+			"name": "中国老故事",
+			"video_url": "",
+			"icon_url": "http://protected-hd-01.oss-cn-hangzhou.aliyuncs.com/gaea/icons/albums/resource_image_29485c25-1b86-44bd-89b8-afb94274c5ee.jpg",
+			"tag_uuid": "",
+			"duration": 0,
+			"desc": "",
+			"order": 0,
+			"type": "rompy_picturebook"
+		}
+	]
+}

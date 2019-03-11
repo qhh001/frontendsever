@@ -1,0 +1,20 @@
+{
+  "tag": {
+    "uuid": "52eeb53e-a1ba-4fdc-a896-28a9e6439795",
+    "channel_uuid": "",
+    "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+    "name": "temperature",
+    "note": "标识温度的名词",
+    "is_global": true,
+    "data": {
+      "values": [
+        {
+          "keyword": "温度",
+          "synonyms": [
+            "气温"
+          ]
+        }
+      ]
+    }
+  }
+}

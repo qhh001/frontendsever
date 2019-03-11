@@ -1,0 +1,14 @@
+{
+	"user": {
+		"uuid": "ab34766f-629b-42d4-a043-16b49dd105ff",
+		"username": "",
+		"display_name": "啦啦啦_菜鸡",
+		"gender": 0,
+		"email": "xxx@echocloud.com",
+		"phone": "13888888888",
+		"avatar_url": "http://public01-1255599478.cos.ap-beijing.myqcloud.com/eden/tmp/orsOFqIfkdbC8lQ6kZb1zoNnurcNfwNYgJX7kzL6XVc5nIXuRBUpjGOYcneX6wRD.jpg",
+		"source": "web",
+		"role": "user",
+		"created_at": 1535527645913
+	}
+}

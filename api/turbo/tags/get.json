@@ -1,0 +1,12 @@
+{
+	"tag": {
+		"uuid": "b159a29c-22c4-49cb-91ee-ac97b0749578",
+		"channelUuid": "",
+		"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+		"service": "古诗词1111111111111",
+		"name": "测试数据（麻烦删除）",
+		"note": "测试数据（麻烦删除）",
+		"isGlobal": true,
+		"data": { "values": [{ "keyword": "漂亮", "synonyms": ["美丽", "靓妹"] }, { "keyword": "温柔", "synonyms": ["乖巧", "贤惠"] }] }
+	}
+}

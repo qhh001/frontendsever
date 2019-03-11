@@ -1,0 +1,16 @@
+{
+  "user": {
+    "uuid": "27945ef0-b6aa-4292-bf45-0511e7fb94a0",
+    "open_id": "123456",
+    "wx_id": "wxid",
+    "display_name": "",
+    "gender": 0,
+    "avatar_url": "",
+    "created_at": 1519786577231,
+    "source": "wechat",
+    "role": "user"
+  },
+  "access_token": "ac317fc113b560bf7a59351920c6f153",
+  "timestamp": 1519786577232,
+  "has_info": false
+}

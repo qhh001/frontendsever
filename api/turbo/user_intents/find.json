@@ -1,0 +1,62 @@
+{
+	"user_intents": [
+		{
+			"uuid": "e605709a-ac1e-4d69-9377-5ed88cb4bec1",
+			"channelUuid": "",
+			"serviceUuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"name": "ASK_MUSIC_INFOS",
+			"note": "询问音乐相关信息，比如：这首歌是谁唱的。",
+			"isGlobal": true,
+			"variables": { "required": null, "optional": null }
+		},
+		{
+			"uuid": "18b2b4db-1741-4e0c-8ca3-d8ceadde42c7",
+			"channelUuid": "",
+			"serviceUuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"name": "STATE_MUSIC_RELATED",
+			"note": "周杰伦七里香",
+			"isGlobal": true,
+			"variables": { "required": null, "optional": ["song", "singer", "album"] }
+		},
+		{
+			"uuid": "b293d282-05c8-4f80-9d95-f6520c24d8db",
+			"channelUuid": "",
+			"serviceUuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"name": "STOP_LISTENING_MUSIC",
+			"note": "我不想听听歌了",
+			"isGlobal": true,
+			"variables": { "required": null, "optional": null }
+		},
+		{
+			"uuid": "2f126283-214c-4f2a-a9f5-6829ddfd148d",
+			"channelUuid": "",
+			"serviceUuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"name": "CHANGE_MUSIC_RELATED",
+			"note": "更换音乐的描述，比如：换一首；上一首；下一首 等",
+			"isGlobal": true,
+			"variables": { "required": null, "optional": ["next", "previous"] }
+		},
+		{
+			"uuid": "87b27445-8a8f-491a-8e6d-a2f9988eb363",
+			"channelUuid": "",
+			"serviceUuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"name": "ASK_MUSIC_ABILITY",
+			"note": "询问音乐技能，比如：你会唱什么歌",
+			"isGlobal": true,
+			"variables": { "required": null, "optional": null }
+		},
+		{
+			"uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"channelUuid": "",
+			"serviceUuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"name": "LISTEN_MUSIC",
+			"note": "所有关于听音乐的描述，比如：我要听歌；我想听周杰伦的七里香；我想听儿童歌曲 等",
+			"isGlobal": true,
+			"variables": {
+				"required": null,
+				"optional": ["song", "singer", "tag", "album", "language", "emotion", "style", "category", "scene", "instrument"]
+			}
+		}
+	],
+	"count": 6
+}

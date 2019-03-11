@@ -1,0 +1,19 @@
+{
+  "user_intent": {
+      "uuid": "79786270-2828-4086-968b-d20812fdf89b",
+      "channel_uuid": "",
+      "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+      "name": "ASK_SENSORY_TEMPERATURE",
+      "note": "问体感温度，冷不冷，热不热",
+      "is_global": true,
+      "variables": {
+        "required": [
+          "sense"
+        ],
+        "optional": [
+          "date",
+          "region"
+        ]
+      }
+    }
+}

@@ -1,0 +1,942 @@
+{
+	"sentence_patterns": [
+		{
+			"uuid": "486d6a9a-2b3a-4208-8cad-28fec0d1d605",
+			"name": "**+我想听+想听内容+**",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，我想听流行乐，吧",
+			"priority": 3,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "我想听", "template": "{{i_want}}{{listen}}", "variables": {} },
+						{ "note": "给我们播放", "template": "{{you_do}}{{play:1}}", "variables": {} },
+						{ "note": "听+首", "template": "{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "唱/播放+首", "template": "{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "听", "template": "{{listen}}", "variables": {} },
+						{ "note": "我想听+首", "template": "{{i_want}}{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "给我们播放+首", "template": "{{you_do}}{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有没有", "template": "你{{ask_have}}", "variables": {} },
+						{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play:1}}", "variables": {} },
+						{ "note": "会不会+唱", "template": "{{ask_can}}{{play:1}}", "variables": {} },
+						{ "note": "来+唱", "template": "{{play_special}}{{play}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{belong}}{{sys.music:song}}", "variables": {} },
+						{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+的+名字叫做+歌名",
+							"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+						{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} },
+						{ "note": "音乐代词+歌名", "template": "{{pronoun}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌曲种类+歌名", "template": "{{category}}{{sys.music:song}}", "variables": {} },
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "歌名+的歌曲", "template": "{{sys.music:song}}的{{pronoun}}", "variables": {} },
+						{ "note": "七里香+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "专辑名+里面的+歌名", "template": "{{sys.album}}{{Inside}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌名+这+首+歌", "template": "{{sys.music:song}}{{this}}{{quantifier:0}}{{pronoun}}", "variables": {} },
+						{ "note": "歌名+种类", "template": "{{sys.music:song}}{{category}}", "variables": {} },
+						{ "note": "乐器", "template": "{{instrument}}", "variables": {} },
+						{ "note": "歌曲+叫做+歌名", "template": "{{pronoun}}{{name_is}}{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "c773b022-b60c-41cb-9182-7923e349bb67",
+			"name": "我想听+想听内容+***",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：我想听流行乐，吗",
+			"priority": 4,
+			"definition": "{{part.part1}}{{part.part2}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "我想听", "template": "{{i_want}}{{listen}}", "variables": {} },
+						{ "note": "给我们播放", "template": "{{you_do}}{{play:1}}", "variables": {} },
+						{ "note": "听+首", "template": "{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "唱/播放+首", "template": "{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "听", "template": "{{listen}}", "variables": {} },
+						{ "note": "唱", "template": "{{play:1}}", "variables": {} },
+						{ "note": "我想听+首", "template": "{{i_want}}{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "给我们播放+首", "template": "{{you_do}}{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有没有", "template": "你{{ask_have}}", "variables": {} },
+						{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play:1}}", "variables": {} },
+						{ "note": "有没有", "template": "{{ask_have}}", "variables": {} },
+						{ "note": "会不会+唱", "template": "{{ask_can}}{{play:1}}", "variables": {} },
+						{ "note": "来+唱", "template": "{{play_special}}{{play}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{belong}}{{sys.music:song}}", "variables": {} },
+						{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+的+名字叫做+歌名",
+							"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+						{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} },
+						{ "note": "音乐代词+歌名", "template": "{{pronoun}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌曲种类+歌名", "template": "{{category}}{{sys.music:song}}", "variables": {} },
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "歌名+的歌曲", "template": "{{sys.music:song}}的{{pronoun}}", "variables": {} },
+						{ "note": "七里香+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "专辑名+里面的+歌名", "template": "{{sys.album}}{{Inside}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌名+这+首+歌", "template": "{{sys.music:song}}{{this}}{{quantifier:0}}{{pronoun}}", "variables": {} },
+						{ "note": "歌名+种类", "template": "{{sys.music:song}}{{category}}", "variables": {} },
+						{ "note": "乐器", "template": "{{instrument}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "b888b425-3791-425f-b23b-6e06fba7d8e8",
+			"name": "对歌手&歌名的询问：***+指代歌曲+是谁唱的/叫什么名字+***",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "e605709a-ac1e-4d69-9377-5ed88cb4bec1",
+			"note": "例如：你好，这首歌是谁唱的/七里香是谁唱的，呀",
+			"priority": 3,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "这+首+歌", "template": "{{this}}{{quantifier}}{{pronoun}}", "variables": {} },
+						{ "note": "这+歌", "template": "{{this}}{{pronoun}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "谁+唱的", "template": "{{ask_who}}{{belong}}", "variables": { "singer_info": true } },
+						{ "note": "叫什么名字", "template": "{{ask_name}}", "variables": { "song_info": true } }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "3bfa6627-243a-4081-96df-f3ae841e4ef7",
+			"name": "我想听+听的音乐内容+修饰词",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：我想听小白兔儿童歌曲",
+			"priority": 5,
+			"definition": "{{part.part1}}{{part.part3}}{{part.part2}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "我想听", "template": "{{i_want}}{{listen:0}}", "variables": {} },
+						{ "note": "给我们播放", "template": "{{you_do}}{{play}}", "variables": {} },
+						{ "note": "我想听+首", "template": "{{i_want}}{{listen:0}}{{quantifier}}", "variables": {} },
+						{ "note": "给我们播放+首", "template": "{{you_do}}{{play}}{{quantifier}}", "variables": {} },
+						{ "note": "播放+首", "template": "{{play}}{{quantifier}}", "variables": {} },
+						{ "note": "听+首", "template": "{{listen:0}}{{quantifier}}", "variables": {} },
+						{ "note": "听", "template": "{{listen:0}}", "variables": {} },
+						{ "note": "唱", "template": "{{play}}", "variables": {} },
+						{ "note": "你+知不知道", "template": "你{{ask_have}}", "variables": {} },
+						{ "note": "有没有", "template": "{{ask_have}}", "variables": {} },
+						{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play}}", "variables": {} },
+						{ "note": "会不会+唱", "template": "{{ask_can}}{{play}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part3",
+					"phrases": [
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "的+音乐种类", "template": "{{structural_auxiliary}}{{category}}", "variables": {} },
+						{ "note": "的+音乐代词", "template": "{{structural_auxiliary}}{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类+音乐代词", "template": "{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "的+音乐种类+音乐代词", "template": "{{structural_auxiliary}}{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌名+种类", "template": "{{sys.music:song}}{{category}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "流行，古典等歌曲类型", "template": "{{style}}", "variables": {} },
+						{ "note": "睡觉，学习等场景", "template": "{{scene}}", "variables": {} },
+						{ "note": "适合+睡觉", "template": "{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "睡觉+适合", "template": "{{scene}}{{appropriate}}", "variables": {} },
+						{ "note": "欧美", "template": "{{region}}", "variables": {} },
+						{ "note": "英文", "template": "{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+英文", "template": "{{style}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{style}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+适合+睡觉", "template": "{{style}}{{structural_auxiliary:2}}{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "好听+的+英文", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "好听+的+欧美", "template": "{{adj}}{{structural_auxiliary:2}}{{region}}", "variables": {} },
+						{ "note": "安静等情绪修饰音乐的", "template": "{{emotion}}", "variables": {} },
+						{ "note": "安静+的+英文", "template": "{{emotion}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "安静+英文", "template": "{{emotion}}{{sys.language}}", "variables": {} },
+						{ "note": "睡觉+听", "template": "{{scene}}{{listen}}", "variables": {} },
+						{ "note": "适合+睡觉+听", "template": "{{appropriate}}{{scene}}{{listen}}", "variables": {} },
+						{ "note": "睡觉+适合+听", "template": "{{scene}}{{appropriate}}{{listen}}", "variables": {} },
+						{ "note": "英文+安静", "template": "{{sys.language}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "好听+的+歌手名", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.singer}}", "variables": {} },
+						{ "note": "歌手名+安静", "template": "{{sys.singer}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名+的+安静", "template": "{{sys.singer}}{{belong}}{{emotion}}", "variables": {} },
+						{ "note": "歌手+的+英文", "template": "{{sys.singer}}{{belong}}{{sys.language}}", "variables": {} },
+						{ "note": "英文+的+安静", "template": "{{sys.language}}{{structural_auxiliary:2}}{{emotion}}", "variables": {} },
+						{ "note": "英文+的+流行", "template": "{{sys.language}}{{structural_auxiliary:2}}{{style}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{sys.language}}{{style}}", "variables": {} },
+						{ "note": "好听的等无意义的修饰词", "template": "{{adj}}", "variables": {} },
+						{ "note": "歌手+儿童，快慢等风格", "template": "{{sys.singer}}{{style}}", "variables": {} },
+						{ "note": "歌手+的+快慢等风格", "template": "{{sys.singer}}{{belong}}{{style}}", "variables": {} },
+						{ "note": "吉他", "template": "{{instrument}}", "variables": {} },
+						{ "note": "吉他+弹的", "template": "{{instrument}}{{instrument_play}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "2f9abc7d-c3ff-4686-8780-b747c50a855c",
+			"name": "**+特殊动词+专辑+里面的歌+**",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，来首摩羯座专辑里面的歌，吧",
+			"priority": 3,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{part.part3}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "2d1fee67-3329-4ad7-8f4e-80b8be13b3fa",
+			"name": "特殊动词+专辑+里面的歌+**",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：来首摩羯座专辑里面的歌，吧",
+			"priority": 4,
+			"definition": "{{part.part1}}{{part.part2}}{{part.part3}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "来+首", "template": "{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点+首", "template": "{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "有", "template": "{{ask_can}}", "variables": {} },
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点", "template": "{{listen_special}}", "variables": {} },
+						{ "note": "你+有", "template": "你{{ask_can}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "2aa4e056-2d56-47b4-bf98-b83a5f716b0a",
+			"name": "**+特殊动词+专辑+里面的歌",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，来首摩羯座专辑里面的歌",
+			"priority": 4,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{part.part3}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "3b9842ee-9e78-49fd-9f27-3cc7a828ac85",
+			"name": "***+我想听+专辑+里面的歌+***",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，我想听摩羯座专辑里面的歌，吧",
+			"priority": 3,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{part.part3}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "我想听", "template": "{{i_want}}{{listen}}", "variables": {} },
+						{ "note": "给我们播放", "template": "{{you_do}}{{play:1}}", "variables": {} },
+						{ "note": "我想听+首", "template": "{{i_want}}{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "给我们播放+首", "template": "{{you_do}}{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有没有", "template": "你{{ask_have}}", "variables": {} },
+						{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play:1}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "e0f63699-0469-45b7-875a-3a9cc84a6221",
+			"name": "我想听+专辑+里面的歌+***",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：我想听摩羯座专辑里面的歌，吧",
+			"priority": 4,
+			"definition": "{{part.part1}}{{part.part2}}{{part.part3}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "我想听", "template": "{{i_want}}{{listen}}", "variables": {} },
+						{ "note": "给我们播放", "template": "{{you_do}}{{play:1}}", "variables": {} },
+						{ "note": "听+首", "template": "{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "唱/播放+首", "template": "{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "听", "template": "{{listen}}", "variables": {} },
+						{ "note": "唱", "template": "{{play:1}}", "variables": {} },
+						{ "note": "我想听+首", "template": "{{i_want}}{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "给我们播放+首", "template": "{{you_do}}{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有没有", "template": "你{{ask_have}}", "variables": {} },
+						{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play:1}}", "variables": {} },
+						{ "note": "有没有", "template": "{{ask_have}}", "variables": {} },
+						{ "note": "会不会+唱", "template": "{{ask_can}}{{play:1}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "319edfc4-16cc-411a-bdb4-88295b033516",
+			"name": "***+我想听+专辑+里面的歌",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，我想听摩羯座专辑里面的歌",
+			"priority": 4,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{part.part3}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "我想听", "template": "{{i_want}}{{listen}}", "variables": {} },
+						{ "note": "给我们播放", "template": "{{you_do}}{{play:1}}", "variables": {} },
+						{ "note": "我想听+首", "template": "{{i_want}}{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "给我们播放+首", "template": "{{you_do}}{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有没有", "template": "你{{ask_have}}", "variables": {} },
+						{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play:1}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "707db8fe-7d98-439c-beb0-4ddd1fbf7002",
+			"name": "**+特殊动词+想听内容+**",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，来首流行乐，吧",
+			"priority": 3,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有", "template": "你{{ask_can}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{belong}}{{sys.music:song}}", "variables": {} },
+						{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+的+名字叫做+歌名",
+							"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+						{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} },
+						{ "note": "音乐代词+歌名", "template": "{{pronoun}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌曲种类+歌名", "template": "{{category}}{{sys.music:song}}", "variables": {} },
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "歌名+的歌曲", "template": "{{sys.music:song}}的{{pronoun}}", "variables": {} },
+						{ "note": "七里香+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "专辑名+里面的+歌名", "template": "{{sys.album}}{{Inside}}{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "76efdd38-2681-4a4d-924a-d1708677d5e4",
+			"name": "特殊动词+想听内容+***",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：来首流行乐，吧",
+			"priority": 4,
+			"definition": "{{part.part1}}{{part.part2}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "来+首", "template": "{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点+首", "template": "{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "有", "template": "{{ask_can}}", "variables": {} },
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点", "template": "{{listen_special}}", "variables": {} },
+						{ "note": "我想+来", "template": "{{i_want}}{{play_special}}", "variables": {} },
+						{ "note": "我想+来+首", "template": "{{i_want}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "给我+点", "template": "{{you_do}}{{listen_special}}", "variables": {} },
+						{ "note": "给我+点+首", "template": "{{you_do}}{{listen_special}}{{quantifier}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{belong}}{{sys.music:song}}", "variables": {} },
+						{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+的+名字叫做+歌名",
+							"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+						{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} },
+						{ "note": "音乐代词+歌名", "template": "{{pronoun}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌曲种类+歌名", "template": "{{category}}{{sys.music:song}}", "variables": {} },
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "歌名+的歌曲", "template": "{{sys.music:song}}的{{pronoun}}", "variables": {} },
+						{ "note": "七里香+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "专辑名+里面的+歌名", "template": "{{sys.album}}{{Inside}}{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "53bcc8c3-0430-47fb-83cf-b6b6f8cdcc34",
+			"name": "**+特殊动词+想听内容",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，来首流行乐",
+			"priority": 4,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有", "template": "你{{ask_can}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{belong}}{{sys.music:song}}", "variables": {} },
+						{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+的+名字叫做+歌名",
+							"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+						{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} },
+						{ "note": "音乐代词+歌名", "template": "{{pronoun}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌曲种类+歌名", "template": "{{category}}{{sys.music:song}}", "variables": {} },
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "歌名+的歌曲", "template": "{{sys.music:song}}的{{pronoun}}", "variables": {} },
+						{ "note": "七里香+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "专辑名+里面的+歌名", "template": "{{sys.album}}{{Inside}}{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "56577d0b-34f9-4eb0-a5be-4ad82d5d54cb",
+			"name": "***+特殊动词+修饰词+听的音乐内容+***",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，给我来个安静的歌，吧\n",
+			"priority": 3,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{part.part3}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "流行，古典等歌曲类型", "template": "{{style}}", "variables": {} },
+						{ "note": "睡觉，学习等场景", "template": "{{scene}}", "variables": {} },
+						{ "note": "适合+睡觉", "template": "{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "睡觉+适合", "template": "{{scene}}{{appropriate}}", "variables": {} },
+						{ "note": "欧美", "template": "{{region}}", "variables": {} },
+						{ "note": "英文", "template": "{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+英文", "template": "{{style}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{style}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+适合+睡觉", "template": "{{style}}{{structural_auxiliary:2}}{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "好听+的+英文", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "好听+的+欧美", "template": "{{adj}}{{structural_auxiliary:2}}{{region}}", "variables": {} },
+						{ "note": "安静等情绪修饰音乐的", "template": "{{emotion}}", "variables": {} },
+						{ "note": "安静+的+英文", "template": "{{emotion}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "安静+英文", "template": "{{emotion}}{{sys.language}}", "variables": {} },
+						{ "note": "睡觉+听", "template": "{{scene}}{{listen}}", "variables": {} },
+						{ "note": "适合+睡觉+听", "template": "{{appropriate}}{{scene}}{{listen}}", "variables": {} },
+						{ "note": "睡觉+适合+听", "template": "{{scene}}{{appropriate}}{{listen}}", "variables": {} },
+						{ "note": "英文+安静", "template": "{{sys.language}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "好听+的+歌手名", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.singer}}", "variables": {} },
+						{ "note": "歌手名+安静", "template": "{{sys.singer}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名+的+安静", "template": "{{sys.singer}}{{belong}}{{emotion}}", "variables": {} },
+						{ "note": "歌手+的+英文", "template": "{{sys.singer}}{{belong}}{{sys.language}}", "variables": {} },
+						{ "note": "英文+的+安静", "template": "{{sys.language}}{{structural_auxiliary:2}}{{emotion}}", "variables": {} },
+						{ "note": "英文+的+流行", "template": "{{sys.language}}{{structural_auxiliary:2}}{{style}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{sys.language}}{{style}}", "variables": {} },
+						{ "note": "好听的等无意义的修饰词", "template": "{{adj}}", "variables": {} },
+						{ "note": "歌手+儿童，快慢等风格", "template": "{{sys.singer}}{{style}}", "variables": {} },
+						{ "note": "歌手+的+快慢等风格", "template": "{{sys.singer}}{{belong}}{{style}}", "variables": {} },
+						{ "note": "吉他", "template": "{{instrument}}", "variables": {} },
+						{ "note": "吉他+弹的", "template": "{{instrument}}{{instrument_play}}\t", "variables": {} }
+					]
+				},
+				{
+					"name": "part3",
+					"phrases": [
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "的+音乐种类", "template": "{{structural_auxiliary}}{{category}}", "variables": {} },
+						{ "note": "的+音乐代词", "template": "{{structural_auxiliary}}{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类+音乐代词", "template": "{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "的+音乐种类+音乐代词", "template": "{{structural_auxiliary}}{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "f0cb9f10-50a6-451e-b729-cf8528aeaac4",
+			"name": "特殊动词+修饰词+听的音乐内容+***",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：来个安静的歌吧\n",
+			"priority": 4,
+			"definition": "{{part.part1}}{{part.part2}}{{part.part3}}{{sys.any}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "有", "template": "{{ask_can}}", "variables": {} },
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "来+首", "template": "{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点+首", "template": "{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点", "template": "{{listen_special}}", "variables": {} },
+						{ "note": "你+有", "template": "你{{ask_can}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "流行，古典等歌曲类型", "template": "{{style}}", "variables": {} },
+						{ "note": "睡觉，学习等场景", "template": "{{scene}}", "variables": {} },
+						{ "note": "适合+睡觉", "template": "{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "睡觉+适合", "template": "{{scene}}{{appropriate}}", "variables": {} },
+						{ "note": "欧美", "template": "{{region}}", "variables": {} },
+						{ "note": "英文", "template": "{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+英文", "template": "{{style}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{style}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+适合+睡觉", "template": "{{style}}{{structural_auxiliary:2}}{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "好听+的+英文", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "好听+的+欧美", "template": "{{adj}}{{structural_auxiliary:2}}{{region}}", "variables": {} },
+						{ "note": "安静等情绪修饰音乐的", "template": "{{emotion}}", "variables": {} },
+						{ "note": "安静+的+英文", "template": "{{emotion}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "安静+英文", "template": "{{emotion}}{{sys.language}}", "variables": {} },
+						{ "note": "睡觉+听", "template": "{{scene}}{{listen}}", "variables": {} },
+						{ "note": "适合+睡觉+听", "template": "{{appropriate}}{{scene}}{{listen}}", "variables": {} },
+						{ "note": "睡觉+适合+听", "template": "{{scene}}{{appropriate}}{{listen}}", "variables": {} },
+						{ "note": "英文+安静", "template": "{{sys.language}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "好听+的+歌手名", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.singer}}", "variables": {} },
+						{ "note": "歌手名+安静", "template": "{{sys.singer}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名+的+安静", "template": "{{sys.singer}}{{belong}}{{emotion}}", "variables": {} },
+						{ "note": "歌手+的+英文", "template": "{{sys.singer}}{{belong}}{{sys.language}}", "variables": {} },
+						{ "note": "英文+的+安静", "template": "{{sys.language}}{{structural_auxiliary:2}}{{emotion}}", "variables": {} },
+						{ "note": "英文+的+流行", "template": "{{sys.language}}{{structural_auxiliary:2}}{{style}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{sys.language}}{{style}}", "variables": {} },
+						{ "note": "好听的等无意义的修饰词", "template": "{{adj}}", "variables": {} },
+						{ "note": "歌手+儿童，快慢等风格", "template": "{{sys.singer}}{{style}}", "variables": {} },
+						{ "note": "歌手+的+快慢等风格", "template": "{{sys.singer}}{{belong}}{{style}}", "variables": {} },
+						{ "note": "吉他", "template": "{{instrument}}", "variables": {} },
+						{ "note": "吉他+弹的", "template": "{{instrument}}{{instrument_play}}\t", "variables": {} }
+					]
+				},
+				{
+					"name": "part3",
+					"phrases": [
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "的+音乐种类", "template": "{{structural_auxiliary}}{{category}}", "variables": {} },
+						{ "note": "的+音乐代词", "template": "{{structural_auxiliary}}{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类+音乐代词", "template": "{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "的+音乐种类+音乐代词", "template": "{{structural_auxiliary}}{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "beaf0bb2-69df-4b30-a976-86897bfef1a4",
+			"name": "***+特殊动词+修饰词+听的音乐内容",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：你好，给我来个安静的歌\n",
+			"priority": 4,
+			"definition": "{{sys.any}}{{part.part1}}{{part.part2}}{{part.part3}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "流行，古典等歌曲类型", "template": "{{style}}", "variables": {} },
+						{ "note": "睡觉，学习等场景", "template": "{{scene}}", "variables": {} },
+						{ "note": "适合+睡觉", "template": "{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "睡觉+适合", "template": "{{scene}}{{appropriate}}", "variables": {} },
+						{ "note": "欧美", "template": "{{region}}", "variables": {} },
+						{ "note": "英文", "template": "{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+英文", "template": "{{style}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{style}}{{sys.language}}", "variables": {} },
+						{ "note": "流行+的+适合+睡觉", "template": "{{style}}{{structural_auxiliary:2}}{{appropriate}}{{scene}}", "variables": {} },
+						{ "note": "好听+的+英文", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "好听+的+欧美", "template": "{{adj}}{{structural_auxiliary:2}}{{region}}", "variables": {} },
+						{ "note": "安静等情绪修饰音乐的", "template": "{{emotion}}", "variables": {} },
+						{ "note": "安静+的+英文", "template": "{{emotion}}{{structural_auxiliary:2}}{{sys.language}}", "variables": {} },
+						{ "note": "安静+英文", "template": "{{emotion}}{{sys.language}}", "variables": {} },
+						{ "note": "睡觉+听", "template": "{{scene}}{{listen}}", "variables": {} },
+						{ "note": "适合+睡觉+听", "template": "{{appropriate}}{{scene}}{{listen}}", "variables": {} },
+						{ "note": "睡觉+适合+听", "template": "{{scene}}{{appropriate}}{{listen}}", "variables": {} },
+						{ "note": "英文+安静", "template": "{{sys.language}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "好听+的+歌手名", "template": "{{adj}}{{structural_auxiliary:2}}{{sys.singer}}", "variables": {} },
+						{ "note": "歌手名+安静", "template": "{{sys.singer}}{{emotion}}", "variables": {} },
+						{ "note": "歌手名+的+安静", "template": "{{sys.singer}}{{belong}}{{emotion}}", "variables": {} },
+						{ "note": "歌手+的+英文", "template": "{{sys.singer}}{{belong}}{{sys.language}}", "variables": {} },
+						{ "note": "英文+的+安静", "template": "{{sys.language}}{{structural_auxiliary:2}}{{emotion}}", "variables": {} },
+						{ "note": "英文+的+流行", "template": "{{sys.language}}{{structural_auxiliary:2}}{{style}}", "variables": {} },
+						{ "note": "流行+英文", "template": "{{sys.language}}{{style}}", "variables": {} },
+						{ "note": "好听的等无意义的修饰词", "template": "{{adj}}", "variables": {} },
+						{ "note": "歌手+儿童，快慢等风格", "template": "{{sys.singer}}{{style}}", "variables": {} },
+						{ "note": "歌手+的+快慢等风格", "template": "{{sys.singer}}{{belong}}{{style}}", "variables": {} },
+						{ "note": "吉他", "template": "{{instrument}}", "variables": {} },
+						{ "note": "吉他+弹的", "template": "{{instrument}}{{instrument_play}}\t", "variables": {} }
+					]
+				},
+				{
+					"name": "part3",
+					"phrases": [
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "的+音乐种类", "template": "{{structural_auxiliary}}{{category}}", "variables": {} },
+						{ "note": "的+音乐代词", "template": "{{structural_auxiliary}}{{pronoun}}", "variables": {} },
+						{ "note": "音乐种类+音乐代词", "template": "{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "的+音乐种类+音乐代词", "template": "{{structural_auxiliary}}{{category}}{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "418e9398-8fc6-4dfb-8bbd-f0b2447a6794",
+			"name": "特殊动词+想听内容",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：来首流行乐",
+			"priority": 5,
+			"definition": "{{part.part1}}{{part.part2}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "来+首", "template": "{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点+首", "template": "{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "有", "template": "{{ask_can}}", "variables": {} },
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点", "template": "{{listen_special}}", "variables": {} },
+						{ "note": "你+有", "template": "你{{ask_can}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{belong}}{{sys.music:song}}", "variables": {} },
+						{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+的+名字叫做+歌名",
+							"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+						{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} },
+						{ "note": "音乐代词+歌名", "template": "{{pronoun}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌曲种类+歌名", "template": "{{category}}{{sys.music:song}}", "variables": {} },
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "歌名+的歌曲", "template": "{{sys.music:song}}的{{pronoun}}", "variables": {} },
+						{ "note": "七里香+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "专辑名+里面的+歌名", "template": "{{sys.album}}{{Inside}}{{sys.music:song}}", "variables": {} }
+					]
+				}
+			]
+		},
+		{
+			"uuid": "d9029f8f-1c9a-4c0f-afff-6a653a0b6848",
+			"name": "我想听+专辑+里面的歌",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：我想听摩羯座专辑里面的歌",
+			"priority": 5,
+			"definition": "{{part.part1}}{{part.part2}}{{part.part3}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "我想听", "template": "{{i_want}}{{listen}}", "variables": {} },
+						{ "note": "给我们播放", "template": "{{you_do}}{{play:1}}", "variables": {} },
+						{ "note": "听+首", "template": "{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "唱/播放+首", "template": "{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "听", "template": "{{listen}}", "variables": {} },
+						{ "note": "唱", "template": "{{play:1}}", "variables": {} },
+						{ "note": "我想听+首", "template": "{{i_want}}{{listen}}{{quantifier}}", "variables": {} },
+						{ "note": "给我们播放+首", "template": "{{you_do}}{{play:1}}{{quantifier}}", "variables": {} },
+						{ "note": "你+有没有", "template": "你{{ask_have}}", "variables": {} },
+						{ "note": "你+会不会+唱", "template": "你{{ask_can}}{{play:1}}", "variables": {} },
+						{ "note": "有没有", "template": "{{ask_have}}", "variables": {} },
+						{ "note": "会不会+唱", "template": "{{ask_can}}{{play:1}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "711ebd23-ed09-41a0-a9e1-7feb2070fe50",
+			"name": "特殊动词+专辑+里面的歌",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：来首摩羯座专辑里面的歌",
+			"priority": 5,
+			"definition": "{{part.part1}}{{part.part2}}{{part.part3}}",
+			"parts": [
+				{
+					"name": "part1",
+					"phrases": [
+						{ "note": "来+首", "template": "{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点+首", "template": "{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "有", "template": "{{ask_can}}", "variables": {} },
+						{ "note": "给我+来", "template": "{{you_do}}{{play_special}}", "variables": {} },
+						{ "note": "给我+来+首", "template": "{{you_do}}{{play_special}}{{quantifier}}", "variables": {} },
+						{ "note": "我想+点", "template": "{{i_want}}{{listen_special}}", "variables": {} },
+						{ "note": "我想+点+首", "template": "{{i_want}}{{listen_special}}{{quantifier}}", "variables": {} },
+						{ "note": "点", "template": "{{listen_special}}", "variables": {} },
+						{ "note": "你+有", "template": "你{{ask_can}}", "variables": {} }
+					]
+				},
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "专辑名", "template": "{{sys.album}}", "variables": {} },
+						{ "note": "专辑名+专辑", "template": "{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+专辑名+专辑", "template": "{{sys.singer}}{{sys.album}}{{album:0}}", "variables": {} },
+						{ "note": "歌手名+的+专辑名+专辑", "template": "{{sys.singer}}{{belong}}{{sys.album}}{{album:0}}", "variables": {} }
+					]
+				},
+				{ "name": "part3", "phrases": [{ "note": "里面的+歌曲", "template": "{{Inside}}{{pronoun}}", "variables": {} }] }
+			]
+		},
+		{
+			"uuid": "3611a2b8-4dca-4afc-93f7-3239ccb267b5",
+			"name": "内容+来一首",
+			"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+			"user_intent_uuid": "9d57a85a-9cfd-4aed-b483-edac573491f7",
+			"note": "例如：流行乐来一首",
+			"priority": 5,
+			"definition": "{{part.part2}}{{part.part1}}",
+			"parts": [
+				{
+					"name": "part2",
+					"phrases": [
+						{ "note": "音乐种类", "template": "{{category}}", "variables": {} },
+						{ "note": "音乐代词", "template": "{{pronoun}}", "variables": {} },
+						{ "note": "歌名", "template": "{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手名", "template": "{{sys.singer}}", "variables": {} },
+						{ "note": "歌手+歌名", "template": "{{sys.singer}}{{sys.music:song}}", "variables": {} },
+						{ "note": "歌手+的+歌名", "template": "{{sys.singer}}{{structural_auxiliary}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+唱+的+歌名",
+							"template": "{{sys.singer}}{{play}}{{structural_auxiliary}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "名字叫做+歌名", "template": "{{name_is}}{{sys.music:song}}", "variables": {} },
+						{
+							"note": "歌手+的+名字叫做+歌名",
+							"template": "{{sys.singer}}{{structural_auxiliary}}{{name_is}}{{sys.music:song}}",
+							"variables": {}
+						},
+						{ "note": "歌手+名字叫做+歌名", "template": "{{sys.singer}}{{name_is}}{{sys.music:song}}", "variables": {} },
+						{ "note": "吉他+独奏", "template": "{{instrument}}独奏", "variables": {} }
+					]
+				},
+				{ "name": "part1", "phrases": [{ "note": "来+首", "template": "{{play_special}}{{quantifier}}", "variables": {} }] }
+			]
+		}
+	],
+	"count": 48
+}

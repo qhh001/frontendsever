@@ -1,0 +1,12 @@
+{
+	"arts": [
+		{
+			"duration": 10,
+			"size": 10,
+			"name": "晴天啊啊啊啊",
+			"uuid": "32aedf74-4fee-404e-b373-ba9b59a762a5",
+			"type": "mi6_art",
+			"collection": "channel_musics"
+		}
+	]
+}

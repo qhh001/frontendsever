@@ -1,0 +1,61 @@
+{
+	"config": {
+		"id": 2,
+		"uuid": "010d829d-321b-4234-95b6-95cde3836740",
+		"channel_uuid": "",
+		"appid": "",
+		"scope": "more_page",
+		"name": "默认更多页配置",
+		"description": "",
+		"data": {
+			"sections": [
+				{
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/more_tag_icons/xwIGpaMYWDtAKX0MoKUmgPyiYZAaDnp063orFGxVYWDiUC8mn75kEBaKJ2JzmNDV.svg",
+					"items": [
+						{ "name": "0~1岁", "tag_uuid": "73beb0ad-8743-4c68-8386-6b4134c4f46f", "type": "tag" },
+						{ "name": "2~3岁", "tag_uuid": "28d229f6-8979-42f7-95ce-bc03087ccbb5", "type": "tag" },
+						{ "name": "4~5岁", "tag_uuid": "aa13e166-a7c2-487a-95c5-aea7ac6ddc37", "type": "tag" },
+						{ "name": "6岁+", "tag_uuid": "88f1ee51-139e-4dd4-ac3d-a200ecab112b", "type": "tag" }
+					],
+					"name": "年龄"
+				},
+				{
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/more_tag_icons/Idpz320zuBYknEeAsgfxptB5vb7yTbyiieLQT9bjgLz9PMJRXRSvtA0NJCjlfwZT.svg",
+					"items": [
+						{ "name": "胎教", "tag_uuid": "95f32265-0e61-4e07-a7bc-f89b50031869", "type": "tag" },
+						{ "name": "哄睡", "tag_uuid": "ef4c1534-db18-4213-8b35-918d1b87128c", "type": "tag" },
+						{ "name": "唱跳", "tag_uuid": "c8eb5b38-0429-4e4b-9c7a-9392e324abf8", "type": "tag" },
+						{ "name": "习惯性格", "tag_uuid": "12f6dd42-9cc4-4a02-b04f-f5df1cff71d5", "type": "tag" },
+						{ "name": "历史熏陶", "tag_uuid": "242fa013-8067-4739-a7ef-d653762616dc", "type": "tag" },
+						{ "name": "家长陪读", "tag_uuid": "1b3c5d4f-b0f5-4ba2-b0f8-e1b0c9e09c4d", "type": "tag" }
+					],
+					"name": "功能"
+				},
+				{
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/more_tag_icons/DiiYyvliTHUyp0duDkY79akA657BuVMTr3NxbIP5uOxTazP0hoP4GTZVauIWEcbY.svg",
+					"items": [
+						{ "name": "卡通", "tag_uuid": "1737a536-94b5-4486-812a-30933a80c565", "type": "tag" },
+						{ "name": "连载", "tag_uuid": "633a6cf2-6b22-4896-9858-0f79bf0aeb51", "type": "tag" },
+						{ "name": "经典名著", "tag_uuid": "e23ed952-608e-4b73-844c-8d67a99e0cf7", "type": "tag" },
+						{ "name": "科普百科", "tag_uuid": "fdf1dfee-fd49-4c30-b960-ea1371b260ae", "type": "tag" },
+						{ "name": "绘本故事", "tag_uuid": "74da59e3-4abf-44dd-ab1a-aab8da44843a", "type": "tag" }
+					],
+					"name": "类型"
+				},
+				{
+					"image_url": "https://public01-1255411705.cosbj.myqcloud.com/paradise/more_tag_icons/sjYycvhAi6miN807b4Sj4TXFga81irdAdfHvtPBOFgKK4kDML83DhAPpqVSv4uO9.svg",
+					"items": [
+						{ "name": "育儿知识", "tag_uuid": "1bceceae-6656-45b5-bc40-185e0f70e6b2", "type": "tag" },
+						{ "name": "流行歌曲", "tag_uuid": "ac23046f-d91d-4c8f-9a47-e73af6dd0f25", "type": "tag" },
+						{ "name": "相声", "tag_uuid": "d181a3fc-4057-4802-9c32-472b1b357d89", "type": "tag" },
+						{ "name": "戏曲评书", "tag_uuid": "a1f05332-371c-4a30-bb80-16eb44084965", "type": "tag" },
+						{ "name": "脱口秀", "tag_uuid": "07fc8b87-e044-42c6-a653-e0d548caa743", "type": "tag" }
+					],
+					"name": "家长"
+				}
+			]
+		},
+		"created_at": 1521102720000,
+		"updated_at": 1521102720000
+	}
+}

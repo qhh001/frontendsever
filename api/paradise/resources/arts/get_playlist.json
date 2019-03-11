@@ -1,0 +1,165 @@
+{
+	"arts": [
+		{
+			"uuid": "uuid1",
+			"name": "name1",
+			"type": "music",
+			"audio_url": "url1",
+			"duration": 120,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid2",
+			"name": "name2",
+			"type": "music",
+			"audio_url": "www.echocloud.com",
+			"duration": 121,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid3",
+			"name": "name3",
+			"type": "music",
+			"audio_url": "url3",
+			"duration": 122,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid4",
+			"name": "name4",
+			"type": "music",
+			"audio_url": "url4",
+			"duration": 123,
+			"favorite": false
+		},
+		{
+			"uuid": "uuid5",
+			"name": "name5",
+			"type": "music",
+			"audio_url": "url5",
+			"duration": 124,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid1",
+			"name": "name1",
+			"type": "music",
+			"audio_url": "url1",
+			"duration": 120,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid2",
+			"name": "name2",
+			"type": "music",
+			"audio_url": "www.echocloud.com",
+			"duration": 121,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid3",
+			"name": "name3",
+			"type": "music",
+			"audio_url": "url3",
+			"duration": 122,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid4",
+			"name": "name4",
+			"type": "music",
+			"audio_url": "url4",
+			"duration": 123,
+			"favorite": false
+		},
+		{
+			"uuid": "uuid5",
+			"name": "name5",
+			"type": "music",
+			"audio_url": "url5",
+			"duration": 124,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid1",
+			"name": "name1",
+			"type": "music",
+			"audio_url": "url1",
+			"duration": 120,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid2",
+			"name": "name2",
+			"type": "music",
+			"audio_url": "www.echocloud.com",
+			"duration": 121,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid3",
+			"name": "name3",
+			"type": "music",
+			"audio_url": "url3",
+			"duration": 122,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid4",
+			"name": "name4",
+			"type": "music",
+			"audio_url": "url4",
+			"duration": 123,
+			"favorite": false
+		},
+		{
+			"uuid": "uuid5",
+			"name": "name5",
+			"type": "music",
+			"audio_url": "url5",
+			"duration": 124,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid1",
+			"name": "name1",
+			"type": "music",
+			"audio_url": "url1",
+			"duration": 120,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid2",
+			"name": "name2",
+			"type": "music",
+			"audio_url": "www.echocloud.com",
+			"duration": 121,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid3",
+			"name": "name3",
+			"type": "music",
+			"audio_url": "url3",
+			"duration": 122,
+			"favorite": true
+		},
+		{
+			"uuid": "uuid4",
+			"name": "name4",
+			"type": "music",
+			"audio_url": "url4",
+			"duration": 123,
+			"favorite": false
+		},
+		{
+			"uuid": "uuid5",
+			"name": "name5",
+			"type": "music",
+			"audio_url": "url5",
+			"duration": 124,
+			"favorite": true
+		}
+	],
+	"index": 6
+}

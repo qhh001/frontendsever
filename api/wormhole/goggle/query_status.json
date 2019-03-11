@@ -1,0 +1,25 @@
+{
+	"status": {
+		"ai_dialog": {
+			"status": "finished"
+		},
+		"charging": false,
+		"heartbeat": 1542787453000,
+		"ip": "183.7.80.56",
+		"location": {
+			"city": "汕头",
+			"coordinates": {
+				"latitude": 23.37101936,
+				"longitude": 116.70846558
+			},
+			"country": "中国",
+			"district": "",
+			"province": "广东"
+		},
+		"media_player": {
+			"progress": 0,
+			"status": "stopped"
+		},
+		"online": false
+	}
+}

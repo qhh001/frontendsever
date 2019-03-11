@@ -1,0 +1,14 @@
+{
+  "user_intent": {
+    "uuid": "1b1d5fff-5f0c-4288-abfa-0ab3d591d076",
+    "channel_uuid": "",
+    "service_uuid": "41d676f6-f661-4a0f-ab1a-aa1fd57fc254",
+    "name": "Aaa",
+    "note": "",
+    "is_global": true,
+    "variables": {
+      "required": null,
+      "optional": null
+    }
+  }
+}

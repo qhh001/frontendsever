@@ -1,0 +1,14 @@
+{
+	"pair": {
+		"uuid": "7b71b495-20fd-483e-b568-87f8104be511",
+		"channel_uuid": "deadbeef-1337-1337-1337-000000000000",
+		"question": "我是谁",
+		"answer": "唔知",
+		"category": "unbusiness",
+		"status": "trained",
+		"key": "deadbeef-1337-1337-1337-000000000000",
+		"name": "我是谁",
+		"questions": ["我是谁", "我从哪里来", "要到哪里去"],
+		"answers": ["唔知", "I don't know", "ich weiss nicht"]
+	}
+}

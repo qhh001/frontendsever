@@ -1,0 +1,21 @@
+{
+  "name": "shapeshifter",
+  "version": "1.0.0",
+  "description": "前后端开发人员沟通的基础",
+  "main": "server_api.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.parim.net/qimooc/qm_api.git"
+  },
+  "keywords": [
+    "qm",
+    "qimooc",
+    "api"
+  ],
+  "author": "piccy",
+  "license": "ISC"
+}

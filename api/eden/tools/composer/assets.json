@@ -1,0 +1,7 @@
+{
+	"volume_change": "http://public01-1255411705.cosbj.myqcloud.com/hardware-assets/di.mp3",
+	"record_start": "http://public01-1255411705.cosbj.myqcloud.com/hardware-assets/di.mp3",
+	"record_finish": "http://public01-1255411705.file.myqcloud.com/hardware-assets/search.mp3",
+	"fail_ao": "http://public01-1255411705.file.myqcloud.com/hardware-assets/fail.mp3",
+	"collect": "http://public01-1255411705.file.myqcloud.com/hardware-assets/collect.mp3"
+}

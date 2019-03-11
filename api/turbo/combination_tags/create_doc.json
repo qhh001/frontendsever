@@ -1,0 +1,19 @@
+{
+	"service_uuid": "xxxx",
+	"name": "",
+	"note": "",
+	"groups": [
+		{
+			"template": "",
+			"note": "",
+			"is_order": true,
+			"is_combination": true
+		},
+		{
+			"template": "",
+			"note": "",
+			"is_order": true,
+			"is_combination": true
+		}
+	]
+}

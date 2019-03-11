@@ -1,0 +1,16 @@
+{
+  "user": {
+    "uuid": "c1606fd1-6bc1-40e3-ae51-b339a224fa6e",
+    "username": "xin",
+    "display_name": "段",
+    "gender": 0,
+    "email": "duan@email.com",
+    "company_name": "零秒科技",
+    "avatar_url": "url",
+    "created_at": 1519789689000,
+    "source": "web",
+    "role": "user"
+  },
+  "access_token": "2164f5bb1ae46be2bf166a8677d92d6e",
+  "timestamp": 1519789820489
+}

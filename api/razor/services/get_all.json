@@ -1,0 +1,13 @@
+{
+	"error": "xxx",
+	"services": [
+		{
+			"name": "英汉互译",
+			"uuid": "baf52acf-6369-4cb5-acf0-db736bb70027"
+		},
+		{
+			"name": "自我服务",
+			"uuid": "5a285c36-9a32-4245-8624-01e7b080fcfa"
+		}
+	]
+}

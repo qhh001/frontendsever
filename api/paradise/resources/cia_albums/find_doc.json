@@ -1,0 +1,11 @@
+{
+  "collection": "textbooks",
+  "query": {
+    "press": "人教版",
+    "subject": "英语",
+    "grade": 3,
+    "volume": "上"
+  },
+  "offset": 0,
+  "limit": 12
+}

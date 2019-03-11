@@ -1,0 +1,54 @@
+{
+	"review": {
+		"collection": "people",
+		"commentaries": [],
+		"created_at": 1551404019000,
+		"entity_uuid": "f8f67ee3-5d67-43d8-a3a5-01f64f4176d6",
+		"new_entity": {
+			"aliases": ["一休和尚", "机灵小和尚", "机灵小子", "千菊丸", "聪明的一休", "一休哥"],
+			"created_at": 1551267869037,
+			"gender": 1,
+			"is_real": false,
+			"name": "一休",
+			"origin": "cartoon",
+			"relationships": {
+				"师傅": [{ "collection": "people", "name": "外鉴大师", "uuid": "0a9c49c4-916d-49fc-86fe-4d6bbabd03c0" }],
+				"朋友": [
+					{ "collection": "people", "name": "蜷川新右卫门", "uuid": "5874133f-6705-46de-a98c-49322113a197" },
+					{ "collection": "people", "name": "纱代", "uuid": "a07996af-4e96-476d-b39a-f7f03d571a76" }
+				],
+				"母亲": [{ "collection": "people", "name": "伊予夫人", "uuid": "2f23b1e8-3b5a-472e-8611-857190ea9b4f" }]
+			},
+			"show": { "collection": "shows", "name": "聪明的一休" },
+			"updated_at": 1551404019000,
+			"uuid": "f8f67ee3-5d67-43d8-a3a5-01f64f4176d6"
+		},
+		"new_highlights": ["aliases"],
+		"old_entity": {
+			"aliases": ["一休和尚", "机灵小和尚", "机灵小子", "千菊丸"],
+			"created_at": 1551267869037,
+			"gender": 1,
+			"is_real": false,
+			"name": "一休",
+			"origin": "cartoon",
+			"relationships": {
+				"师傅": [{ "collection": "people", "name": "外鉴大师", "uuid": "0a9c49c4-916d-49fc-86fe-4d6bbabd03c0" }],
+				"朋友": [
+					{ "collection": "people", "name": "蜷川新右卫门", "uuid": "5874133f-6705-46de-a98c-49322113a197" },
+					{ "collection": "people", "name": "纱代", "uuid": "a07996af-4e96-476d-b39a-f7f03d571a76" }
+				],
+				"母亲": [{ "collection": "people", "name": "伊予夫人", "uuid": "2f23b1e8-3b5a-472e-8611-857190ea9b4f" }]
+			},
+			"show": { "collection": "shows", "name": "聪明的一休" },
+			"updated_at": 1551269792284,
+			"uuid": "f8f67ee3-5d67-43d8-a3a5-01f64f4176d6"
+		},
+		"old_highlights": ["aliases"],
+		"operation": "update",
+		"reviewer_uuid": "",
+		"status": "passed",
+		"submitter": { "image_url": "", "name": "吴彤", "uuid": "35146343-0275-4d72-9878-476bb3fa277f" },
+		"updated_at": 1551404019000,
+		"uuid": "841d52f5-b2e4-4ab5-849c-95c05cf8d818"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"user_intent": {
+		"created_at": 1544583068376,
+		"name": "测试意图",
+		"note": "我是一个测试意图",
+		"service_uuid": "baf52acf-6369-4cb5-acf0-db736bb70027",
+		"updated_at": 1544583068376,
+		"uuid": "3c2318e5-214b-4e72-9110-fa7bdd8421da",
+		"variables": {},
+		"service": "33333"
+	}
+}

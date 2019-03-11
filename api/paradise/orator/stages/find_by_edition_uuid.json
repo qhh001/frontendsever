@@ -1,0 +1,76 @@
+{
+	"stages": [
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb1",
+			"name": "人教版一年级",
+			"status": "learned",
+			"class_count": 6
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb2",
+			"name": "人教版二年级",
+			"status": "learned",
+			"class_count": 6
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb3",
+			"name": "人教版三年级",
+			"status": "learning",
+			"class_count": 8
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb4",
+			"name": "人教版四年级",
+			"status": "not_start",
+			"class_count": 8
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb5",
+			"name": "人教版五年级",
+			"status": "not_start",
+			"class_count": 9
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb6",
+			"name": "人教版六年级",
+			"status": "not_start",
+			"class_count": 9
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb1",
+			"name": "人教版一年级",
+			"status": "learned",
+			"class_count": 6
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb2",
+			"name": "人教版二年级",
+			"status": "learned",
+			"class_count": 6
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb3",
+			"name": "人教版三年级",
+			"status": "learning",
+			"class_count": 8
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb4",
+			"name": "人教版四年级",
+			"status": "not_start",
+			"class_count": 8
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb5",
+			"name": "人教版五年级",
+			"status": "not_start",
+			"class_count": 9
+		},
+		{
+			"uuid": "3b6af21e-a11a-4459-8636-d04fd3d8deb6",
+			"name": "人教版六年级",
+			"status": "not_start",
+			"class_count": 9
+		}
+	]
+}

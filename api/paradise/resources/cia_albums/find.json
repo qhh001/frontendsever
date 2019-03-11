@@ -1,0 +1,44 @@
+{
+  "albums": [
+    {
+      "collection": "textbooks",
+      "uuid": "test_uuid_1",
+      "name": "test_name_1",
+      "image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/sAykuQFNHL2FgZdFTV0OsIzX6GSi2W2sbTTnWObkf5fqyyE9YByay4iUSw2SI7TR.svg",
+      "count": 5,
+      "description": "test_description"
+    },
+    {
+      "collection": "textbooks",
+      "uuid": "test_uuid_2",
+      "name": "test_name_2",
+      "image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/sAykuQFNHL2FgZdFTV0OsIzX6GSi2W2sbTTnWObkf5fqyyE9YByay4iUSw2SI7TR.svg",
+      "count": 5,
+      "description": "test_description"
+    },
+    {
+      "collection": "textbooks",
+      "uuid": "test_uuid_3",
+      "name": "test_name_3",
+      "image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/sAykuQFNHL2FgZdFTV0OsIzX6GSi2W2sbTTnWObkf5fqyyE9YByay4iUSw2SI7TR.svg",
+      "count": 5,
+      "description": "test_description"
+    },
+    {
+      "collection": "textbooks",
+      "uuid": "test_uuid_4",
+      "name": "test_name_4",
+      "image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/sAykuQFNHL2FgZdFTV0OsIzX6GSi2W2sbTTnWObkf5fqyyE9YByay4iUSw2SI7TR.svg",
+      "count": 5,
+      "description": "test_description"
+    },
+    {
+      "collection": "textbooks",
+      "uuid": "test_uuid_5",
+      "name": "test_name_5",
+      "image_url": "https://public01-1255411705.cosbj.myqcloud.com/warehouse/album_images/sAykuQFNHL2FgZdFTV0OsIzX6GSi2W2sbTTnWObkf5fqyyE9YByay4iUSw2SI7TR.svg",
+      "count": 5,
+      "description": "test_description"
+    }
+  ]
+}

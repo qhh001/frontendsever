@@ -1,0 +1,47 @@
+{
+	"class": { "uuid": "d9e70761-cd67-4c10-87e5-fad1eef0b17a", "name": "unit 2", "status": "learned", "score": 60, "index": 1 },
+	"lessons": [
+		{
+			"uuid": "00f362a4-ea04-4f92-be77-d7d729bad144",
+			"name": "light",
+			"data": { "pronunciation": "[laɪt]", "character": "n.", "explanation": "灯", "type": "word", "text": "light" },
+			"status": "learning",
+			"score": 0
+		},
+		{
+			"uuid": "07804532-7b82-40b4-bc18-dacd7df16c50",
+			"name": "bed",
+			"data": { "pronunciation": "[bɛd]", "character": "n.", "explanation": "床", "type": "word", "text": "bed" },
+			"status": "learned",
+			"score": 0
+		},
+		{
+			"uuid": "01718c94-cf99-430a-9c6f-40577144765e",
+			"name": "door",
+			"data": { "pronunciation": "[dɔr,dor]", "character": "n.", "explanation": "门；出入口", "type": "word", "text": "door" },
+			"status": "learned",
+			"score": 0
+		},
+		{
+			"uuid": "d26a9f0f-54e8-4d48-bd5d-a3bfa629a5dc",
+			"name": "box",
+			"data": { "pronunciation": "[bɑ:ks]", "character": "n.", "explanation": "箱子；盒子", "type": "word", "text": "box" },
+			"status": "not_learn",
+			"score": 0
+		},
+		{
+			"uuid": "b60a8645-6c06-4e6c-a8c2-000b6b5180f0",
+			"name": "near",
+			"data": { "pronunciation": "[nɪr]", "character": "prep.", "explanation": "靠近，接近", "type": "word", "text": "near" },
+			"status": "not_learn",
+			"score": 0
+		},
+		{
+			"uuid": "47e4e0f1-c8f9-4d03-a92b-69bdedb26569",
+			"name": "behind",
+			"data": { "pronunciation": "[bɪˈhaɪnd]", "character": "prep.", "explanation": "在……背后", "type": "word", "text": "behind" },
+			"status": "not_learn",
+			"score": 0
+		}
+	]
+}

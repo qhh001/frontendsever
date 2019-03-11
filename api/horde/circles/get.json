@@ -1,0 +1,30 @@
+{
+    "circle": {
+      "uuid": "b73fe246-c74c-4923-b5a2-fd5f88bf2da9",
+      "name": "时光众筹委员会",
+      "avatar": "https://pic3.zhimg.com/80/v2-e2ae9159cf260da0ae61951bf1926abe_hd.jpg",
+      "admins": [
+        {
+          "uuid": "5e86bcf6-c60b-46ca-a814-b3aec4a8757e",
+          "name": "大膜法师",
+          "avatar": "https://pic2.zhimg.com/80/v2-b621988b3a3eee0ec7040f524a7ab5ea_hd.jpg"
+        }
+      ],
+      "users": [
+        {
+          "uuid": "5e86bcf6-c60b-46ca-a814-b3aec4a8757e",
+          "name": "大膜法师",
+          "avatar": "https://pic2.zhimg.com/80/v2-b621988b3a3eee0ec7040f524a7ab5ea_hd.jpg"
+        }
+      ],
+      "devices": [
+        {
+          "uuid": "922dc0f9-3067-4293-86f1-45d08bd3f530",
+          "channel_uuid": "454b52d8-114f-4fa1-a2b6-2a2b8fd9cace",
+          "name": "时光机",
+          "avatar": "https://pic2.zhimg.com/80/v2-2b86ee8ba2e3a8f2a6654832f96379f6_hd.jpg"
+        }
+      ],
+      "is_public": true
+    }
+  }

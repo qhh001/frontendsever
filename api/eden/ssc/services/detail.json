@@ -1,0 +1,108 @@
+{
+	"service_detail": {
+		"uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+		"display_name": "古诗",
+		"image_url": "http://protected-hd-01.0mzl.com/steward/images/services/XFTMdW0ol66VFeAgkPI9RK0dWqARE1cmqh04SPFKp5eo5XZUsiAfPCvFwcQtgvdb.svg",
+		"description": "精选经典古诗，整合实用专辑，如：唐诗三百首、小学必背古诗等，让孩子感受诗词韵律之美，快速提升古诗储备，同时技能还支持多轮问答、智能纠错、诗词释义等多种交互方式，让学习更自然，更有趣。",
+		"struct_description": [
+			{
+				"type": "text",
+				"value": "例子一  智能纠错 ：\n问：背首唐诗水调歌头\n答：请欣赏苏轼的水调歌头·明月几时有，不过这首诗是宋代的，不是唐代的哦。\n 例子二 多轮问答：\n问：背首辛弃疾的破阵子\n答：请欣赏辛弃疾的破阵子·为陈同甫赋壮词以寄之。醉里挑灯看剑、梦回吹角连营...\n问：这句诗是什么意思\n答：这句话的意思是梦中回到了当年的各个营垒，接连响起号角声\n问：第一句是什么意思\n答：这句话的意思是醉梦里挑亮油灯观看宝剑"
+			},
+			{
+				"content": [
+					{ "content": ["背首诗", "背首李白的静夜思", "背首唐诗"], "title": "诗歌点播" },
+					{ "content": ["再背一首", "换一首", "床前明月光剩下的你背"], "title": "诗歌控制" },
+					{ "content": ["会当凌绝顶谁写的", "千山鸟飞绝下一句", "静夜思的后两句怎么背", "床前明月光出自哪首诗"], "title": "诗歌查询" }
+				],
+				"title": "你可以对我说",
+				"type": "tags"
+			}
+		],
+		"auth_type": "free",
+		"authed": false,
+		"opted_in": true,
+		"components": [
+			{
+				"uuid": "b2ddb9d9-1a1e-418e-ae25-b616d0197458",
+				"service_uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+				"type": "str",
+				"key": "reply_mode",
+				"name": "古诗文回复模式",
+				"description": "古诗文回复模式[text, audio]",
+				"value": "text",
+				"internal": false,
+				"meta": {
+					"options": [{ "display": "采用文字的回复模式", "value": "text" }, { "display": "采用语音的回复模式", "value": "audio" }],
+					"type": "radio"
+				}
+			},
+			{
+				"uuid": "8cc50345-18c8-4285-9b9f-b33559a2293c",
+				"service_uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+				"type": "bool",
+				"key": "poem_advanced_message",
+				"name": "古诗高级消息开关",
+				"description": "是否启用古诗高级消息开关",
+				"value": false,
+				"internal": false,
+				"meta": {
+					"options": [
+						{ "description": "支持有屏方案，在屏幕上显示有关信息", "value": true },
+						{ "description": "没有屏幕的机器人，请关闭此开关", "value": false }
+					],
+					"type": "switch"
+				}
+			},
+			{
+				"uuid": "d3c14f65-cd63-423c-9009-4cced3dff541",
+				"service_uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+				"type": "str",
+				"key": "literati_narration_level",
+				"name": "古诗报幕模式",
+				"description": "古诗报幕级别[all_have, first_have, none]",
+				"value": "all_have",
+				"internal": false,
+				"meta": {
+					"options": [
+						{
+							"description": "问：“背首古诗”\\n答：“找到李白的 <静夜思>,马上为你播放”+播放音频",
+							"display": "始终对古诗名称进行播报",
+							"value": "all_have"
+						},
+						{
+							"description": "问：“背首古诗”\\n答：“找到李白的 <静夜思>,马上为你播放”+播放音频\\n问：“换一个”\\n答：直接播放音频",
+							"display": "只有首次点播对古诗名称进行播报",
+							"value": "first_have"
+						},
+						{ "description": "问：“背首古诗”\\n答：直接播放音频", "display": "不播报名称，直接播放古诗", "value": "none" }
+					],
+					"type": "radio"
+				}
+			}
+		],
+		"twists": [
+			{
+				"uuid": "4315bbab-071c-49aa-bf2c-bb8aabe409fd",
+				"component_uuid": "b2ddb9d9-1a1e-418e-ae25-b616d0197458",
+				"service_uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+				"channel_uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+				"value": "text"
+			},
+			{
+				"uuid": "0e940eaf-3b69-49e8-b782-a1896ad47a3f",
+				"component_uuid": "d3c14f65-cd63-423c-9009-4cced3dff541",
+				"service_uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+				"channel_uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+				"value": "first_have"
+			},
+			{
+				"uuid": "9cf84027-c77e-4ff3-ae05-3a13e9879389",
+				"component_uuid": "8cc50345-18c8-4285-9b9f-b33559a2293c",
+				"service_uuid": "61e499b9-3d42-478d-a438-cc2080cad545",
+				"channel_uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+				"value": true
+			}
+		]
+	}
+}

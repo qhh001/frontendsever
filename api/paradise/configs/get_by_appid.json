@@ -1,0 +1,27 @@
+{
+	"config": {
+		"id": 11,
+		"uuid": "0ae8dfdf-ed27-4186-b2df-f7b37fec3fec",
+		"channel_uuid": "",
+		"appid": "",
+		"scope": "home_page",
+		"name": "零秒主页配置",
+		"description": "",
+		"data": {
+			"wifi_configs": {
+				"need_pre_determine": true,
+				"methods": ["airkiss", "qrcode"],
+				"airkiss": {
+					"auto_bind": true
+				}
+			},
+			"bind_configs": {
+				"code": {
+					"enabled": true
+				}
+			}
+		},
+		"created_at": 1528861610000,
+		"updated_at": 1528861610000
+	}
+}

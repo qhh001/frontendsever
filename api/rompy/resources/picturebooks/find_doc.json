@@ -1,0 +1,6 @@
+{
+	"query": { "album_uuid": "xxx" },
+	"limit": 10,
+	"offset": 0,
+	"orders": []
+}

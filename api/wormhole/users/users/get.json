@@ -1,0 +1,16 @@
+{
+	"user": {
+		"uuid": "9fc3ec10-fe11-4768-a3ac-6ce302091c46",
+		"open_id": "oM_qHwOwndDYo5HamQN3rW6TtMT4",
+		"wx_id": "wx3c3a456ab6f94472",
+		"username": "",
+		"display_name": "宇航",
+		"gender": 1,
+		"email": "123@qq.con",
+		"phone": "12345678901",
+		"avatar_url": "http://thirdwx.qlogo.cn/mmopen/NvkKiaat69n6gcxV4yd2CvUZBzDEIrGw55avAvicHf5gfHW1lPLtPXLDZJmFMRp9Qs8SPP46LjTXxvOpzbLZic5mFUEWSWF28AQ/132",
+		"source": "wechat",
+		"role": "user",
+		"created_at": 0
+	}
+}

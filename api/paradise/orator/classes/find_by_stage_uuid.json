@@ -1,0 +1,46 @@
+{
+	"classes": [
+		{
+			"uuid": "6b2fefa3-562a-4b17-88e5-577debdc54f1",
+			"name": "unit 1",
+			"status": "learned",
+			"score": 60,
+			"index": 0
+		},
+		{
+			"uuid": "6b2fefa3-562a-4b17-88e5-577debdc54f2",
+			"name": "unit 2",
+			"status": "learned",
+			"score": 50,
+			"index": 1
+		},
+		{
+			"uuid": "6b2fefa3-562a-4b17-88e5-577debdc54f3",
+			"name": "unit 3",
+			"status": "learned",
+			"score": 95,
+			"index": 2
+		},
+		{
+			"uuid": "6b2fefa3-562a-4b17-88e5-577debdc54f4",
+			"name": "unit 4",
+			"status": "learning",
+			"score": 0,
+			"index": 3
+		},
+		{
+			"uuid": "6b2fefa3-562a-4b17-88e5-577debdc54f5",
+			"name": "unit 5",
+			"status": "not_start",
+			"score": 0,
+			"index": 4
+		},
+		{
+			"uuid": "6b2fefa3-562a-4b17-88e5-577debdc54f6",
+			"name": "unit 6",
+			"status": "not_start",
+			"score": 0,
+			"index": 5
+		}
+	]
+}

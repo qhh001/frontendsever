@@ -1,0 +1,130 @@
+{
+  "tags": [
+    {
+      "id": 1,
+      "name": "sys.any",
+      "note": "匹配任意字符，允许为空，谨慎使用"
+    },
+    {
+      "id": 2,
+      "name": "sys.some",
+      "note": "匹配任意字符，不允许为空，谨慎使用"
+    },
+    {
+      "id": 3,
+      "name": "sys.music",
+      "note": "匹配歌曲和音乐"
+    },
+    {
+      "id": 4,
+      "name": "sys.album",
+      "note": "匹配专辑名"
+    },
+    {
+      "id": 5,
+      "name": "sys.singer",
+      "note": "匹配歌手名"
+    },
+    {
+      "id": 6,
+      "name": "sys.story",
+      "note": "匹配故事名"
+    },
+    {
+      "id": 7,
+      "name": "sys.poem",
+      "note": "匹配诗词名"
+    },
+    {
+      "id": 8,
+      "name": "sys.show",
+      "note": "匹配影视名"
+    },
+    {
+      "id": 9,
+      "name": "sys.poet",
+      "note": "匹配诗人名"
+    },
+    {
+      "id": 10,
+      "name": "sys.region",
+      "note": "匹配地区名"
+    },
+    {
+      "id": 11,
+      "name": "sys.storybook",
+      "note": "匹配故事集名"
+    },
+    {
+      "id": 12,
+      "name": "sys.festival",
+      "note": "匹配节日"
+    },
+    {
+      "id": 13,
+      "name": "sys.people",
+      "note": "匹配人名"
+    },
+    {
+      "id": 14,
+      "name": "sys.poem_sentence",
+      "note": "匹配诗句"
+    },
+    {
+      "id": 15,
+      "name": "sys.event",
+      "note": "匹配事件"
+    },
+    {
+      "id": 16,
+      "name": "sys.animal",
+      "note": "匹配动物名"
+    },
+    {
+      "id": 17,
+      "name": "sys.date",
+      "note": "匹配日期"
+    },
+    {
+      "id": 18,
+      "name": "sys.time",
+      "note": "匹配时间"
+    },
+    {
+      "id": 19,
+      "name": "sys.datetime",
+      "note": "匹配日期时间"
+    },
+    {
+      "id": 20,
+      "name": "sys.year",
+      "note": "匹配年份"
+    },
+    {
+      "id": 21,
+      "name": "sys.storyteller",
+      "note": "匹配讲故事的人"
+    },
+    {
+      "id": 22,
+      "name": "sys.idiom",
+      "note": "匹配成语"
+    },
+    {
+      "id": 23,
+      "name": "sys.lesson",
+      "note": "匹配课文"
+    },
+    {
+      "id": 24,
+      "name": "sys.textbook",
+      "note": "匹配教材"
+    },
+    {
+      "id": 25,
+      "name": "sys.language",
+      "note": "匹配语言"
+    }
+  ],
+  "count": 25
+}

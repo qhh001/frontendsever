@@ -1,0 +1,29 @@
+{
+	"album": {
+		"agreement": true,
+		"aliases": ["小牛闷闷", "小羊咩咩", "小狗汪汪"],
+		"audience": {
+			"age": {
+				"max": 2880,
+				"min": 0
+			},
+			"gender": 1,
+			"lifestage": "child"
+		},
+		"avatar_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/eden/tmp/lCvlM4IPoJzWefd4PyLhhTLF9d2Q9wXeK2kdvMMziQx81CcG1VZKtYbeoOQh6dqE.gif",
+		"company_uuid": "d6e6d9f9-d674-484e-a99e-833e122ee2d5",
+		"count": 0,
+		"created_at": 1535628074891136,
+		"emotions": [],
+		"introduction": "梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅卡梅拉卡梅拉卡梅拉卡梅",
+		"name": "卡梅拉",
+		"scenes": ["晨起"],
+		"status": {
+			"release": false
+		},
+		"languages": ["汉语"],
+		"tags": ["儿歌", "神话", "习惯"],
+		"updated_at": 1535628074891136,
+		"uuid": "7dcdfeea-cd3a-455a-8caf-ef3ae0580176"
+	}
+}

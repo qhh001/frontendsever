@@ -1,0 +1,27 @@
+{
+	"resource": {
+		"uuid": "79c061b0-0027-4488-8042-1fd5caa8ce78",
+		"name": "小羊要吃🐺",
+		"aliases": ["小羊", "一群大灰狼"],
+		"duration": 123,
+		"audio_url": "xxxxxxxx",
+		"size": 1234,
+		"album": {
+			"name": "xxxxx",
+			"collection": "xxxx",
+			"uuid": "79c061b0-0027-4488-8042-1fd5caa8"
+		},
+		"anchor": "小羊演讲",
+		"characters": ["小羊", "大灰狼"],
+		"lyricist": "小狼",
+		"composer": "小绵羊",
+		"singer": "🐺奶奶",
+		"created_at": 123,
+		"updated_at": 345,
+		"index": 0,
+		"processor": {
+			"status": "failed",
+			"note": "啥啥啥错"
+		}
+	}
+}

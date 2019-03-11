@@ -1,0 +1,9 @@
+{
+	"uuid": "b10f9b46-11d8-4a94-a7cd-178435e9c8b7",
+	"channelUuid": "",
+	"serviceUuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+	"name": "测试意图（麻烦删除）2",
+	"note": "测试意图（麻烦删除）2",
+	"isGlobal": true,
+	"variables": { "variables": { "required": null, "optional": null } }
+}

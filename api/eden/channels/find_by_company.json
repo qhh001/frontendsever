@@ -1,0 +1,88 @@
+{
+	"channels": [
+		{
+			"uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+			"owner_uuid": "a232f8eb-be3d-430e-8cf4-dc522d97262e",
+			"name": "零秒微信公众号1",
+			"description": "这是零秒小助微信公众号1",
+			"category": "生活服务1",
+			"type": "微信公众号1",
+			"image_url": "",
+			"client_secret": "deS99U7qBWTNQx7fjDHEMGAcdrA4xKqfJtTtj6mv",
+			"dev_webhook_url": "http://127.0.0.1:32003/service_message",
+			"prd_webhook_url": "http://127.0.0.1:42003/service_message",
+			"is_internal": true,
+			"created_at": 1481912122000
+		},
+		{
+			"uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+			"owner_uuid": "a232f8eb-be3d-430e-8cf4-dc522d97262e",
+			"name": "零秒微信公众号2",
+			"description": "这是零秒小助微信公众号2",
+			"category": "生活服务2",
+			"type": "微信公众号2",
+			"image_url": "",
+			"client_secret": "deS99U7qBWTNQx7fjDHEMGAcdrA4xKqfJtTtj6mv",
+			"dev_webhook_url": "http://127.0.0.1:32003/service_message",
+			"prd_webhook_url": "http://127.0.0.1:42003/service_message",
+			"is_internal": true,
+			"created_at": 1481912122000
+		},
+		{
+			"uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+			"owner_uuid": "a232f8eb-be3d-430e-8cf4-dc522d97262e",
+			"name": "零秒微信公众号3",
+			"description": "这是零秒小助微信公众号3",
+			"category": "生活服务3",
+			"type": "微信公众号3",
+			"image_url": "",
+			"client_secret": "deS99U7qBWTNQx7fjDHEMGAcdrA4xKqfJtTtj6mv",
+			"dev_webhook_url": "http://127.0.0.1:32003/service_message",
+			"prd_webhook_url": "http://127.0.0.1:42003/service_message",
+			"is_internal": true,
+			"created_at": 1481912122000
+		},
+		{
+			"uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+			"owner_uuid": "a232f8eb-be3d-430e-8cf4-dc522d97262e",
+			"name": "零秒微信公众号",
+			"description": "这是零秒小助微信公众号",
+			"category": "生活服务",
+			"type": "微信公众号",
+			"image_url": "",
+			"client_secret": "deS99U7qBWTNQx7fjDHEMGAcdrA4xKqfJtTtj6mv",
+			"dev_webhook_url": "http://127.0.0.1:32003/service_message",
+			"prd_webhook_url": "http://127.0.0.1:42003/service_message",
+			"is_internal": true,
+			"created_at": 1481912122000
+		},
+		{
+			"uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+			"owner_uuid": "a232f8eb-be3d-430e-8cf4-dc522d97262e",
+			"name": "零秒微信公众号",
+			"description": "这是零秒小助微信公众号",
+			"category": "生活服务",
+			"type": "微信公众号",
+			"image_url": "",
+			"client_secret": "deS99U7qBWTNQx7fjDHEMGAcdrA4xKqfJtTtj6mv",
+			"dev_webhook_url": "http://127.0.0.1:32003/service_message",
+			"prd_webhook_url": "http://127.0.0.1:42003/service_message",
+			"is_internal": true,
+			"created_at": 1481912122000
+		},
+		{
+			"uuid": "2d779f20-6201-4e2c-b553-cc78d4943dc8",
+			"owner_uuid": "a232f8eb-be3d-430e-8cf4-dc522d97262e",
+			"name": "零秒微信公众号",
+			"description": "这是零秒小助微信公众号",
+			"category": "生活服务",
+			"type": "微信公众号",
+			"image_url": "",
+			"client_secret": "deS99U7qBWTNQx7fjDHEMGAcdrA4xKqfJtTtj6mv",
+			"dev_webhook_url": "http://127.0.0.1:32003/service_message",
+			"prd_webhook_url": "http://127.0.0.1:42003/service_message",
+			"is_internal": true,
+			"created_at": 1481912122000
+		}
+	]
+}

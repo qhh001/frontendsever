@@ -1,0 +1,233 @@
+{
+	"sessions": [
+		{
+			"timestamp": 1530955307022,
+			"device_uuid": "7c0ce36b-88f2-5a13-9183-00079936e95a",
+			"channel_uuid": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"channel_name": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "f9f052e9-8034-4fff-b6ec-df8f6f3bad1e",
+			"entry": {
+				"record_url": "http://protected-hd-01.0mzl.com/cia/musics/9LD73C1VHkv3Ccrsi2rDg0uX2SJkeUwzj4sKugJt2Dsp8LVHqq7Q4bG3mO8dU4sW.mp3",
+				"text": "嗯那"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "哇，看来小主人答应了呀，好开心呀。",
+					"audio_url": ""
+				}
+			]
+		},
+		{
+			"timestamp": 1530955301146,
+			"device_uuid": "e4611cae-f933-5373-a92d-a442ff3e68a6",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"channel_name": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "2e9af65d-c934-4091-aa96-75b221d65987",
+			"entry": {
+				"record_url": "http://protected-hd-01.0mzl.com/cia/musics/8AiHo5IZOFJ8aVgDUyNfNeSF3lXMwhmNLSZ9Yt5sXoFmjffXOQ31CIAfX3yhMoeb.mp3",
+				"text": "但是现在不让进了等让检查了咱俩一起去山上好不好？"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "我都不知道我该说什么了。",
+					"audio_url": ""
+				}
+			]
+		},
+		{
+			"timestamp": 1530955300083,
+			"device_uuid": "b7ef9042-c60f-5666-b304-851b56bf4ac4",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"channel_name": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "a097f206-f257-4d34-a267-6321875062d9",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/x2Wxo5fToFcV3DM7LhFarysXyaVduPdu0l3qG1UmCdbw6UikRtH0XOvF1y5iMBN3.wav",
+				"text": "唱个小苹果。"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "找到自然卷的小苹果，马上为你播放",
+					"audio_url": ""
+				},
+				{
+					"type": "media_player.start",
+					"text": "",
+					"audio_url": "http://protected-hd-01.0mzl.com/cia/musics/3pgOxBK4kqL37A5PQY0wlC0q1Qe7TNC0IeODzB4spD2egfBtRchEXv2a9jFxfVaK.mp3"
+				}
+			]
+		},
+		{
+			"timestamp": 1530955298755,
+			"device_uuid": "7bf6235a-aa9d-5776-bc93-8000e3afabc2",
+			"channel_uuid": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"channel_name": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "87446af9-f076-446a-aa7f-68f235c84a17",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/hBkvD6UGz4xdpHgHqH8dMGWrpj45XS0Gii5rxgGdgUpEAESVpKxNvY4ggBkhbUfh.wav",
+				"text": "么txt"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "我在陪你玩呀",
+					"audio_url": ""
+				}
+			]
+		},
+		{
+			"timestamp": 1530955290354,
+			"device_uuid": "b7ef9042-c60f-5666-b304-851b56bf4ac4",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"channel_name": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "4600b803-54ca-478d-92f6-8e1612e8d30f",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/eYE2drAsIUoGtxn3c7hTNT6MCADvFAlRz3zCZXFyCgWxVZdXZ2NIdlqUSQzhUWzB.wav",
+				"text": "你会唱个小苹果吧。"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "找到自然卷的小苹果，马上为你播放",
+					"audio_url": ""
+				},
+				{
+					"type": "media_player.start",
+					"text": "",
+					"audio_url": "http://protected-hd-01.0mzl.com/cia/musics/3pgOxBK4kqL37A5PQY0wlC0q1Qe7TNC0IeODzB4spD2egfBtRchEXv2a9jFxfVaK.mp3"
+				}
+			]
+		},
+		{
+			"timestamp": 1530955290109,
+			"device_uuid": "d2646b0b-7cc7-5590-98d6-f51f693ddb9f",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"channel_name": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "cf35dd23-a2a9-4482-b877-9bff3cae0d55",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/IwjwT2EvNPlJ7wLBqgDPigbSYGWR03uolVxNc07KSArtKEoHxJ5O0rFLyDvosPxM.wav",
+				"text": ""
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "你可以对我说，背首古诗",
+					"audio_url": ""
+				}
+			]
+		},
+		{
+			"timestamp": 1530955289588,
+			"device_uuid": "4da9e02d-81ad-5858-896c-0571121e2528",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"channel_name": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "3d4e82f6-4309-4352-b5b7-0a2da1fec1fd",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/Uoj4bhwZ2zA67l5HtCJ4LThcmP0UdIbycVbTStdZvpzEFunsLJhmEdzGFD424vTe.wav",
+				"text": ""
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "我很会背诗哦，对我说背首唐诗，试试",
+					"audio_url": ""
+				}
+			]
+		},
+		{
+			"timestamp": 1530955289073,
+			"device_uuid": "7bf6235a-aa9d-5776-bc93-8000e3afabc2",
+			"channel_uuid": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"channel_name": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "eb896bfe-ea5d-4362-a254-f7244233043e",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/KFNgsr5asumzufZHeOuTKeD3SmEmbJd6t8WHk7nJTdhv82gXMp0PChzK7vj2hmzT.wav",
+				"text": "你越来越漂亮了"
+			},
+			"directive": [{ "type": "ai_dialog.play", "text": "谢谢。", "audio_url": "" }]
+		},
+		{
+			"timestamp": 1530955285731,
+			"device_uuid": "9d127cd9-405b-5295-929a-7a94c3e5b0ad",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"channel_name": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "95c96d5c-f36f-4e57-9284-6bfba2648af3",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/Tr6moM0ZKF2W01aN5hBtisLO2dgEGUDc2FD4pI4WW60lNuzyJF8Go4DjKr7SAqT4.wav",
+				"text": "我想听三国演义"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "找到故事少儿版三国演义第1集刘关张桃园三结义，马上为你播放~",
+					"audio_url": ""
+				},
+				{
+					"type": "media_player.start",
+					"text": "",
+					"audio_url": "http://protected-hd-01.oss-cn-hangzhou.aliyuncs.com/cia/stories/FRgWmapGRK3NX1ytr5H1uKsNe6HXPf6O2jINekE6ZcmomwBOMa0av0ddB20vPXXl.mp3"
+				}
+			]
+		},
+		{
+			"timestamp": 1530955285299,
+			"device_uuid": "7bf6235a-aa9d-5776-bc93-8000e3afabc2",
+			"channel_uuid": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"channel_name": "a1fbbaf6-b7dc-4bf4-b657-2c6e9e6e2c23",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "cac1b2b1-9504-4176-979f-cd8bd6ef501a",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/0FORN0PS20NYJa8YnXGoB5jnYG8XYIMNK6QCA3diBqx7E6ZRu2eLjbEZOR4Q6vrL.wav",
+				"text": "你喜欢穿"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "我也越来越喜欢你了",
+					"audio_url": ""
+				}
+			]
+		},
+		{
+			"timestamp": 1530955301134,
+			"device_uuid": "e4611cae-f933-5373-a92d-a442ff3e68a6",
+			"channel_uuid": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"channel_name": "aeb33caa-39ad-4ae5-8504-4f0a373a016d",
+			"service_uuid": "待获取",
+			"service_name": "待获取",
+			"round_uuid": "2e9af65d-c934-4091-aa96-75b221d65987",
+			"entry": {
+				"record_url": "http://public01-1255411705.cos.ap-beijing.myqcloud.com/optimus/asr/Vjlyqg3zHkgqYOTuq6IA3vW8Sc8DgsdaDRT3a3ekADW1BPHORNho6z5faopGodBp.wav",
+				"text": "但是现在不让进了等让检查了咱俩一起去山上好不好？"
+			},
+			"directive": [
+				{
+					"type": "ai_dialog.play",
+					"text": "我都不知道我该说什么了。",
+					"audio_url": ""
+				}
+			]
+		}
+	]
+}

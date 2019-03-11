@@ -1,0 +1,8 @@
+{
+	"uuid": "b159a29c-22c4-49cb-91ee-ac97b0749578",
+	"service_uuid": "fc661c05-6d76-405b-ab10-d94b6f727da2",
+	"name": "测试数据（麻烦删除）2",
+	"note": "测试数据（麻烦删除）",
+	"isGlobal": true,
+	"data": { "values": [{ "keyword": "漂亮", "synonyms": [] }, { "keyword": "温柔", "synonyms": [] }] }
+}
