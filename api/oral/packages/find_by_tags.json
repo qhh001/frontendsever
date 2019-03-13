@@ -1,0 +1,58 @@
+{
+	"packages": [
+		{
+			"uuid": "11221212111212",
+			"name": "人教版小学一年级（上册）",
+			"image_url": "this_is_a_image_url",
+			"groups": ["group_uuid_one", "group_uuid_two"],
+			"tags": ["一年级"],
+			"created_at": 11111,
+			"updated_at": 22222
+		},
+		{
+			"uuid": "221221112212121",
+			"name": "人教版小学一年级（下册）",
+			"image_url": "this_is_a_image_url",
+			"groups": ["group_uuid_one", "group_uuid_two"],
+			"tags": ["一年级"],
+			"created_at": 11111,
+			"updated_at": 22222
+		},
+		{
+			"uuid": "3ewewewewewewewew",
+			"name": "苏教版小学一年级（上册）",
+			"image_url": "this_is_a_image_url",
+			"groups": ["group_uuid_one", "group_uuid_two"],
+			"tags": ["一年级"],
+			"created_at": 11111,
+			"updated_at": 22222
+		},
+		{
+			"uuid": "4dsdsdssddsds",
+			"name": "苏教版小学一年级（下册）",
+			"image_url": "this_is_a_image_url",
+			"groups": ["group_uuid_one", "group_uuid_two"],
+			"tags": ["一年级"],
+			"created_at": 11111,
+			"updated_at": 22222
+		},
+		{
+			"uuid": "5ddsdsdsdsdqqwq",
+			"name": "科普版小学一年级（上册）",
+			"image_url": "this_is_a_image_url",
+			"groups": ["group_uuid_one", "group_uuid_two"],
+			"tags": ["一年级"],
+			"created_at": 11111,
+			"updated_at": 22222
+		},
+		{
+			"uuid": "6xcxcxcxcxcxc",
+			"name": "科普版小学一年级（下册）",
+			"image_url": "this_is_a_image_url",
+			"groups": ["group_uuid_one", "group_uuid_two"],
+			"tags": ["一年级"],
+			"created_at": 11111,
+			"updated_at": 22222
+		}
+	]
+}

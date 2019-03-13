@@ -1,0 +1,31 @@
+{
+	"levels": [
+		{
+			"uuid": "this_is_a_uuid",
+			"group_uuid": "this_is_a_uuid",
+			"name": "this_is_a_name",
+			"image_url": "this_is_a_image_url",
+			"learned": true,
+			"report": {
+				"total": 66,
+				"pron": 66,
+				"speed": -1,
+				"fluency": -1,
+				"stars": 3,
+				"result": "general"
+			},
+			"contents": [
+				{
+					"text": "book",
+					"explanation": "书，书本",
+					"extra": "eeeeeeeeeee",
+					"character": "n.",
+					"audio_url": "this_is_a_aduio_url",
+					"pronunciation": "[bʊk]"
+				}
+			],
+			"created_at": 1111111,
+			"updated_at": 2222222
+		}
+	]
+}

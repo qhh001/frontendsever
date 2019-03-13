@@ -1,0 +1,147 @@
+{
+	"levels": [
+		[
+			{
+				"uuid": "1",
+				"group_uuid": "this_is_a_uuid",
+				"name": "单词训练",
+				"image_url": "this_is_a_image_url",
+				"learned": true,
+				"report": {
+					"total": 66,
+					"pron": 66,
+					"speed": -1,
+					"fluency": -1,
+					"stars": 1,
+					"result": "general"
+				},
+				"contents": [
+					{
+						"text": "book",
+						"explanation": "书，书本",
+						"extra": "eeeeeeeeeee",
+						"character": "n.",
+						"audio_url": "this_is_a_aduio_url",
+						"pronunciation": "[bʊk]"
+					}
+				],
+				"created_at": 1111111,
+				"updated_at": 2222222
+			},
+			{
+				"uuid": "2",
+				"group_uuid": "this_is_a_uuid",
+				"name": "对话训练",
+				"image_url": "this_is_a_image_url",
+				"learned": false,
+				"report": {
+					"total": 66,
+					"pron": 66,
+					"speed": -1,
+					"fluency": -1,
+					"stars": 1,
+					"result": "general"
+				},
+				"contents": [
+					{
+						"text": "book",
+						"explanation": "书，书本",
+						"extra": "eeeeeeeeeee",
+						"character": "n.",
+						"audio_url": "this_is_a_aduio_url",
+						"pronunciation": "[bʊk]"
+					}
+				],
+				"created_at": 1111111,
+				"updated_at": 2222222
+			}
+		],
+		[
+			{
+				"uuid": "3",
+				"group_uuid": "this_is_a_uuid",
+				"name": "单词训练",
+				"image_url": "this_is_a_image_url",
+				"learned": true,
+				"report": {
+					"total": 66,
+					"pron": 66,
+					"speed": -1,
+					"fluency": -1,
+					"stars": 1,
+					"result": "general"
+				},
+				"contents": [
+					{
+						"text": "book",
+						"explanation": "书，书本",
+						"extra": "eeeeeeeeeee",
+						"character": "n.",
+						"audio_url": "this_is_a_aduio_url",
+						"pronunciation": "[bʊk]"
+					}
+				],
+				"created_at": 1111111,
+				"updated_at": 2222222
+			}
+		],
+		[
+			{
+				"uuid": "4",
+				"group_uuid": "this_is_a_uuid",
+				"name": "单词训练",
+				"image_url": "this_is_a_image_url",
+				"learned": true,
+				"report": {
+					"total": 66,
+					"pron": 66,
+					"speed": -1,
+					"fluency": -1,
+					"stars": 1,
+					"result": "general"
+				},
+				"contents": [
+					{
+						"text": "book",
+						"explanation": "书，书本",
+						"extra": "eeeeeeeeeee",
+						"character": "n.",
+						"audio_url": "this_is_a_aduio_url",
+						"pronunciation": "[bʊk]"
+					}
+				],
+				"created_at": 1111111,
+				"updated_at": 2222222
+			}
+		],
+		[
+			{
+				"uuid": "5",
+				"group_uuid": "this_is_a_uuid",
+				"name": "单词训练",
+				"image_url": "this_is_a_image_url",
+				"learned": true,
+				"report": {
+					"total": 66,
+					"pron": 66,
+					"speed": -1,
+					"fluency": -1,
+					"stars": 1,
+					"result": "general"
+				},
+				"contents": [
+					{
+						"text": "book",
+						"explanation": "书，书本",
+						"extra": "eeeeeeeeeee",
+						"character": "n.",
+						"audio_url": "this_is_a_aduio_url",
+						"pronunciation": "[bʊk]"
+					}
+				],
+				"created_at": 1111111,
+				"updated_at": 2222222
+			}
+		]
+	]
+}

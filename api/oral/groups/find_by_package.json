@@ -1,0 +1,48 @@
+{
+	"groups": [
+		{
+			"uuid": "a",
+			"package_uuid": "this_is_a_uuid",
+			"name": "Unit1",
+			"image_url": "this_is_a_image_url",
+			"levels": ["level_uuid_one", "level_uuid_two"],
+			"try_levels": [0, 1],
+			"authed": true,
+			"created_at": 1111111,
+			"updated_at": 2222222
+		},
+		{
+			"uuid": "b",
+			"package_uuid": "this_is_a_uuid",
+			"name": "Unit2",
+			"image_url": "this_is_a_image_url",
+			"levels": ["level_uuid_one", "level_uuid_two"],
+			"try_levels": [0, 1],
+			"authed": true,
+			"created_at": 1111111,
+			"updated_at": 2222222
+		},
+		{
+			"uuid": "c",
+			"package_uuid": "this_is_a_uuid",
+			"name": "Unit3",
+			"image_url": "this_is_a_image_url",
+			"levels": ["level_uuid_one", "level_uuid_two"],
+			"try_levels": [0, 1],
+			"authed": false,
+			"created_at": 1111111,
+			"updated_at": 2222222
+		},
+		{
+			"uuid": "d",
+			"package_uuid": "this_is_a_uuid",
+			"name": "Unit4",
+			"image_url": "this_is_a_image_url",
+			"levels": ["level_uuid_one", "level_uuid_two"],
+			"try_levels": [0, 1],
+			"authed": false,
+			"created_at": 1111111,
+			"updated_at": 2222222
+		}
+	]
+}

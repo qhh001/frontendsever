@@ -1,0 +1,176 @@
+{
+	"level": {
+		"uuid": "this_is_a_uuid",
+		"group_uuid": "this_is_a_uuid",
+		"name": "this_is_a_name",
+		"image_url": "this_is_a_image_url",
+		"contents": [
+			{
+				"text": "book",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "书，书本"
+					},
+					{
+						"pos": "vt",
+						"text": "预计；登记"
+					}
+				],
+				"pronunciation": "[bʊk]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "how are you",
+				"explanations": "你好吗",
+				"pronunciation": "[bʊk]",
+				"key_words": ["how"],
+				"type": "sentence"
+			},
+			{
+				"text": "ruler",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "尺子"
+					}
+				],
+				"pronunciation": "[ˈrulɚ]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "pencil",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "铅笔"
+					}
+				],
+				"pronunciation": "[ˈpɛnsəl]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "schoolbag",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "书包"
+					}
+				],
+				"pronunciation": "[ˈskulˌbæɡ]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "teacher",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "教师"
+					}
+				],
+				"pronunciation": "[ˈtitʃɚ]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "I",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "我"
+					}
+				],
+				"pronunciation": "[aɪ]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "have",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "有"
+					}
+				],
+				"pronunciation": "[hæv]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "a",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "一（个）"
+					}
+				],
+				"pronunciation": "[eɪ]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			},
+			{
+				"text": "an",
+				"explanations": [
+					{
+						"pos": "n",
+						"text": "一（个）"
+					}
+				],
+				"pronunciation": "[ən,æn]",
+				"examples": [
+					{
+						"en": "i love book",
+						"zh": "我喜欢书"
+					}
+				],
+				"type": "word"
+			}
+		],
+		"created_at": 1111111,
+		"updated_at": 2222222
+	}
+}

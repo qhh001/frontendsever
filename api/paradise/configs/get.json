@@ -9,8 +9,8 @@
 				"child_lock": { "enabled": true },
 				"device_info": { "children": { "ota": { "enabled": true }, "recover": { "enabled": true } }, "enabled": true },
 				"favorites": { "enabled": true },
-				"horde": { "enabled": false },
-				"light": { "enabled": false },
+				"horde": { "enabled": true },
+				"light": { "enabled": true },
 				"media_player": { "enabled": true },
 				"switch": { "enabled": true },
 				"timer": { "enabled": true },
@@ -20,42 +20,36 @@
 				{
 					"children": [],
 					"icon": "hert_o",
-					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/heart-hollow.svg",
 					"name": "设备收藏",
 					"value": "favorites"
 				},
 				{
 					"children": [],
 					"icon": "lock",
-					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/directory-tree.svg",
 					"name": "家庭成员",
 					"value": "horde"
 				},
 				{
 					"children": [],
 					"icon": "alarm_clock",
-					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/remind.svg",
 					"name": "定时提醒",
 					"value": "timer"
 				},
 				{
 					"children": [],
 					"icon": "volume",
-					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/volume.svg",
 					"name": "音量调节",
 					"value": "volume"
 				},
 				{
 					"children": [],
 					"icon": "light_bulb",
-					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/light.svg",
 					"name": "设备灯光",
 					"value": "light"
 				},
 				{
 					"children": [],
 					"icon": "lock",
-					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/lock.svg",
 					"name": "童锁开关",
 					"value": "child_lock"
 				},
@@ -65,7 +59,6 @@
 						{ "icon": "info-circle", "name": "恢复出厂设置", "parent_value": "device_info", "value": "recover" }
 					],
 					"icon": "info-circle",
-					"image_url": "https://public01-1255411705.file.myqcloud.com/semantics/assets/shared/icon/info.svg",
 					"name": "设备信息",
 					"value": "device_info"
 				}

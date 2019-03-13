@@ -1,0 +1,14 @@
+{
+	"product": {
+		"uuid": "d21a4316-c680-4a8c-9545-e005c66b0f31",
+		"type": "content",
+		"name": "万物启蒙课包",
+		"amount": 1000,
+		"original_amount": 5000,
+		"thumbnail_url": "",
+		"data": {
+			"content_uuids": ["abc123"]
+		},
+		"created_at": 1552013526244
+	}
+}
