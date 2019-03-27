@@ -1,3 +1,4 @@
 {
-	"ok": true
+	"error": "bad_request",
+	"note": "device_offline"
 }

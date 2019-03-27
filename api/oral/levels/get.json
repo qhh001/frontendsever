@@ -1,176 +1,23 @@
 {
 	"level": {
-		"uuid": "this_is_a_uuid",
-		"group_uuid": "this_is_a_uuid",
-		"name": "this_is_a_name",
-		"image_url": "this_is_a_image_url",
+		"background_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/oral/levels/%E5%AF%B9%E8%AF%9D%E8%AE%AD%E7%BB%83%E9%A1%B5-%E6%8F%92%E5%9B%BE-%E9%A1%B6%E9%83%A8%E4%B8%BB%E9%A2%98%403x.png",
 		"contents": [
-			{
-				"text": "book",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "书，书本"
-					},
-					{
-						"pos": "vt",
-						"text": "预计；登记"
-					}
-				],
-				"pronunciation": "[bʊk]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "how are you",
-				"explanations": "你好吗",
-				"pronunciation": "[bʊk]",
-				"key_words": ["how"],
-				"type": "sentence"
-			},
-			{
-				"text": "ruler",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "尺子"
-					}
-				],
-				"pronunciation": "[ˈrulɚ]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "pencil",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "铅笔"
-					}
-				],
-				"pronunciation": "[ˈpɛnsəl]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "schoolbag",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "书包"
-					}
-				],
-				"pronunciation": "[ˈskulˌbæɡ]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "teacher",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "教师"
-					}
-				],
-				"pronunciation": "[ˈtitʃɚ]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "I",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "我"
-					}
-				],
-				"pronunciation": "[aɪ]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "have",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "有"
-					}
-				],
-				"pronunciation": "[hæv]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "a",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "一（个）"
-					}
-				],
-				"pronunciation": "[eɪ]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			},
-			{
-				"text": "an",
-				"explanations": [
-					{
-						"pos": "n",
-						"text": "一（个）"
-					}
-				],
-				"pronunciation": "[ən,æn]",
-				"examples": [
-					{
-						"en": "i love book",
-						"zh": "我喜欢书"
-					}
-				],
-				"type": "word"
-			}
+			{ "explanations": "给我看看你的铅笔", "key_words": ["pencil", "pencil", "pencil"], "text": "Show me your pencil", "type": "sentence" },
+			{ "explanations": "给我看看你的铅笔", "key_words": ["pencil"], "text": "Show me your pencil", "type": "sentence" },
+			{ "explanations": "我有一支铅笔。", "key_words": ["i", "have", "a", "pencil"], "text": "I have a pencil", "type": "sentence" },
+			{ "explanations": "给我看你的尺子", "key_words": ["ruler"], "text": "Show me your ruler", "type": "sentence" },
+			{ "explanations": "我有一把尺子", "key_words": ["i", "have", "a", "ruler"], "text": "I have a ruler", "type": "sentence" },
+			{ "explanations": "给我看看你的书", "key_words": ["book"], "text": "Show me your book", "type": "sentence" },
+			{ "explanations": "我有一本书", "key_words": ["i", "have", "a", "book"], "text": "I have a book", "type": "sentence" },
+			{ "explanations": "给我看看你的书包", "key_words": ["schoolbag"], "text": "Show me your schoolbag", "type": "sentence" },
+			{ "explanations": "我有一个书包", "key_words": ["i", "have", "a", "schoolbag"], "text": "I have a schoolbag", "type": "sentence" }
 		],
-		"created_at": 1111111,
-		"updated_at": 2222222
+		"created_at": 1553064701335,
+		"en_name": "Dialogue training",
+		"group_uuid": "a96e5a25-e515-4d52-a758-bbe13f1cbe48",
+		"image_url": "http://echocloud-image.oss-cn-beijing.aliyuncs.com/oral/levels/dialogue.png",
+		"name": "对话训练",
+		"updated_at": 1553064701335,
+		"uuid": "0e4c8c8d-7b85-49c1-b11a-afa05aeb4644"
 	}
 }

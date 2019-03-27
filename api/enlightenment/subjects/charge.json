@@ -1,6 +1,1 @@
-{
-	"charge": {
-		"charged": false,
-		"cost": 200000
-	}
-}
+{ "charge": { "charged": false } }

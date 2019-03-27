@@ -1,12 +1,12 @@
 {
 	"lesson": {
-		"uuid": "0000",
-		"name": "地球起源",
+		"name": "人是怎么来的",
 		"questions": [
-			"where do we go?for see it ! where do we go?for see it !",
-			"你说你说我们要不要、要不要在一起，要",
-			"卡萨丁拉升大卡萨丁拉升大卡萨丁拉升大"
+			{ "name": "是先有空气和大海再有人吗？", "result": "" },
+			{ "name": "人是高等动物吗？", "result": "" },
+			{ "name": "人类和动物祖先是否相同吗？", "result": "" }
 		],
-		"report": {}
+		"report": { "answers": ["wrong", "wrong", "correct"], "best_score": 1, "score": 1 },
+		"uuid": "5023ec9b-2e90-4f29-a1f4-0e32e2ea3584"
 	}
 }

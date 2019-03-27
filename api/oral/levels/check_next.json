@@ -18,7 +18,7 @@
 			"created_at": 1111111,
 			"updated_at": 222222
 		},
-		"need_buy_package": null,
+		"need_buy_package": "1111",
 		"package_finished": false
 	}
 }

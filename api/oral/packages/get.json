@@ -4,6 +4,7 @@
 		"name": "this_is_a_name",
 		"image_url": "this_is_a_image_url",
 		"groups": ["group_uuid_one", "group_uuid_two"],
+		"product_uuid": "121222",
 		"tags": ["一年级"],
 		"created_at": 11111,
 		"updated_at": 22222
